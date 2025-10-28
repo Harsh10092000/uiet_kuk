@@ -86,7 +86,7 @@ nav ul li a{
     font-size: 18px;
 }
 nav ul li a:hover{
-    color: #ffb515;
+    color: #ffb515 !important;
 }
 ul.dropdown-menu{
     padding-left: 10px;
@@ -211,6 +211,9 @@ color:#a80000 !important;
 .red-btn:hover{
 background:linear-gradient(
 139deg, #132266 0%, #051239 100%) !important;
+}
+.btn-list ul {
+    padding-left: 0;
 }
 .btn-list ul li a {
     display: block;
@@ -438,10 +441,94 @@ footer{
     margin-bottom: 0;
 }
 
+/* inner page */
 
+.pages-title h2 {
+    color: #fff !important;
+}
+
+.pages-title {
+    background-color: #243d65;
+    text-align: center;
+    padding: 22px 0px;
+    color: #fff !important;
+}
+
+.prof {
+    background-color: #a20b0b;
+    padding: 10px;
+}
+.prof h5{
+   color: #fff !important;
+   margin-bottom: 0;
+}
+.aboutpict {
+    border: 1px solid #a20b0b6b;
+    padding: 4px;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 13px #b50a0a2e; */
+}
+.about-bg {
+    background: url(/about-bg.png) top / cover no-repeat;
+    padding: 20px;
+    box-shadow: 0px 0px 12px #cccccc6b;
+    border-radius: 10pxxx;
+}
+.contact-panel h2{
+    color:#060606 !important;
+    font-weight: 700 !important;
+}
+.contact-panel h2 span {
+    font-size: 28px;
+        font-weight: 400;
+}
+
+.contact-panel img {
+    padding: 5px;
+    border: 4px solid #1a3c807a;
+}
+
+
+ul.peronal-detail {
+    padding-left: 0px;
+}
+ul.peronal-detail li {
+    font-size: 18px;
+    line-height: 38px;
+}
+ul.peronal-detail li a {
+    color: #a80000;
+}
+.breadcrumb-item.active {
+    color: rgb(255 181 21);
+}
+ul.breadcrumb {
+    margin: 0 auto;
+    /* width: 50%; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.breadcrumb-item a{
+    color: #fff !important;
+}
+.breadcrumb-item.active {
+    color: rgb(255 181 21) !important;
+}
 /* responsive-start */
 
 
+@media only screen and (max-width:1366px) {
+nav ul li {
+    margin-right: 32px;
+}
+a.desktop-logo {
+    width: 620px !important;
+    display: block;
+}
+
+
+}
 
 @media only screen and (max-width: 1024px) {
     .topbar {
@@ -497,7 +584,7 @@ footer{
     }
 
     .desktop-logo{
-        display: none;
+        display: none !important;
     }
     a.mobile-logo {
     display: block;
@@ -556,7 +643,7 @@ nav .container {
         right: 11px;
     }
 .search-container {   
-   margin-right: 14% !important;
+   margin-right: 17% !important;
            margin-bottom: 18px;
 }
 .main-menu {
@@ -573,6 +660,7 @@ nav .container {
     padding-left: 0;
     margin-bottom: 30px !important;
 }
+
 .course-box {   
     min-height: auto;  
     margin-bottom: 20px;
@@ -589,4 +677,20 @@ section.counter-block {
 .footer-col {
     margin-bottom: 50px;
 }
+.profile-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.border-right {
+    border-right: none;
+}
+.profile {   
+    margin-right: 0;
+    margin-bottom: 16px;
+}
+.main-title h2 {
+    font-size: 33px !important;
+}
+
+
 }
