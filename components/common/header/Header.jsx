@@ -96,10 +96,10 @@ const Header = () => {
             <li className="dropdown">
               <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Administration</a>            
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a href="#">Vice Chancellor</a></li>
-                <li><a href="#">Registrar</a></li>
-                  <li><a href="#">Director</a></li>
-                  <li><a href="#">Roll of Honor – Directors UIET</a></li>              
+                <li><a href="/vice-chancellor">Vice Chancellor</a></li>
+                <li><a href="/registrar">Registrar</a></li>
+                  <li><a href="/director">Director</a></li>
+                  <li><a href="/roll-of-honor">Roll of Honor – Directors UIET</a></li>              
               </ul>            
             </li>
 
