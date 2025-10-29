@@ -81,8 +81,8 @@ const page = () => {
               <li>Assistant Professor, IIHS, Kurukshetra University (from 2012 to 2020)</li>
               <li>Associate Professor, IIHS, Kurukshetra University (from 2021 to till date)</li>
               </ul>
-               <h4>Administrative Experience/ Extra Duties performed :</h4>
-               <ol>
+               <h4 className="mt-3">Administrative Experience/ Extra Duties performed :</h4>
+               <ol className="px-4">
                   <li>Teacher Incharge, International Guest House, K.U. Kurukshetra from 17 June 2016 to 2024</li>
                   <li>Officer Incharge NCC, K. U. Kurukshetra from 26 Jan. 2014 to 13 Jan. 2025</li>
                   <li>Member, Cultural Committee, K.U. Kurukshetra</li>
@@ -97,171 +97,51 @@ const page = () => {
                   <li>Convener Building Committee, IIHS, K.U. Kurukshetra from 2021 to 2023</li>
                   <li>Member Prospectus Committee, IIHS, K.U. Kurukshetra from 2016 to 2024</li>
                </ol>
-              <p>
-                Under his able leadership, Kurukshetra University has become the
-                first and only state University of Haryana to secure the highest
-                grade of A++ by NAAC.Kurukshetra University has filed more than
-                60 patents in the last 3 years and most of them stand granted &
-                published. Kurukshetra University Kurukshetra has also started
-                23 new academic programmes during this period.
-              </p>
-              <p>
-                He led Kurukshetra University secure the distinction of becoming
-                the first university of the country to implement NEP 2020 very
-                successfully with its all provisions in UG & PG programmes of
-                campus & affiliated colleges.
-              </p>
 
-              <p>
-                Vice-Chancellor exhibits keen interest in cultural and sports
-                activities also. This led the Kurukshetra University secure the
-                first position among Govt. Universities and 3rd position among
-                all Universities of the country in National Level Cultural
-                Festival in 2023-24. Similarly in the field of sports,
-                Kurukshetra University secured 3rd position in prestigious MAKA
-                trophy among all Universities of the country.
-              </p>
+               <h4>Awards/Prizes:</h4>
+               <ol className="px-4">
+                <li>Won Best in Academics Award in Officers Training Academy Kamptee, Nagpur in PRCN course</li>
+                <li>Honoured by Hon’ble Minister Kanwarpal ji on 17 September  2022 in Bhiwani for contribution in translating History books of Haryana Board</li>
+                <li>Declared Best ANO of 10 Haryana Battalion in 2022</li>
+                <li>Awarded as Best ANO of 10 Haryana Battalion on 27 2022 by Hon’ble Minister Kanwar Pal ji at Ambala Cantt in a State-Level Function</li>
+                <li>Honoured by E. Bandaru Dattatreya ji on Yuva </li>                    
+                <li>Honoured by Gen. J.S. Sandhu AVSM, for duties rendered to NCC on 03August 2021.</li>
+                <li>Felicitated by Gen. Tarun, DG NCC Kumar Aich AVSM at Ambala Group HQ on 18 Sept. 2021.</li>
+               </ol>
 
-              <p>
-                Kurukshetra University has set up 02 incubation centres,
-                produced 4 startups in last 2 years and 6 more startups are in
-                the pipeline. As its social responsibility, Kurukshetra
-                University is also running 6 stitching & embroidery skilling
-                centres, and 02 computer skill centres in nearby villages, and
-                made almost 800 women self-reliant who are now earning about
-                Rs.2000 to Rs.15000 per month.
-              </p>
+              <h4>Research Interests:</h4>
+              <ol>
+                  <li>Native Literatures including Australian Aboriginal Literature, Canadian Literature, American Literature</li>
+                  <li>Indian Writings in English</li>
+                  <li>Indian Literature in Translation</li>
+                  <li>African Literature   </li>
+              </ol>
 
-              <p>
-                Prof. Som Nath is an alumnus of Kurukshetra University who did
-                his graduation in Civil Engineering from Regional Engineering
-                College Kurukshetra and later his Doctorate from this university
-                under the guidance of renowned Professors from IIT Roorkee & NIT
-                Kurukshetra. Dr. Som Nath has more than 37 years of rich
-                experience of teaching, research, consultancy & administration.
-                A National Scholarship holder, he obtained his all academic
-                qualifications with top rank in Board & University. He is
-                credited to start M.Tech. Program in Transportation Engineering
-                in 2005 in Civil Engineering Deptt. of NIT Kurukshetra and set
-                up two advanced labs.
-              </p>
+              <h4>Research Projects:</h4>
+              <ol>
+                 <li>Debunking Dalit Stereotypes: A Study of R. Anantha Murthy’s Novels awarded by UGC in 2011</li>
+                 <li>History and Politics : A Study of Selected Post-Independence Novels awarded by Kurukshetra University in 2015</li>
+                 <li>Articulating Alternative Realities: A study of Tribal Literature of North East awarded by Kurukshetra University in 2022</li>
+              </ol>
 
-              <p>
-                Dr. Som Nath started his teaching career from Punjab Engineering
-                College Chandigarh before joining NIT Kurukshetra. He has been
-                adjudged as the Best Teacher of Civil Engineering Department in
-                the students’ feedback. His passion for teaching can be judged
-                from the fact that he preferred teaching profession to his other
-                selections that include: commissioned officer in Army Engineers
-                through Service Selection Board; Executive Engineer in Border
-                Roads Organisation through Indian Engineering Services
-                Examination of UPSC; and Executive Engineer in Construction Wing
-                of All India Radio & Doordarshan through IES exam of UPSC, and
-                so on.
-              </p>
+              <h4>Translated Works:</h4>
+              <p>History books adopted by the Haryana Board of School Education. Haryana has introduced new text books for history for classes VI-to X. Co-translated all the books.</p>
 
-              <p>
-                As far as R&D is concerned, he has supervised more than 75
-                M.Tech. & Ph.D. scholars for their dissertation; published more
-                than 100 research papers in reputed national / international
-                journals and conferences, some of them in very high impact
-                factor SCI journals; published 3 books and 06 book chapters with
-                reputed international publishers and did many sponsored R&D
-                Projects successfully. He was bestowed with Best Paper award and
-                gold medal for his research paper in the Journal of Indian Roads
-                Congress. Similarly, he got another Best paper award in an
-                International Conference held in USA. He has visited many
-                countries in pursuit of his research work including University
-                of Cambridge UK; New York University New York; State University
-                of New York at Buffalo, Zhejiang Wanli University, Ningbo,
-                China; and visited countries like USA, and Hong Kong. He has
-                also chaired many technical sessions of conferences and
-                delivered technical talks. He is also the reviewer of many
-                reputed national & international journals.
-              </p>
+              <h2>Research Scholars Supervised-02</h2>
 
-              <p>
-                He is well known as the main consultant in the field of Highway
-                Engineering in this part of the country. He has been providing
-                consultancy to various Govt. & private sector organisations for
-                the last about 25 years; and in the process earned a very good
-                revenue for his Institute.
-              </p>
+              <h4>Research Publications:</h4>
+              <p>43 research papers in National and International journals. Out of these 43 papers, 08 papers are in SCOPUS-indexed journals and in Web of Sciences and ESCI journals.</p>
 
-              <p>
-               
-                Prof. Sachdeva has been the coordinator of State Technical
-                Agency of Govt of India for the implementation of Pradhan Mantri
-                Gram Sadak Yojna Projects in Haryana, and was instrumental in
-                widening and strengthening of many Rural Roads of Haryana worth
-                more than Rs. 2000 crores. For his valuable contribution, he got
-                special appreciation of the state govt.
-              </p>
+              <h4>Papers Published in Books:</h4>
+              <p>04 chapters in edited books</p>
 
-              <p>
-               
-                Prof. Som Nath has performed almost all the administrative
-                assignments at NIT Kurukshetra including Head of the Department,
-                Director of grievance cell, Chief Warden, President Students
-                Clubs, P/I Examination etc. He also served as NCC Officer for
-                about 15 years and held the commissioned rank of Captain. Before
-                joining Kurukshetra University as Vice-Chancellor, he also has
-                the administrative experience of being the member of the
-                Executive Council, Academic Council and Court of three
-                Universities of Haryana. Besides, he has been member of many
-                reputed national level committees like member of H-3 committee
-                of Indian Roads Congress for formulation of Standards & Codes
-                for cement concrete roads; and expert member of National Board
-                of Accreditation (NBA) and National Assessment & Accreditation
-                Council (NAAC) and so on. He is also a Master Trainer of Road
-                Safety of Govt. of India and a life member of various reputed
-                professional societies.
-              </p>
+              <h4>Papers Presented in International Seminars</h4>
+              <p>Presented more than 70 research papers in various National and International seminars/ conferences</p>
 
-              <p>
-                Prof. Sachdeva is equally known for his contribution to social
-                service activities. He has notable contribution in preparing
-                plan for widening of Railway road to 4-lane; and widening of
-                road from Pipli to Third Gate upto Jayotisar to 6-lane. He has
-                been associated with the project of providing fresh water supply
-                from Narwana Branch Canal to Brahmsarovar; and also associated
-                with the project of providing fresh water supply to Pehowa
-                Tirath including remodelling the bed of its Sarovar for keeping
-                the water clean. Besides, he contributed to the preparation of
-                proposal for development of various sites under Krishna Circuit
-                in Kurukshetra which resulted in securing a grant of more than
-                90 crore from Govt. of India for this project. He has been a
-                member of the advisory committee of International Gita Mahotsav
-                and contributed immensely for its great success. For the notable
-                contributions to the society, he has been honoured in the past
-                by Hon’ble Chief Minister of Haryana and Hon’ble Governor of
-                Haryana.
-              </p>
+              <h4>Organization of Refresher Courses/ Conferences/ Workshops/ Symposia etc</h4>
+              <p>Organized two National Seminars and one International Seminar</p>
 
-              <p>
-              
-                Prof. Sachdeva is well known consultant in the field of road
-                design & construction associated with Pradhan Mantri Gram Sadak
-                Yojana for the last more than 20 years. Also an expert in road
-                safety.
-              </p>
 
-              <p>
-                
-                Prof. Sachdeva’s all-round capabilities are reflected from the
-                fact that not only he is good at administration, academics,
-                research and consultancy; but also equally good in
-                extra-curricular activities. As student, he represented the
-                state in badminton and also in on the spot painting competition
-                and won prizes. He had also been the best shooter of NCC in
-                Kurukshetra University in his student days.
-              </p>
-
-              <p>
-                Prof. Som Nath, overall, is a very simple and straight forward
-                person with a very positive attitude; this all provide him a
-                very strong footing to lead any prestigious organization.
-              </p>
             </div>
           </div>
         </div>

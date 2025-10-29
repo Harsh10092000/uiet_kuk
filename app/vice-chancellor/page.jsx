@@ -67,7 +67,7 @@ const page = () => {
             </div>
 
             <div className="rowmt-3">
-              <h4>Area of Interest:</h4>
+              <h4 className="mt-3">Area of Interest:</h4>
               <p>Transportation/Highway Engg:(i) Highway capacity (ii) Highway Materials (iii) Road Safety</p>
               <h4>Brief Profile of Prof Som Nath Sachdeva</h4>
               <p>Prof. Som Nath Sachdeva, Vice Chancellor-Kurukshetra University, Kurukshetra since November 2020, also held officiating charge of Vice-Chancellor of Ch. Ranbir Singh University, Jind & Shri Krishna Ayush University, Kurukshetra for more than one and a half year.</p>
