@@ -147,6 +147,7 @@ ul.dropdown-menu li a {
 }
 .message-block h3 {
     position: relative;
+        font-weight: 700;
 }
 .message-block h3:before {
     content: "";
@@ -169,6 +170,7 @@ ul.dropdown-menu li a {
 
 .profile-details h4 {
     color: #060606 !important;
+    font-weight: 700;
 }
 
 
@@ -515,6 +517,61 @@ ul.breadcrumb {
 .breadcrumb-item.active {
     color: rgb(255 181 21) !important;
 }
+
+.faculty h2{
+    position: relative;
+}
+.faculty h2:before{
+    content: "";
+    background-color: #a20b0b;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.card-list span {
+    float: right;
+}
+.card-body.card-list p {
+    color: #09143f !important;
+    font-weight: 500;
+}
+.card-body.card-list {
+    border: 1px solid #21316c;
+    border-radius: 4px;
+}
+.card-body.card-list:hover {
+    background-color: #21316c;
+    color: #fff;
+}
+.card-body.card-list:hover  a p {   
+    color: #fff !important;
+}
+.info-text {
+    display: flex;
+    align-items: center;
+}
+.info-text p {
+    font-size: 14px;
+    line-height: 23px;
+}
+.info-text a {
+    color: #646464;
+}
+.card-info:hover {
+    background-color: #9F3333;
+}
+.card-info:hover h5, .card-info:hover p{
+    color: #fff !important;
+}
+.card-info:hover a{
+    color: #fff !important;
+}
+
 /* responsive-start */
 
 
