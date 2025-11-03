@@ -48,11 +48,14 @@ a.mobile-logo{
 }
 
 .search-container:hover .search-input {
-  width: 200px; /* Expand on hover */
-  padding: 8px 10px;
-  border: 1px solid #c8e1ff;
-  opacity: 1;
-      height: 50px;
+    opacity: 1;
+    border: 1px solid #c8e1ff;
+    width: 200px;
+    height: 44px;
+    padding: 8px 10px;
+    border-right: 0px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
 .search-icon {
     cursor: pointer;
@@ -61,7 +64,7 @@ a.mobile-logo{
     border: none;
     font-size: 1.2em;
     background-color: #c8e1ff;
-    padding: 15px 23px;
+    padding: 8px 18px;
     border-radius: 4px;
 }
 
@@ -160,6 +163,7 @@ ul.dropdown-menu li a {
 .profile-info {
     display: flex;
      padding-right: 20px;
+         align-items: center;
 }
 .about-content {
     padding-left: 20px;

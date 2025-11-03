@@ -174,7 +174,7 @@ export default function Home() {
                       itself among the best technical institutes in Haryana and
                       is a dream institute for budding engineers.
                     </p>
-                    <a href="#" className="red">
+                    <a href="/vice-chancellor" className="red">
                       Read More...
                     </a>
                   </div>
@@ -199,7 +199,7 @@ export default function Home() {
                       engineering and to produce talented and committed human
                       resources .
                     </p>
-                    <a href="#" className="red">
+                    <a href="/director" className="red">
                       Read More...
                     </a>
                   </div>
