@@ -1,5 +1,5 @@
-import "./globals.css";
-import "./custom.css";
+import "../globals.css";
+import "../custom.css";
 import Header from "@/components/common/header/Header";
 import Footer from "@/components/common/footer/Footer";
 import Head from "next/head";
