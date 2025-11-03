@@ -25,8 +25,8 @@ const page = () => {
           <div className="about-bg">
             <div class="row">
               <div class=" col-lg-12">
-                <div className="contact-panel mb-40">
-                  <h2>Computer Science & Engg. Department </h2>
+                <div className="content-panel message-block  mb-40">
+                  <h3 className="mb-4">About <span className="red">Us</span></h3>
                   <p>
                     The Department of Computer Science & Engineering was
                     established in the year 2004. The Department started with an
@@ -89,7 +89,7 @@ const page = () => {
                 <div class="card mt-3">
                   <div class="card-body card-list">
                     <a href="/industry-partner.jpg" target="_blank">
-                      {" "}
+                     
                       <p className="mb-0 ">
                         Industry Partner of Computer Science & Engineering
                         Department
