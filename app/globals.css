@@ -58,7 +58,7 @@ a:hover{
   color: #a80000;
 }
 .btn-red {
-    color: #fff;
+    color: #fff !important;
     background-color: #8e0000 !important;
     padding: 9px 20px;
     display: inline-block;

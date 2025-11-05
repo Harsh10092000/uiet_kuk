@@ -7,13 +7,13 @@ const page = () => {
         <div className="container">
           <h2>Computer Science & Engg. Department</h2>
 
-          <ul class="breadcrumb text-center mx-auto">
-            <li class="breadcrumb-item">
+          <ul className="breadcrumb text-center mx-auto">
+            <li className="breadcrumb-item">
               <a href="#">Home</a>
             </li>
-            <li class="breadcrumb-item">Department</li>
+            <li className="breadcrumb-item">Department</li>
 
-            <li class="breadcrumb-item active" aria-current="page">
+            <li className="breadcrumb-item active" aria-current="page">
               Computer Science & Engg. Department
             </li>
           </ul>
@@ -21,12 +21,14 @@ const page = () => {
       </section>
 
       <section className="main-content mt-5 mb-5 ">
-        <div class="container">
+        <div className="container">
           <div className="about-bg">
-            <div class="row">
-              <div class=" col-lg-12">
+            <div className="row">
+              <div className=" col-lg-12">
                 <div className="content-panel message-block  mb-40">
-                  <h3 className="mb-4">About <span className="red">Us</span></h3>
+                  <h3 className="mb-4">
+                    About <span className="red">Us</span>
+                  </h3>
                   <p>
                     The Department of Computer Science & Engineering was
                     established in the year 2004. The Department started with an
@@ -81,149 +83,133 @@ const page = () => {
                     technological developments. Flexibility in curriculum is
                     provided through Electives Seminars and Projects.
                   </p>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-12">
-                <div class="card mt-3">
-                  <div class="card-body card-list">
-                    <a href="/industry-partner.jpg" target="_blank">
-                     
-                      <p className="mb-0 ">
-                        Industry Partner of Computer Science & Engineering
-                        Department
-                        <span>
-                          <i class="fa-solid fa-angle-right"></i>
-                        </span>
-                      </p>
-                    </a>
-                  </div>
-                </div>
 
-                <div class="card mt-3">
-                  <div class="card-body card-list">
-                    <a href="doc/cse/CSE PO-PSO.docx" target="_blank">
-                      {" "}
-                      <p className="mb-0">
-                        PO's and PSO's of Computer Science & Engineering
-                        Department
-                        <span>
-                          <i class="fa-solid fa-angle-right"></i>
-                        </span>
-                      </p>
-                    </a>
-                  </div>
-                </div>
+                  <h3 className="mb-3 mt-5">
+                    DEPARTMENT <span className="red">VISION AND MISSION</span>
+                  </h3>
 
-                <div class="card mt-3">
-                  <div class="card-body card-list">
-                    <a
-                      href="doc/cse/cse-research-expertise.docx"
-                      target="_blank"
-                    >
-                      {" "}
-                      <p className="mb-0">
-                        Research Expertise of Computer Science & Engineering
-                        Department
-                        <span>
-                          <i class="fa-solid fa-angle-right"></i>
-                        </span>
-                      </p>
-                    </a>
-                  </div>
-                </div>
+                  <h5>
+                    <span className="red">VISION</span>
+                  </h5>
+                  <p>
+                    Pursue conducive advancement towards nurturing globally
+                    competent and ethically conscientious professionals and
+                    entrepreneurs in agile computing technologies and allied
+                    spheres for unceasing evolution of Nations IT affiliated
+                    commercial and research endeavors.
+                  </p>
 
-                <div class="card mt-3">
-                  <div class="card-body card-list">
-                    <a href="doc/cse/cs-labs-details.pdf" target="_blank">
-                      {" "}
-                      <p className="mb-0">
-                        Industry Partner of Computer Science & Engineering
-                        Department{" "}
-                        <span>
-                          <i class="fa-solid fa-angle-right"></i>
-                        </span>
-                      </p>
-                    </a>
-                  </div>
+                  <h5>
+                    <span className="red">MISSION</span>
+                  </h5>
+                  <p>
+                    Thrive to establish a strong foundation for technical
+                    competency in spheres concordant to software oriented design
+                    and development. Nurture skills and competency for
+                    administering expertise gained in computing discipline to a
+                    wide horizon of interdisciplinary application domains, thus
+                    supporting sustainable development of the society. Habituate
+                    the students to strive for technological innovations and
+                    successful endeavors ethically, supported by sustained
+                    learning continuance and problem solving proficiency that
+                    may promote nations welfare in terms of economic
+                    acceleration leading to the growth of society.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
+
+          <div className="message-block mt-150">
+            <h3> Department of <span className="red">
+              Computer Science & Engg. </span></h3>
+               <div className="profile-info mt-4">
+                <div className="profile"><img src="/sunil-dhingra.jpg" alt="profile" className="img-fluid" width="300px"/></div>
+                <div className="profile-details">
+                  <h4>Prof.Sunil Dhingra</h4>
+                  <p>It gives me immense pleasure to introduce University Institute of Engineering and Technology (UIET) which was established in 2004 in the campus of Kurukshetra University. It was established with a motive 'MIND TO MARKET' so as to achieve excellence in the key areas of engineering and to produce talented and committed human resources .</p>
+                  <a href="/director" className="red">Read More...</a>
+                  </div>
+                  </div>
+                  </div>
+
+ 
+
           <div className="faculty mt-5">
             <h2 className="mb-4 text-center">Faculty</h2>
-            <div class="row">
-              <div class="col-sm-3">
-                <div class="card border-0">
+            <div className="row">
+              <div className="col-sm-3">
+                <div className="card border-0">
                   <img
                     src="/kulvinder-singh.jpg"
                     alt="profile"
                     className="img-fluid"
                   />
-                  <div class="card-body border card-info">
-                    <h5 class="card-title text-dark">Dr. Kulvinder Singh</h5>
+                  <div className="card-body border card-info">
+                    <h5 className="card-title text-dark">Dr. Kulvinder Singh</h5>
                     <div className="info-text">
-                      <p class="card-text text-secondary">
+                      <p className="card-text text-secondary">
                         Associate Professor, (Computer Science & Engg.
                         Department)
                       </p>
                       <a href="#">
-                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        <i className="fa-solid fa-arrow-right-to-bracket"></i>
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-3">
-                <div class="card border-0">
+              <div className="col-sm-3">
+                <div className="card border-0">
                   <img src="/dr-sona.jpg" alt="profile" className="img-fluid" />
-                  <div class="card-body border card-info">
-                    <h5 class="card-title text-dark">Dr.Sona Malhotra</h5>
+                  <div className="card-body border card-info">
+                    <h5 className="card-title text-dark">Dr.Sona Malhotra</h5>
                     <div className="info-text">
-                      <p class="card-text text-secondary">
+                      <p className="card-text text-secondary">
                         Associate Professor,(Computer Science & Engg.
                         Department)
                       </p>
                       <a href="#">
-                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        <i className="fa-solid fa-arrow-right-to-bracket"></i>
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-3">
-                <div class="card border-0">
+              <div className="col-sm-3">
+                <div className="card border-0">
                   <img src="/sanjeev.jpg" alt="profile" className="img-fluid" />
-                  <div class="card-body border card-info">
-                    <h5 class="card-title text-dark">Dr.Sanjeev Dhawan</h5>
+                  <div className="card-body border card-info">
+                    <h5 className="card-title text-dark">Dr.Sanjeev Dhawan</h5>
                     <div className="info-text">
-                      <p class="card-text text-secondary">
+                      <p className="card-text text-secondary">
                         Associate Professor,(Computer Science & Engg.
                         Department)
                       </p>
                       <a href="#">
-                         <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        <i className="fa-solid fa-arrow-right-to-bracket"></i>
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-3">
-                <div class="card border-0">
+              <div className="col-sm-3">
+                <div className="card border-0">
                   <img src="/karambir.jpg" alt="profile" />
-                  <div class="card-body border card-info">
-                    <h5 class="card-title text-dark font-weight-normal">Dr.Karambir Bidhan</h5>
+                  <div className="card-body border card-info">
+                    <h5 className="card-title text-dark font-weight-normal">
+                      Dr.Karambir Bidhan
+                    </h5>
                     <div className="info-text">
-                      <p class="card-text text-secondary">
+                      <p className="card-text text-secondary">
                         Associate Professor,(Computer Science & Engg.
                         Department)
                       </p>
                       <a href="#">
-                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        <i className="fa-solid fa-arrow-right-to-bracket"></i>
                       </a>
                     </div>
                   </div>

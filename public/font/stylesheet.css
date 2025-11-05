@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Paralucent';
+    src: url('Paralucent-Bold.woff2') format('woff2'),
+        url('Paralucent-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent';
+    src: url('Paralucent-BoldItalic.woff2') format('woff2'),
+        url('Paralucent-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed';
+    src: url('ParalucentCondensed-Bold.woff2') format('woff2'),
+        url('ParalucentCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed';
+    src: url('ParalucentCondensed-Thin.woff2') format('woff2'),
+        url('ParalucentCondensed-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed';
+    src: url('ParalucentCondensed-HeavyItalic.woff2') format('woff2'),
+        url('ParalucentCondensed-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed';
+    src: url('ParalucentCondensed-BoldItalic.woff2') format('woff2'),
+        url('ParalucentCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed';
+    src: url('ParalucentCondensed-LightItalic.woff2') format('woff2'),
+        url('ParalucentCondensed-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed';
+    src: url('ParalucentCondensed-Heavy.woff2') format('woff2'),
+        url('ParalucentCondensed-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed';
+    src: url('ParalucentCondensed-Medium.woff2') format('woff2'),
+        url('ParalucentCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Demi';
+    src: url('Paralucent-DemiBold.woff2') format('woff2'),
+        url('Paralucent-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed Ex';
+    src: url('ParalucentCondensed-ExtraLightItalic.woff2') format('woff2'),
+        url('ParalucentCondensed-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed';
+    src: url('ParalucentCondensed-ThinItalic.woff2') format('woff2'),
+        url('ParalucentCondensed-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed';
+    src: url('ParalucentCondensed-MediumItalic.woff2') format('woff2'),
+        url('ParalucentCondensed-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed Demi';
+    src: url('ParalucentCondensed-DemiBoldItalic.woff2') format('woff2'),
+        url('ParalucentCondensed-DemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed';
+    src: url('ParalucentCondensed-Light.woff2') format('woff2'),
+        url('ParalucentCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed Ex';
+    src: url('ParalucentCondensed-ExtraLight.woff2') format('woff2'),
+        url('ParalucentCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Condensed Demi';
+    src: url('ParalucentCondensed-DemiBold.woff2') format('woff2'),
+        url('ParalucentCondensed-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Text';
+    src: url('ParalucentText-BoldItalic.woff2') format('woff2'),
+        url('ParalucentText-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Text Book';
+    src: url('ParalucentText-BookItalic.woff2') format('woff2'),
+        url('ParalucentText-BookItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Extra';
+    src: url('Paralucent-ExtraLightItalic.woff2') format('woff2'),
+        url('Paralucent-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent';
+    src: url('Paralucent-Light.woff2') format('woff2'),
+        url('Paralucent-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Demi';
+    src: url('Paralucent-DemiBoldItalic.woff2') format('woff2'),
+        url('Paralucent-DemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent';
+    src: url('Paralucent-Heavy.woff2') format('woff2'),
+        url('Paralucent-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent';
+    src: url('Paralucent-HeavyItalic.woff2') format('woff2'),
+        url('Paralucent-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Text';
+    src: url('ParalucentText-Bold.woff2') format('woff2'),
+        url('ParalucentText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent';
+    src: url('Paralucent-MediumItalic.woff2') format('woff2'),
+        url('Paralucent-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent';
+    src: url('Paralucent-LightItalic.woff2') format('woff2'),
+        url('Paralucent-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Extra';
+    src: url('Paralucent-ExtraLight.woff2') format('woff2'),
+        url('Paralucent-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent';
+    src: url('Paralucent-Medium.woff2') format('woff2'),
+        url('Paralucent-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Paralucent Text Book';
+    src: url('ParalucentText-Book.woff2') format('woff2'),
+        url('ParalucentText-Book.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

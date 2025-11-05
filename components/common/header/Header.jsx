@@ -134,10 +134,10 @@ const Header = () => {
               <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Important Link</a>            
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a href="#">LMS/IUMS</a></li>
-                <li><a href="#">TEQIP-III</a></li>
-                  <li><a href="#">Feedback / Grievance / Suggestion</a></li>
+                <li><a href="/teqip">TEQIP-III</a></li>
+                  <li><a href="/feedback">Feedback / Grievance / Suggestion</a></li>
                   <li><a href="#">NIRF</a></li> 
-                  <li><a href="#">Ideas/Innovation</a></li>                
+                  <li><a href="/ideas-innovation">Ideas/Innovation</a></li>                
                 
               </ul>            
             </li>

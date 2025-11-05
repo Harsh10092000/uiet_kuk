@@ -7,13 +7,13 @@ export default function Home() {
       </div>      
    </section> */}
 
-      <div id="demo" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
+      <div id="demo" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#demo"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
           ></button>
           <button
             type="button"
@@ -27,37 +27,37 @@ export default function Home() {
           ></button>
         </div>
 
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <img
               src="/slide-1.jpg"
               alt="Los Angeles"
-              class="d-block img-fluid"
+              className="d-block img-fluid"
             />
           </div>
-          <div class="carousel-item">
-            <img src="/slide-2.jpg" alt="Chicago" class="d-block img-fluid" />
+          <div className="carousel-item">
+            <img src="/slide-2.jpg" alt="Chicago" className="d-block img-fluid" />
           </div>
-          <div class="carousel-item">
-            <img src="/slide-3.jpg" alt="New York" class="d-block img-fluid" />
+          <div className="carousel-item">
+            <img src="/slide-3.jpg" alt="New York" className="d-block img-fluid" />
           </div>
         </div>
 
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#demo"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon"></span>
+          <span className="carousel-control-prev-icon"></span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#demo"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon"></span>
+          <span className="carousel-control-next-icon"></span>
         </button>
       </div>
 
@@ -161,7 +161,7 @@ export default function Home() {
                 </h3>
                 <div className="profile-info mt-4 mb-5">
                   <div className="profile">
-                    <img src="/som-nath.jpg" alt="img-fluid" />
+                    <img src="/som-nath.jpg" alt="profile" className="img-fluid" />
                   </div>
                   <div className="profile-details">
                     <h4>Prof. Som Nath Sachdeva</h4>
@@ -186,7 +186,7 @@ export default function Home() {
                 </h3>
                 <div className="profile-info mt-4">
                   <div className="profile">
-                    <img src="/sunil-dhingra.jpg" alt="img-fluid" />
+                    <img src="/sunil-dhingra.jpg" alt="profile" className="img-fluid"  />
                   </div>
                   <div className="profile-details">
                     <h4>Prof.Sunil Dhingra</h4>
@@ -287,48 +287,48 @@ export default function Home() {
               <div className="btn-list">
                 <ul>
                   <li>
-                    <a href="#" class="gradient-btn">
+                    <a href="#" className="gradient-btn">
                       {" "}
                       Library details
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="gradient-btn">
+                    <a href="#" className="gradient-btn">
                       {" "}
                       Fee Stucture for B.Tech Courses
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="gradient-btn">
+                    <a href="#" className="gradient-btn">
                       National Cadet Corps
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="gradient-btn">
+                    <a href="#" className="gradient-btn">
                       {" "}
                       Application form
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="gradient-btn">
+                    <a href="#" className="gradient-btn">
                       {" "}
                       Say No to Ragging
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="gradient-btn">
+                    <a href="#" className="gradient-btn">
                       {" "}
                       Scholarship Notice
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="gradient-btn">
+                    <a href="#" className="gradient-btn">
                       {" "}
                       University Notices
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="gradient-btn">
+                    <a href="#" className="gradient-btn">
                       Miscellaneous Notices
                     </a>
                   </li>
@@ -336,7 +336,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md-4">
-              <div class="notification-block">
+              <div className="notification-block">
                 <h4>
                   <span>
                     <img src="/announment.png" alt="icon" />
@@ -369,7 +369,7 @@ export default function Home() {
                 </marquee>
               </div>
 
-              <div class="notification-block mt-3">
+              <div className="notification-block mt-3">
                 <h4>
                   <span>
                     <img src="/notification.png" alt="icon" />
@@ -491,30 +491,30 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <div class="btn-list">
+              <div className="btn-list">
                 <ul>
                   <li>
-                    <a href="#" class="gradient-btn red-btn">                
+                    <a href="#" className="gradient-btn red-btn">                
                       University Notices
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="gradient-btn red-btn">                   
+                    <a href="#" className="gradient-btn red-btn">                   
                      College Notices
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="gradient-btn red-btn">
+                    <a href="#" className="gradient-btn red-btn">
                      Student Notices
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="gradient-btn red-btn">                 
+                    <a href="#" className="gradient-btn red-btn">                 
                     Employee’s Notices
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="gradient-btn red-btn">                   
+                    <a href="#" className="gradient-btn red-btn">                   
                      Miscellaneous Notices
                     </a>
                   </li>
@@ -545,16 +545,16 @@ export default function Home() {
                 </marquee>              
               </div>
               <div className="text-center mt-2">
-                <a href="#" class="btn-red">View All</a>
+                <a href="#" className="btn-red">View All</a>
                 </div>
             </div>
             <div className="col-md-4">
 
               <div className="helpline-number latest-notice notification-block">
                  <h5>Helpline Numbers for<br/> Women Safety</h5>
-                 <div class="table-responsive">               
+                 <div className="table-responsive">               
 
-                    <table class="table table-bordered table-sm">                      
+                    <table className="table table-bordered table-sm">                      
                       <tbody>
                         <tr>
                               <td>Security Officer</td>

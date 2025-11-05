@@ -57,39 +57,57 @@ const Header = () => {
             </div>
           </div>
         </div>
-{/* 
+
         <div className="main-header mt-3">
           <div className="container">
             <div className="row">
-              <div className="col-md-2">
-                <div className="logo">
-                   <a href="#" className="desktop-logo"><img src="/logo.png" alt="logo" className=" img-fluid" /></a>
-                   <a href="#" className="mobile-logo"><img src="/logo-mobile.png" alt="logo" className=" img-fluid" /></a>
+              <div className="col-md-6">
+                <div className="logo inner-logo">
+                   <a href="/" className="desktop-logo"><img src="/logo.png" alt="logo" className=" img-fluid" /></a>
+                  <h4>Computer Science & Engg. Department<span className="red">Kurukshetra University(UIET), Kurukshetra</span></h4>
                 </div>
               </div>
-              <div className="col-md-8">
-                <div className="logo-tagline pt-3">
-                  <a href="#" className="desktop-logo"><img src="/logo-tagline.png" alt="tagline" className="img-fluid"  /></a>
-                </div>
+              <div className="col-md-6">
+               <div className="nav-inner">
+                <ul>
+                  <li className="dropdown">
+                    <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">People</a>            
+                      <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a href="#">Faculty</a></li>
+                        <li><a href="#">Staff</a></li>
+                        <li><a href="#">Research Scholars</a></li>                      
+                      </ul>            
+                   </li>
+                    <li className="dropdown">
+                    <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Programs</a>            
+                      <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a href="#">Doctoral</a></li>
+                        <li><a href="#">Post Graduate</a></li>
+                        <li><a href="#">Under Graduate</a></li>                      
+                      </ul>            
+                   </li>
+                    <li className="dropdown">
+                    <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Important Links</a>            
+                      <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a href="/industry-partner.jpg">Industry Partner </a></li>
+                        <li><a href="doc/cse/CSE PO-PSO.docx">PO's and PSO's </a></li>
+                        <li><a href="doc/cse/cse-research-expertise.docx">Research Expertise</a></li> 
+                                          
+                      </ul>            
+                   </li>
+                  
+                  <li><a href="#"></a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+               </div>
               </div>
-              <div className="col-md-2">
-                <div class="search-container mt-4">
-                  <input
-                    type="text"
-                    className="search-input"
-                    placeholder="Search..."
-                  />
-                  <button className="search-icon">
-                    <i className="fas fa-search"></i> 
-                  </button>
-                </div>
-              </div>
+            
             </div>
           </div>
           <span className="toggle-menu d-block d-lg-none"><i className="fa-solid fa-bars"></i></span>
         </div>
 
-        <nav className="mt-sm-0 mt-lg-2 main-menu">
+        {/* <nav className="mt-sm-0 mt-lg-2 main-menu">
           <div className="container">
           <ul>        
             <li><a href="/">Home</a></li>
