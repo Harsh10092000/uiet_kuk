@@ -1,8 +1,9 @@
 import React from "react";
+import "./fonts.css";
 
 const page = () => {
   return (
-    <div>
+    <div style={{ fontFamily: "'Paralucent', sans-serif" }}>
       <section className="pages-title mb-4">
         <div className="container">
           <h2>Result</h2>
