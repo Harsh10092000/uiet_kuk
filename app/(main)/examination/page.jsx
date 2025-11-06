@@ -24,8 +24,9 @@ const page = () => {
             <table class="table text-left">
               <thead>
                 <tr>
-                  <th>SL No.</th>
-                  <th>Download Link</th>
+                  <th style={{width:"10%"}}>SL No.</th>
+                  <th style={{width:"40%"}}>Download Link</th>
+                  <th></th>
                   <th>Department</th>
                   <th>Posting Date</th>
                 </tr>
@@ -35,7 +36,9 @@ const page = () => {
                   <td >1</td>
                   <td>
                     Reevaluation result of CSE 5th,6th & 8th Semester of May-2024 and DEC-2024
+                   
                   </td>
+                  <td> <span className="file-icon"><i class="fa-regular fa-file-pdf"></i></span></td>
                   <td>Reevaluation</td>
                   <td > 1 May-2024 </td>
                 </tr>
@@ -45,6 +48,7 @@ const page = () => {
                   <td >
                     Reevaluation result of CSE 5th,6th & 8th Semester of May-2024 and DEC-2024
                   </td>
+                   <td> <span className="file-icon"><i class="fa-regular fa-file-pdf"></i></span></td>
                   <td>Reevaluation</td>
                   <td>1 May-2024</td>
                 </tr>
@@ -54,6 +58,7 @@ const page = () => {
                   <td >
                     Reevaluation result of CSE 5th,6th & 8th Semester of May-2024 and DEC-2024
                   </td>
+                   <td> <span className="file-icon"><i class="fa-regular fa-file-pdf"></i></span></td>
                   <td>Reevaluation</td>
                   <td> 1 May-2024</td>
                 </tr>
@@ -63,6 +68,7 @@ const page = () => {
                   <td >
                    Reevaluation result of CSE 5th,6th & 8th Semester of May-2024 and DEC-2024
                   </td>
+                   <td> <span className="file-icon"><i class="fa-regular fa-file-pdf"></i></span></td>
                   <td>Reevaluation</td>
                   <td> 1 May-2024</td>
                 </tr>
@@ -72,6 +78,7 @@ const page = () => {
                   <td >
                     Reevaluation result of CSE 5th,6th & 8th Semester of May-2024 and DEC-2024 Reevaluation result of CSE 5th,6th & 8th Semester of May-2024 and DEC-2024
                   </td>
+                   <td> <span className="file-icon"><i class="fa-regular fa-file-pdf"></i></span></td>
                   <td>Reevaluation Reevaluation Reevaluation</td>
                   <td> 1 May-2024</td>
                 </tr>

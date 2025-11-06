@@ -272,6 +272,7 @@ background:linear-gradient(
 }
 table.table tr td {
     padding: 10px;
+       font-family: "Barlow", sans-serif;
 }
 /* coures-block */
 
@@ -678,11 +679,61 @@ table thead{
     border: 1px solid #d6d6d6;
 }
 
-table thead th{
-    background-color:#f5f5f5 !important;
+table thead th {
+    background-color: #f5f5f5 !important;
     padding: 12px !important;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1c1c1c !important;
 }
 
+span.file-icon {
+    display: inline-block;
+    font-size: 28px;
+    color: #2a2a2a;
+}
+.banner-content p {
+    color: #fff !important;
+    font-size: 21px;
+    padding: 0 160px;
+    line-height: 34px;
+}
+
+/* admission-page */
+section.banner {
+    height: 400px;
+    background-color: #f2f4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+/* section.banner:before {
+    content: "";
+    background: #0000008f;
+ 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.banner-bg{
+    background: url(/slide-3.jpg);
+} */
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+}
+.banner-content h2 {
+    color: #09143f !important;
+    font-size: 50px !important;
+}
+.banner-content p{
+    color: #09143f !important;
+}
 /* responsive-start */
 
 
