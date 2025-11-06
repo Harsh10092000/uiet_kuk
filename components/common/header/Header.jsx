@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -14,13 +15,13 @@ const Header = () => {
                       <span>
                         <i className="fa-solid fa-phone"></i>
                       </span>
-                      <a href="tel:01744239155">01744-239155</a>
+                      <a target="_blank" href="tel:01744239155">01744-239155</a>
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-envelope"></i>
                       </span>
-                      <a href="mailto:director.uiet@kuk.ac.in">
+                      <a target="_blank" href="mailto:director.uiet@kuk.ac.in">
                         director.uiet@kuk.ac.in
                       </a>
                     </li>
@@ -31,25 +32,25 @@ const Header = () => {
                 <div className="top-right list">
                   <ul>
                     <li>
-                      <a href="#">MRCN 2023</a>
+                      <Link href="/mrcn-2023">MRCN 2023</Link>
                     </li>
                     <li>
-                      <a href="#">MRCN 2024</a>
+                      <Link href="/mrcn-2024">MRCN 2024</Link>
                     </li>
                     <li>
-                      <a href="#">MRCN 2025</a>
+                      <Link href="/mrcn-2025">MRCN 2025</Link>
                     </li>
                     <li>
-                      <a href="#">Feedback</a>
+                      <Link href="/feedback">Feedback</Link>
                     </li>
                     <li>
-                      <a href="#">Contact Us</a>
+                      <Link href="/contact-us">Contact Us</Link>
                     </li>
                     <li>
-                      <a href="#">IIC/Startup </a>
+                      <Link href="/iic-startup">IIC/Startup </Link>
                     </li>
                     <li>
-                      <a href="#">T&P Cell</a>
+                      <Link href="/tp-cell">T&P Cell</Link>
                     </li>
                   </ul>
                 </div>
@@ -63,13 +64,13 @@ const Header = () => {
             <div className="row">
               <div className="col-md-2">
                 <div className="logo">
-                   <a href="#" className="desktop-logo"><img src="/logo.png" alt="logo" className=" img-fluid" /></a>
-                   <a href="#" className="mobile-logo"><img src="/logo-mobile.png" alt="logo" className=" img-fluid" /></a>
+                   <Link href="/" className="desktop-logo"><img src="/logo.png" alt="logo" className=" img-fluid" /></Link>
+                   <Link href="/" className="mobile-logo"><img src="/logo-mobile.png" alt="logo" className=" img-fluid" /></Link>
                 </div>
               </div>
               <div className="col-md-8">
                 <div className="logo-tagline pt-3">
-                  <a href="#" className="desktop-logo"><img src="/logo-tagline.png" alt="tagline" className="img-fluid"  /></a>
+                  <Link href="/" className="desktop-logo"><img src="/logo-tagline.png" alt="tagline" className="img-fluid"  /></Link>
                 </div>
               </div>
               <div className="col-md-2">
@@ -92,52 +93,52 @@ const Header = () => {
         <nav className="mt-sm-0 mt-lg-2 main-menu">
           <div className="container">
           <ul>        
-            <li><a href="/">Home</a></li>
+            <li><Link href="/">Home</Link></li>
             <li className="dropdown">
-              <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Administration</a>            
+              <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Administration</Link>            
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a href="/vice-chancellor">Vice Chancellor</a></li>
-                <li><a href="/registrar">Registrar</a></li>
-                  <li><a href="/director">Director</a></li>
-                  <li><a href="/roll-of-honor-directors-uiet">Roll of Honor – Directors UIET</a></li>              
+                <li><Link href="/vice-chancellor">Vice Chancellor</Link></li>
+                <li><Link href="/registrar">Registrar</Link></li>
+                  <li><Link href="/director">Director</Link></li>
+                  <li><Link href="/roll-of-honor-directors-uiet">Roll of Honor – Directors UIET</Link></li>              
               </ul>            
             </li>
 
             <li className="dropdown">
-              <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Department</a>            
+              <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Department</Link>            
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 
-                <li><a href="/computer-science-engg-department">Computer Science & Engg. Department</a></li>
-                <li><a href="#">Electronics & Communication Engg. Department</a></li>
-                  <li><a href="#">Mechanical Engg. Department</a></li>
-                  <li><a href="#">Biotechnology Engg. Department</a></li> 
-                  <li><a href="#">Electrical Engg. Department</a></li>
-                  <li><a href="#">Applied Sciences Department</a></li>
+                  <li><Link href="/computer-science-engg-department">Computer Science & Engg. Department</Link></li>
+                  <li><Link href="#">Electronics & Communication Engg. Department</Link></li>
+                  <li><Link href="#">Mechanical Engg. Department</Link></li>
+                  <li><Link href="#">Biotechnology Engg. Department</Link></li> 
+                  <li><Link href="#">Electrical Engg. Department</Link></li>
+                  <li><Link href="#">Applied Sciences Department</Link></li>
                 
               </ul>            
             </li>
 
              <li className="dropdown">
-              <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Faculty</a>            
+              <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Faculty</Link>            
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a href="/computer-science-engg">Computer Science & Engg.</a></li>
-                <li><a href="#">Electronics and Communication Engg.</a></li>
-                  <li><a href="#">Mechanical Engg.</a></li>
-                  <li><a href="#">Biotechnology</a></li> 
-                  <li><a href="#">Electrical Engg.</a></li>
-                  <li><a href="#">Applied Sciences</a></li>
+                <li><Link href="/faculty-of-computer-science-engineering">Computer Science & Engg.</Link></li>
+                <li><Link href="#">Electronics and Communication Engg.</Link></li>
+                  <li><Link href="#">Mechanical Engg.</Link></li>
+                  <li><Link href="#">Biotechnology</Link></li> 
+                  <li><Link href="#">Electrical Engg.</Link></li>
+                  <li><Link href="#">Applied Sciences</Link></li>
                 
               </ul>            
             </li>
 
               <li className="dropdown">
-              <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Important Link</a>            
+              <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Important Link</Link>            
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a href="#">LMS/IUMS</a></li>
-                <li><a href="/teqip">TEQIP-III</a></li>
-                  <li><a href="/feedback">Feedback / Grievance / Suggestion</a></li>
-                  <li><a href="#">NIRF</a></li> 
-                  <li><a href="/ideas-innovation">Ideas/Innovation</a></li>                
+                <li><Link href="#">LMS/IUMS</Link></li>
+                <li><Link href="/teqip">TEQIP-III</Link></li>
+                  <li><Link href="/feedback">Feedback / Grievance / Suggestion</Link></li>
+                  <li><Link href="#">NIRF</Link></li> 
+                  <li><Link href="/ideas-innovation">Ideas/Innovation</Link></li>                
                 
               </ul>            
             </li>
@@ -145,15 +146,15 @@ const Header = () => {
          
         
           
-            <li><a href="#"> Exam </a></li>
-            <li><a href="#"> Admission</a></li>
+            <li><Link href="/examination"> Exam </Link></li>
+            <li><Link href="#"> Admission</Link></li>
      
             <li className="dropdown">
-              <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Academic</a>            
+              <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Academic</Link>            
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a href="#">Emerging Areas in B.Tech</a></li>
-                <li><a href="#">Program Offered & Intake</a></li>
-                  <li><a href="#">R&D Activities</a></li>                        
+                <li><Link href="#">Emerging Areas in B.Tech</Link></li>
+                <li><Link href="#">Program Offered & Intake</Link></li>
+                  <li><Link href="#">R&D Activities</Link></li>                        
                 
               </ul>            
             </li>
@@ -161,12 +162,12 @@ const Header = () => {
              <li className="dropdown">
               <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Download</a>            
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a href="#">General & Ph.D. Syllabus</a></li>
-                <li><a href="#">Syllabus B.Tech & M.Tech</a></li>
-                <li><a href="#">Time-Table B.Tech & M.Tech.</a></li> 
-                <li><a href="#">Reports</a></li> 
-                <li><a href="#">Aicte Reports</a></li> 
-                <li><a href="#">Policies</a></li> 
+                  <li><Link href="#">General & Ph.D. Syllabus</Link></li>
+                <li><Link href="#">Syllabus B.Tech & M.Tech</Link></li>
+                <li><Link href="#">Time-Table B.Tech & M.Tech.</Link></li> 
+                <li><Link href="#">Reports</Link></li> 
+                <li><Link href="#">Aicte Reports</Link></li> 
+                <li><Link href="#">Policies</Link></li> 
               </ul>            
             </li>
            

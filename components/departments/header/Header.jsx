@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Header = () => {
@@ -14,7 +15,7 @@ const Header = () => {
                       <span>
                         <i className="fa-solid fa-phone"></i>
                       </span>
-                      <a href="tel:01744239155">01744-239155</a>
+                      <a target="_blank" href="tel:01744239155">01744-239155</a>
                     </li>
                     <li>
                       <span>
@@ -31,25 +32,25 @@ const Header = () => {
                 <div className="top-right list">
                   <ul>
                     <li>
-                      <a href="#">MRCN 2023</a>
+                      <Link href="#">MRCN 2023</Link>
                     </li>
                     <li>
-                      <a href="#">MRCN 2024</a>
+                      <Link href="#">MRCN 2024</Link>
                     </li>
                     <li>
-                      <a href="#">MRCN 2025</a>
+                      <Link href="#">MRCN 2025</Link>
                     </li>
                     <li>
-                      <a href="#">Feedback</a>
+                      <Link href="#">Feedback</Link>
                     </li>
                     <li>
-                      <a href="#">Contact Us</a>
+                      <Link href="#">Contact Us</Link>
                     </li>
                     <li>
-                      <a href="#">IIC/Startup </a>
+                      <Link href="#">IIC/Startup </Link>
                     </li>
                     <li>
-                      <a href="#">T&P Cell</a>
+                      <Link href="#">T&P Cell</Link>
                     </li>
                   </ul>
                 </div>
@@ -63,7 +64,7 @@ const Header = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="logo inner-logo">
-                   <a href="/" className="desktop-logo"><img src="/logo.png" alt="logo" className=" img-fluid" /></a>
+                   <Link href="/" className="desktop-logo"><img src="/logo.png" alt="logo" className=" img-fluid" /></Link>
                   <h4>Computer Science & Engg. Department<span className="red">Kurukshetra University(UIET), Kurukshetra</span></h4>
                 </div>
               </div>
@@ -71,33 +72,33 @@ const Header = () => {
                <div className="nav-inner">
                 <ul>
                   <li className="dropdown">
-                    <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">People</a>            
+                    <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">People</Link>            
                       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a href="#">Faculty</a></li>
-                        <li><a href="#">Staff</a></li>
-                        <li><a href="#">Research Scholars</a></li>                      
+                        <li><Link href="/faculty-of-computer-science-engineering">Faculty</Link></li>
+                        {/* <li><Link href="#">Staff</Link></li> */}
+                        <li><Link href="#">Research Scholars</Link></li>                      
                       </ul>            
                    </li>
                     <li className="dropdown">
-                    <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Programs</a>            
+                    <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Programs</Link>            
                       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a href="#">Doctoral</a></li>
-                        <li><a href="#">Post Graduate</a></li>
-                        <li><a href="#">Under Graduate</a></li>                      
+                        <li><Link href="#">Doctoral</Link></li>
+                        <li><Link href="#">Post Graduate</Link></li>
+                        <li><Link href="#">Under Graduate</Link></li>                      
                       </ul>            
                    </li>
                     <li className="dropdown">
                     <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Important Links</a>            
                       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a href="/industry-partner.jpg">Industry Partner </a></li>
-                        <li><a href="doc/cse/CSE PO-PSO.docx">PO's and PSO's </a></li>
-                        <li><a href="doc/cse/cse-research-expertise.docx">Research Expertise</a></li> 
+                        <li><Link href="/industry-partner.jpg">Industry Partner </Link></li>
+                        <li><Link href="doc/cse/CSE PO-PSO.docx">PO's and PSO's </Link></li>
+                        <li><Link href="doc/cse/cse-research-expertise.docx">Research Expertise</Link></li> 
                                           
                       </ul>            
                    </li>
                   
-                  <li><a href="#"></a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><Link href="#"></Link></li>
+                  <li><Link href="#">Contact</Link></li>
                 </ul>
                </div>
               </div>
