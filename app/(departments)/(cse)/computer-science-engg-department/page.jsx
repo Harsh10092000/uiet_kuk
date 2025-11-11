@@ -1,6 +1,44 @@
 import React from "react";
+import FacultySlider from "@/components/departments/facultySlider/FacultySlider";
 
 const page = () => {
+  // Faculty data
+  const facultyData = [
+    {
+      name: "Dr. Kulvinder Singh",
+      image: "/kulvinder-singh.jpg",
+      designation: "Associate Professor, (Computer Science & Engg. Department)",
+      link: "#",
+    },
+    {
+      name: "Dr.Sona Malhotra",
+      image: "/dr-sona.jpg",
+      designation: "Associate Professor,(Computer Science & Engg. Department)",
+      link: "#",
+    },
+    {
+      name: "Dr.Sanjeev Dhawan",
+      image: "/sanjeev.jpg",
+      designation: "Associate Professor,(Computer Science & Engg. Department)",
+      link: "#",
+    },
+    {
+      name: "Dr.Karambir Bidhan",
+      image: "/karambir.jpg",
+      designation: "Associate Professor,(Computer Science & Engg. Department)",
+      link: "#",
+    },
+    {
+      name: "Dr.Sona Malhotra",
+      image: "/dr-sona.jpg",
+      designation: "Associate Professor,(Computer Science & Engg. Department)",
+      link: "#",
+    },
+  ];
+
+  // View All link
+  const viewAllLink = "/faculty-of-computer-science-engineering";
+
   return (
     <div>
       <section className="pages-title mb-4">
@@ -134,89 +172,7 @@ const page = () => {
                   </div>
                   </div>
 
- 
-
-          <div className="faculty mt-5">
-            <h2 className="mb-4 text-center">Faculty</h2>
-            <div className="row">
-              <div className="col-sm-3">
-                <div className="card border-0">
-                  <img
-                    src="/kulvinder-singh.jpg"
-                    alt="profile"
-                    className="img-fluid"
-                  />
-                  <div className="card-body border card-info">
-                    <h5 className="card-title text-dark">Dr. Kulvinder Singh</h5>
-                    <div className="info-text">
-                      <p className="card-text text-secondary">
-                        Associate Professor, (Computer Science & Engg.
-                        Department)
-                      </p>
-                      <a href="#">
-                        <i className="fa-solid fa-arrow-right-to-bracket"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-3">
-                <div className="card border-0">
-                  <img src="/dr-sona.jpg" alt="profile" className="img-fluid" />
-                  <div className="card-body border card-info">
-                    <h5 className="card-title text-dark">Dr.Sona Malhotra</h5>
-                    <div className="info-text">
-                      <p className="card-text text-secondary">
-                        Associate Professor,(Computer Science & Engg.
-                        Department)
-                      </p>
-                      <a href="#">
-                        <i className="fa-solid fa-arrow-right-to-bracket"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-sm-3">
-                <div className="card border-0">
-                  <img src="/sanjeev.jpg" alt="profile" className="img-fluid" />
-                  <div className="card-body border card-info">
-                    <h5 className="card-title text-dark">Dr.Sanjeev Dhawan</h5>
-                    <div className="info-text">
-                      <p className="card-text text-secondary">
-                        Associate Professor,(Computer Science & Engg.
-                        Department)
-                      </p>
-                      <a href="#">
-                        <i className="fa-solid fa-arrow-right-to-bracket"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-sm-3">
-                <div className="card border-0">
-                  <img src="/karambir.jpg" alt="profile" />
-                  <div className="card-body border card-info">
-                    <h5 className="card-title text-dark font-weight-normal">
-                      Dr.Karambir Bidhan
-                    </h5>
-                    <div className="info-text">
-                      <p className="card-text text-secondary">
-                        Associate Professor,(Computer Science & Engg.
-                        Department)
-                      </p>
-                      <a href="#">
-                        <i className="fa-solid fa-arrow-right-to-bracket"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <FacultySlider facultyData={facultyData} viewAllLink={viewAllLink} />
         </div>
       </section>
     </div>

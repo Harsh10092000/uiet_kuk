@@ -1,20 +1,20 @@
 import React from "react";
-
+import Link from "next/link";
 const page = () => {
   return (
     <div>
       <section className="pages-title mb-4">
         <div className="container">
-          <h2>Computer Science Engg.</h2>
+          <h2> Department of Computer Science Engg.</h2>
 
           <ul class="breadcrumb text-center mx-auto">
             <li class="breadcrumb-item">
-              <a href="#">Home</a>
+              <Link href="/">Home</Link>
             </li>
-            <li class="breadcrumb-item">Faculty</li>
+            <li class="breadcrumb-item"> <Link href="/computer-science-engg-department">Department of Computer Science Engg.</Link></li>
 
             <li class="breadcrumb-item active" aria-current="page">
-              Computer Science Engg.
+              Faculty of Computer Science Engg.
             </li>
           </ul>
         </div>
