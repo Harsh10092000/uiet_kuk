@@ -870,6 +870,203 @@ span.coures-pict {
     border: none !important;
     margin-bottom: 20px;
 }
+
+.clubs-section {
+      padding: 60px 0;
+    }
+    .clubs-title {
+      text-align: center;
+      font-weight: 700;
+      color: #0d2244;
+      margin-bottom: 50px;
+      font-size: 32px;
+      position: relative;
+    }
+    .clubs-title::after {
+      content: '';
+      width: 160px;
+      height: 3px;
+      background: #a20b0b;
+      display: block;
+      margin: 10px auto 0;
+      border-radius: 3px;
+    }
+    .club-card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+      border: none;
+     
+    }
+    .club-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    }
+    .club-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    .club-body {
+      padding: 25px;
+    }
+    .club-body h5 {
+      font-weight: 700;
+      color: #000;
+      margin-bottom: 8px;
+    }
+    .underline {
+      width: 150px;
+      height: 2px;
+      background-color: #a20b0b;
+      margin-bottom: 15px;
+    }
+    .club-body p {
+      font-size: 15px;
+      color: #444;
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+ .teqip-title {
+          font-weight: 800;
+          color: #000;
+          font-size: 28px;
+          line-height: 1.4;
+          text-transform: uppercase;
+        }
+       
+        .teqip-content p {
+          text-align: justify;
+          color: #333;
+          font-size: 15px;
+          line-height: 1.8;
+          margin-bottom: 20px;
+        }
+
+        .facilities-list {
+    background-color: #58595b;
+    padding: 20px;
+    border-radius: 50px;
+    margin-right: -20px;
+}
+section.facilities-section {
+    background-color: #F3F4F6;
+    padding: 30px 0px;
+}
+
+ .facilities-list h2{
+    color: #fff !important;
+        padding-left: 13px;
+ }
+ .facilities-list ul li {
+    color: #fff !important;
+    list-style: square;
+}
+.facilities-list ul {
+    padding-left: 30px;
+}
+
+   .recruiters-section {
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .recruiters-title {
+      font-weight: 700;
+      color: #000;
+      margin-bottom: 40px;
+      font-size: 28px;
+      text-transform: uppercase;
+    }
+
+    .underline {        
+      border-radius: 2px;
+    }
+
+    .recruiter-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease-in-out;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .recruiter-card:hover {
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      transform: translateY(-5px);
+    }
+
+    .recruiter-card img {
+      max-width: 100%;
+      max-height: 70px;
+      object-fit: contain;
+    }
+
+    
+
+      .placement-section {
+      padding: 70px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .placement-title {
+      font-weight: 800;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+
+    .placement-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+      transition: all 0.4s ease;
+      box-shadow: 0 0 10px rgba(118, 255, 3, 0.1);
+      backdrop-filter: blur(6px);
+      position: relative;
+      overflow: hidden;
+       box-shadow: 0 0 25px rgb(33 49 108 / 10%);
+    }
+
+   
+
+    .placement-card:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 0 25px rgb(33 49 108 / 10%);
+    }
+
+    .student-name {
+      color: #76ff03;
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 10px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .student-details {
+      color: #ddd;
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 0;
+      position: relative;
+      z-index: 2;
+    }
+
 /* responsive-start */
 
 
@@ -1054,6 +1251,36 @@ section.counter-block {
 .main-title h2 {
     font-size: 33px !important;
 }
+ .teqip-title {
+            font-size: 22px !important;
+            text-align: left;
+          }
 
+          section.banner {
+    height: auto;
+
+}
+.banner-content h2 {
+    font-size: 34px !important;   
+}
+.banner-content p {
+    color: #fff !important;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 0 10px;
+}
+.banner-content {
+    padding: 50px 0px;
+}
+.accreditation-item {  
+    margin-right: 0;
+     margin-bottom: 10px;   
+}
+.aboutpict {   
+    margin-bottom: 20px;
+}
+h2.section-title{
+    font-size: 30px !important;
+}
 
 }
