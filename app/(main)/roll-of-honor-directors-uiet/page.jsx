@@ -23,7 +23,7 @@ const page = () => {
         <div class="container">
           <div class="table-responsive mb-5  rounded">
             <table class="table text-center">
-              <thead className=" table-primary ">
+              <thead>
                 <tr>
                   <th>Name</th>
                   <th>Year</th>

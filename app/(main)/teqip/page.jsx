@@ -22,9 +22,9 @@ const page = () => {
       <section className="main-content mt-5 mb-5 ">
         <div class="container">
             <h5>TEQIP E-Mail ID: teqipuietkuk@gmail.com</h5>
-          <div class="table-responsive shadow-lg p-3  mb-5 bg-body-tertiary rounded">
-            <table class="table table-bordered table-hover  text-left">
-              <thead className=" table-primary">
+          <div class="table-responsive rounded">
+            <table class="table text-left">
+              <thead>
                 <tr>
                   <th>Data</th>
                   <th>Attachments</th>

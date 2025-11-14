@@ -685,6 +685,7 @@ table thead th {
     font-size: 20px;
     font-weight: 400;
     color: #1c1c1c !important;
+        font-family: 'Paralucent', sans-serif !important;
 }
 
 span.file-icon {
@@ -1066,6 +1067,27 @@ section.facilities-section {
       position: relative;
       z-index: 2;
     }
+
+    .nav-inner ul {
+    padding-left: 0;
+}
+.placement-header {
+    padding: 0px 40px;
+}
+
+.placement-block{
+    text-align: center;
+    padding: 50px 0px;
+}
+section.placement-block ul.nav.nav-pills {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+.table-block {
+    max-height: 810px;
+    overflow-y: scroll;
+}
 
 /* responsive-start */
 
