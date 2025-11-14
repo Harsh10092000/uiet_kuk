@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 const page = () => {
@@ -1663,8 +1664,8 @@ const page = () => {
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
                                   <td className="s3 bg-primary text-white">
@@ -1991,144 +1992,144 @@ const page = () => {
                                   <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">TCS</td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s3 bg-primary text-white">TCS</td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mehak Gora</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Mehak Gora</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rajat kumar</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rajat kumar</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurabh srivastava</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Saurabh srivastava</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Parthik Yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Parthik Yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aditya</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Aditya</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sankalp</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Sankalp</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Mittal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Prateek Mittal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Maheshwari</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Kunal Maheshwari</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Abhishek Dahiya</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Abhishek Dahiya</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JITENDER YADAV</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">JITENDER YADAV</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishabh Gupta</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rishabh Gupta</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Muskan Gandhi</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Muskan Gandhi</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogesh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Yogesh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurav Singh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Saurav Singh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nilesh Moda</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Nilesh Moda</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">NITIN KUMAR BANSAL</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">NITIN KUMAR BANSAL</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Poshak kumar</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Poshak kumar</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JASBIR SINGH</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">JASBIR SINGH</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Dhruv</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Dhruv</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pooja Yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Pooja Yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Harkamal Singh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Harkamal Singh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rahul Lather</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rahul Lather</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogesh yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Yogesh yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Neha Choudhary</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Neha Choudhary</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pankaj</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Pankaj</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rishav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rohit</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Bhavik Mittal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Bhavik Mittal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arpit Mishra</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Arpit Mishra</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akshita Ahlawat</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Akshita Ahlawat</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sahil Jindal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Sahil Jindal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -2145,358 +2146,358 @@ const page = () => {
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">VIVO</td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s3 bg-primary text-white">VIVO</td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pushkar Rai</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Pushkar Rai</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurabh srivastava</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Saurabh srivastava</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akriti Goyal</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Akriti Goyal</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Gupta</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Prateek Gupta</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Gaurish Maggu</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Gaurish Maggu</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Lucky Raj</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Lucky Raj</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ankit Kumar</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Ankit Kumar</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mitali</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Mitali</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sandeep</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Sandeep</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shubham Rana</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Shubham Rana</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogendra Joshi</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Yogendra Joshi</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Healthviser
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ankita Das</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Ankita Das</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Anu Bholay</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Anu Bholay</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arti</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Arti</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Himanshi Diwan</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Himanshi Diwan</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kajal Dalal</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Kajal Dalal</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">KashimaLamba</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">KashimaLamba</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Parul Yadav</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Parul Yadav</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Hexaware
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mehak Gora</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Mehak Gora</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akriti Goyal</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Akriti Goyal</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mahima Walia</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Mahima Walia</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ayush Nagar</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Ayush Nagar</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanuj Bhatnagar</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Tanuj Bhatnagar</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JYOTI MUNJAL</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">JYOTI MUNJAL</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Komal Saini</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Komal Saini</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sumit</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Sumit</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nishant Bhaskar kanth</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Nishant Bhaskar kanth</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Vickram</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Vickram</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prince</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Prince</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Jatin Agarwal</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Jatin Agarwal</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aastha Gaba</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Aastha Gaba</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">SHUBHAM CHANDEL</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">SHUBHAM CHANDEL</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Cognizant
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Swami</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Kunal Swami</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Prateek Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rajat </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Rajat </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Swati </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Swati </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Mittal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Prateek Mittal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Maheshwari</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Kunal Maheshwari</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aryan Jindal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Aryan Jindal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishabh Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Rishabh Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Vickram </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Vickram </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Divyansh </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Divyansh </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shivani Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Shivani Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aastha Gaba</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Aastha Gaba</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Satyam Chaurasia</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Satyam Chaurasia</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Bhavik Mittal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Bhavik Mittal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanishq Kokcha</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Tanishq Kokcha</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sahil Jindal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Sahil Jindal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pankaj Chahal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Pankaj Chahal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Capegemini
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Harjeet Singh</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Harjeet Singh</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arun Partap</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Arun Partap</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shubham Singh</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Shubham Singh</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">HIMANSHU ANEJA</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">HIMANSHU ANEJA</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Hughes Systique
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sunish</td>
-                                  <td class="s2">6</td>
+                                  <td className="s2">Sunish</td>
+                                  <td className="s2">6</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">6</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">6</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">Yamaha Motors</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">Yamaha Motors</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nishant Bhaskar Kanth</td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">Nishant Bhaskar Kanth</td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">&nbsp;Pooja Yadav</td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">&nbsp;Pooja Yadav</td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Amazon
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sunish Dahiya</td>
-                                  <td class="s2">28</td>
+                                  <td className="s2">Sunish Dahiya</td>
+                                  <td className="s2">28</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Naman Mittal</td>
-                                  <td class="s2">28</td>
+                                  <td className="s2">Naman Mittal</td>
+                                  <td className="s2">28</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     BYJU'S think and learn
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanishq kokcha </td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">Tanishq kokcha </td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">Daffodils</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">Daffodils</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s5"></td>
-                                  <td class="s5"></td>
+                                  <td className="s5"></td>
+                                  <td className="s5"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">i Nurture</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">i Nurture</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Niharika</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Niharika</td>
+                                  <td className="s2">4</td>
                                 </tr>
                               </tbody>
                             </table>
@@ -2617,8 +2618,8 @@ const page = () => {
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
                                   <td className="s3 bg-primary text-white">
@@ -2945,144 +2946,144 @@ const page = () => {
                                   <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">TCS</td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s3 bg-primary text-white">TCS</td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mehak Gora</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Mehak Gora</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rajat kumar</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rajat kumar</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurabh srivastava</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Saurabh srivastava</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Parthik Yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Parthik Yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aditya</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Aditya</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sankalp</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Sankalp</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Mittal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Prateek Mittal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Maheshwari</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Kunal Maheshwari</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Abhishek Dahiya</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Abhishek Dahiya</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JITENDER YADAV</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">JITENDER YADAV</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishabh Gupta</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rishabh Gupta</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Muskan Gandhi</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Muskan Gandhi</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogesh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Yogesh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurav Singh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Saurav Singh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nilesh Moda</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Nilesh Moda</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">NITIN KUMAR BANSAL</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">NITIN KUMAR BANSAL</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Poshak kumar</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Poshak kumar</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JASBIR SINGH</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">JASBIR SINGH</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Dhruv</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Dhruv</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pooja Yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Pooja Yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Harkamal Singh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Harkamal Singh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rahul Lather</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rahul Lather</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogesh yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Yogesh yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Neha Choudhary</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Neha Choudhary</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pankaj</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Pankaj</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rishav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rohit</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Bhavik Mittal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Bhavik Mittal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arpit Mishra</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Arpit Mishra</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akshita Ahlawat</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Akshita Ahlawat</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sahil Jindal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Sahil Jindal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -3099,358 +3100,358 @@ const page = () => {
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">VIVO</td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s3 bg-primary text-white">VIVO</td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pushkar Rai</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Pushkar Rai</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurabh srivastava</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Saurabh srivastava</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akriti Goyal</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Akriti Goyal</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Gupta</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Prateek Gupta</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Gaurish Maggu</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Gaurish Maggu</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Lucky Raj</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Lucky Raj</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ankit Kumar</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Ankit Kumar</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mitali</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Mitali</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sandeep</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Sandeep</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shubham Rana</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Shubham Rana</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogendra Joshi</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Yogendra Joshi</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Healthviser
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ankita Das</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Ankita Das</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Anu Bholay</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Anu Bholay</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arti</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Arti</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Himanshi Diwan</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Himanshi Diwan</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kajal Dalal</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Kajal Dalal</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">KashimaLamba</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">KashimaLamba</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Parul Yadav</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Parul Yadav</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Hexaware
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mehak Gora</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Mehak Gora</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akriti Goyal</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Akriti Goyal</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mahima Walia</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Mahima Walia</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ayush Nagar</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Ayush Nagar</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanuj Bhatnagar</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Tanuj Bhatnagar</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JYOTI MUNJAL</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">JYOTI MUNJAL</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Komal Saini</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Komal Saini</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sumit</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Sumit</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nishant Bhaskar kanth</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Nishant Bhaskar kanth</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Vickram</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Vickram</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prince</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Prince</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Jatin Agarwal</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Jatin Agarwal</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aastha Gaba</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Aastha Gaba</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">SHUBHAM CHANDEL</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">SHUBHAM CHANDEL</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Cognizant
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Swami</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Kunal Swami</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Prateek Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rajat </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Rajat </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Swati </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Swati </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Mittal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Prateek Mittal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Maheshwari</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Kunal Maheshwari</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aryan Jindal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Aryan Jindal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishabh Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Rishabh Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Vickram </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Vickram </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Divyansh </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Divyansh </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shivani Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Shivani Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aastha Gaba</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Aastha Gaba</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Satyam Chaurasia</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Satyam Chaurasia</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Bhavik Mittal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Bhavik Mittal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanishq Kokcha</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Tanishq Kokcha</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sahil Jindal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Sahil Jindal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pankaj Chahal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Pankaj Chahal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Capegemini
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Harjeet Singh</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Harjeet Singh</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arun Partap</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Arun Partap</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shubham Singh</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Shubham Singh</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">HIMANSHU ANEJA</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">HIMANSHU ANEJA</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Hughes Systique
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sunish</td>
-                                  <td class="s2">6</td>
+                                  <td className="s2">Sunish</td>
+                                  <td className="s2">6</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">6</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">6</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">Yamaha Motors</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">Yamaha Motors</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nishant Bhaskar Kanth</td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">Nishant Bhaskar Kanth</td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">&nbsp;Pooja Yadav</td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">&nbsp;Pooja Yadav</td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Amazon
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sunish Dahiya</td>
-                                  <td class="s2">28</td>
+                                  <td className="s2">Sunish Dahiya</td>
+                                  <td className="s2">28</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Naman Mittal</td>
-                                  <td class="s2">28</td>
+                                  <td className="s2">Naman Mittal</td>
+                                  <td className="s2">28</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     BYJU'S think and learn
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanishq kokcha </td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">Tanishq kokcha </td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">Daffodils</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">Daffodils</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s5"></td>
-                                  <td class="s5"></td>
+                                  <td className="s5"></td>
+                                  <td className="s5"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">i Nurture</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">i Nurture</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Niharika</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Niharika</td>
+                                  <td className="s2">4</td>
                                 </tr>
                               </tbody>
                             </table>
@@ -3571,8 +3572,8 @@ const page = () => {
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
                                   <td className="s3 bg-primary text-white">
@@ -3899,144 +3900,144 @@ const page = () => {
                                   <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">TCS</td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s3 bg-primary text-white">TCS</td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mehak Gora</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Mehak Gora</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rajat kumar</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rajat kumar</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurabh srivastava</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Saurabh srivastava</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Parthik Yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Parthik Yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aditya</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Aditya</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sankalp</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Sankalp</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Mittal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Prateek Mittal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Maheshwari</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Kunal Maheshwari</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Abhishek Dahiya</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Abhishek Dahiya</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JITENDER YADAV</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">JITENDER YADAV</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishabh Gupta</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rishabh Gupta</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Muskan Gandhi</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Muskan Gandhi</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogesh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Yogesh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurav Singh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Saurav Singh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nilesh Moda</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Nilesh Moda</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">NITIN KUMAR BANSAL</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">NITIN KUMAR BANSAL</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Poshak kumar</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Poshak kumar</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JASBIR SINGH</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">JASBIR SINGH</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Dhruv</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Dhruv</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pooja Yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Pooja Yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Harkamal Singh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Harkamal Singh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rahul Lather</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rahul Lather</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogesh yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Yogesh yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Neha Choudhary</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Neha Choudhary</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pankaj</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Pankaj</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rishav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rohit</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Bhavik Mittal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Bhavik Mittal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arpit Mishra</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Arpit Mishra</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akshita Ahlawat</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Akshita Ahlawat</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sahil Jindal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Sahil Jindal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -4053,358 +4054,358 @@ const page = () => {
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">VIVO</td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s3 bg-primary text-white">VIVO</td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pushkar Rai</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Pushkar Rai</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurabh srivastava</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Saurabh srivastava</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akriti Goyal</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Akriti Goyal</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Gupta</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Prateek Gupta</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Gaurish Maggu</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Gaurish Maggu</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Lucky Raj</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Lucky Raj</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ankit Kumar</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Ankit Kumar</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mitali</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Mitali</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sandeep</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Sandeep</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shubham Rana</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Shubham Rana</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogendra Joshi</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Yogendra Joshi</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Healthviser
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ankita Das</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Ankita Das</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Anu Bholay</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Anu Bholay</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arti</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Arti</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Himanshi Diwan</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Himanshi Diwan</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kajal Dalal</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Kajal Dalal</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">KashimaLamba</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">KashimaLamba</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Parul Yadav</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Parul Yadav</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Hexaware
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mehak Gora</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Mehak Gora</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akriti Goyal</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Akriti Goyal</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mahima Walia</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Mahima Walia</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ayush Nagar</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Ayush Nagar</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanuj Bhatnagar</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Tanuj Bhatnagar</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JYOTI MUNJAL</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">JYOTI MUNJAL</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Komal Saini</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Komal Saini</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sumit</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Sumit</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nishant Bhaskar kanth</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Nishant Bhaskar kanth</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Vickram</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Vickram</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prince</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Prince</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Jatin Agarwal</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Jatin Agarwal</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aastha Gaba</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Aastha Gaba</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">SHUBHAM CHANDEL</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">SHUBHAM CHANDEL</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Cognizant
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Swami</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Kunal Swami</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Prateek Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rajat </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Rajat </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Swati </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Swati </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Mittal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Prateek Mittal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Maheshwari</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Kunal Maheshwari</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aryan Jindal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Aryan Jindal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishabh Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Rishabh Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Vickram </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Vickram </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Divyansh </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Divyansh </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shivani Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Shivani Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aastha Gaba</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Aastha Gaba</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Satyam Chaurasia</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Satyam Chaurasia</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Bhavik Mittal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Bhavik Mittal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanishq Kokcha</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Tanishq Kokcha</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sahil Jindal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Sahil Jindal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pankaj Chahal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Pankaj Chahal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Capegemini
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Harjeet Singh</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Harjeet Singh</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arun Partap</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Arun Partap</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shubham Singh</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Shubham Singh</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">HIMANSHU ANEJA</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">HIMANSHU ANEJA</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Hughes Systique
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sunish</td>
-                                  <td class="s2">6</td>
+                                  <td className="s2">Sunish</td>
+                                  <td className="s2">6</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">6</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">6</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">Yamaha Motors</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">Yamaha Motors</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nishant Bhaskar Kanth</td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">Nishant Bhaskar Kanth</td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">&nbsp;Pooja Yadav</td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">&nbsp;Pooja Yadav</td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Amazon
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sunish Dahiya</td>
-                                  <td class="s2">28</td>
+                                  <td className="s2">Sunish Dahiya</td>
+                                  <td className="s2">28</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Naman Mittal</td>
-                                  <td class="s2">28</td>
+                                  <td className="s2">Naman Mittal</td>
+                                  <td className="s2">28</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     BYJU'S think and learn
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanishq kokcha </td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">Tanishq kokcha </td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">Daffodils</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">Daffodils</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s5"></td>
-                                  <td class="s5"></td>
+                                  <td className="s5"></td>
+                                  <td className="s5"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">i Nurture</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">i Nurture</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Niharika</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Niharika</td>
+                                  <td className="s2">4</td>
                                 </tr>
                               </tbody>
                             </table>
@@ -4525,8 +4526,8 @@ const page = () => {
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
                                   <td className="s3 bg-primary text-white">
@@ -4853,144 +4854,144 @@ const page = () => {
                                   <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">TCS</td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s3 bg-primary text-white">TCS</td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mehak Gora</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Mehak Gora</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rajat kumar</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rajat kumar</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurabh srivastava</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Saurabh srivastava</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Parthik Yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Parthik Yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aditya</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Aditya</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sankalp</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Sankalp</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Mittal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Prateek Mittal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Maheshwari</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Kunal Maheshwari</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Abhishek Dahiya</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Abhishek Dahiya</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JITENDER YADAV</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">JITENDER YADAV</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishabh Gupta</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rishabh Gupta</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Muskan Gandhi</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Muskan Gandhi</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogesh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Yogesh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurav Singh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Saurav Singh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nilesh Moda</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Nilesh Moda</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">NITIN KUMAR BANSAL</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">NITIN KUMAR BANSAL</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Poshak kumar</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Poshak kumar</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JASBIR SINGH</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">JASBIR SINGH</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Dhruv</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Dhruv</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pooja Yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Pooja Yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Harkamal Singh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Harkamal Singh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rahul Lather</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rahul Lather</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogesh yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Yogesh yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Neha Choudhary</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Neha Choudhary</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pankaj</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Pankaj</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rishav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rohit</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Bhavik Mittal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Bhavik Mittal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arpit Mishra</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Arpit Mishra</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akshita Ahlawat</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Akshita Ahlawat</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sahil Jindal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Sahil Jindal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -5007,358 +5008,358 @@ const page = () => {
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">VIVO</td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s3 bg-primary text-white">VIVO</td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pushkar Rai</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Pushkar Rai</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurabh srivastava</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Saurabh srivastava</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akriti Goyal</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Akriti Goyal</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Gupta</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Prateek Gupta</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Gaurish Maggu</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Gaurish Maggu</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Lucky Raj</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Lucky Raj</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ankit Kumar</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Ankit Kumar</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mitali</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Mitali</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sandeep</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Sandeep</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shubham Rana</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Shubham Rana</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogendra Joshi</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Yogendra Joshi</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Healthviser
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ankita Das</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Ankita Das</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Anu Bholay</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Anu Bholay</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arti</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Arti</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Himanshi Diwan</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Himanshi Diwan</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kajal Dalal</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Kajal Dalal</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">KashimaLamba</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">KashimaLamba</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Parul Yadav</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Parul Yadav</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Hexaware
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mehak Gora</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Mehak Gora</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akriti Goyal</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Akriti Goyal</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mahima Walia</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Mahima Walia</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ayush Nagar</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Ayush Nagar</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanuj Bhatnagar</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Tanuj Bhatnagar</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JYOTI MUNJAL</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">JYOTI MUNJAL</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Komal Saini</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Komal Saini</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sumit</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Sumit</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nishant Bhaskar kanth</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Nishant Bhaskar kanth</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Vickram</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Vickram</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prince</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Prince</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Jatin Agarwal</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Jatin Agarwal</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aastha Gaba</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Aastha Gaba</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">SHUBHAM CHANDEL</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">SHUBHAM CHANDEL</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Cognizant
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Swami</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Kunal Swami</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Prateek Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rajat </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Rajat </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Swati </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Swati </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Mittal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Prateek Mittal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Maheshwari</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Kunal Maheshwari</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aryan Jindal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Aryan Jindal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishabh Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Rishabh Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Vickram </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Vickram </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Divyansh </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Divyansh </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shivani Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Shivani Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aastha Gaba</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Aastha Gaba</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Satyam Chaurasia</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Satyam Chaurasia</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Bhavik Mittal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Bhavik Mittal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanishq Kokcha</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Tanishq Kokcha</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sahil Jindal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Sahil Jindal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pankaj Chahal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Pankaj Chahal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Capegemini
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Harjeet Singh</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Harjeet Singh</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arun Partap</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Arun Partap</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shubham Singh</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Shubham Singh</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">HIMANSHU ANEJA</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">HIMANSHU ANEJA</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Hughes Systique
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sunish</td>
-                                  <td class="s2">6</td>
+                                  <td className="s2">Sunish</td>
+                                  <td className="s2">6</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">6</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">6</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">Yamaha Motors</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">Yamaha Motors</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nishant Bhaskar Kanth</td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">Nishant Bhaskar Kanth</td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">&nbsp;Pooja Yadav</td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">&nbsp;Pooja Yadav</td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Amazon
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sunish Dahiya</td>
-                                  <td class="s2">28</td>
+                                  <td className="s2">Sunish Dahiya</td>
+                                  <td className="s2">28</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Naman Mittal</td>
-                                  <td class="s2">28</td>
+                                  <td className="s2">Naman Mittal</td>
+                                  <td className="s2">28</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     BYJU'S think and learn
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanishq kokcha </td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">Tanishq kokcha </td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">Daffodils</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">Daffodils</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s5"></td>
-                                  <td class="s5"></td>
+                                  <td className="s5"></td>
+                                  <td className="s5"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">i Nurture</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">i Nurture</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Niharika</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Niharika</td>
+                                  <td className="s2">4</td>
                                 </tr>
                               </tbody>
                             </table>
@@ -5479,8 +5480,8 @@ const page = () => {
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
                                   <td className="s3 bg-primary text-white">
@@ -5807,144 +5808,144 @@ const page = () => {
                                   <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">TCS</td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s3 bg-primary text-white">TCS</td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mehak Gora</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Mehak Gora</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rajat kumar</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rajat kumar</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurabh srivastava</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Saurabh srivastava</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Parthik Yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Parthik Yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aditya</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Aditya</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sankalp</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Sankalp</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Mittal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Prateek Mittal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Maheshwari</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Kunal Maheshwari</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Abhishek Dahiya</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Abhishek Dahiya</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JITENDER YADAV</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">JITENDER YADAV</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishabh Gupta</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rishabh Gupta</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Muskan Gandhi</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Muskan Gandhi</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogesh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Yogesh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurav Singh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Saurav Singh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nilesh Moda</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Nilesh Moda</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">NITIN KUMAR BANSAL</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">NITIN KUMAR BANSAL</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Poshak kumar</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Poshak kumar</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JASBIR SINGH</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">JASBIR SINGH</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Dhruv</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Dhruv</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pooja Yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Pooja Yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Harkamal Singh</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Harkamal Singh</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rahul Lather</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rahul Lather</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogesh yadav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Yogesh yadav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Neha Choudhary</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Neha Choudhary</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pankaj</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Pankaj</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishav</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rishav</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Rohit</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Bhavik Mittal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Bhavik Mittal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arpit Mishra</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Arpit Mishra</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akshita Ahlawat</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Akshita Ahlawat</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sahil Jindal</td>
-                                  <td class="s2">3.35</td>
+                                  <td className="s2">Sahil Jindal</td>
+                                  <td className="s2">3.35</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -5961,358 +5962,358 @@ const page = () => {
                               </thead>
                               <tbody>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">VIVO</td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s3 bg-primary text-white">VIVO</td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pushkar Rai</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Pushkar Rai</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Saurabh srivastava</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Saurabh srivastava</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akriti Goyal</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Akriti Goyal</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Gupta</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Prateek Gupta</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Gaurish Maggu</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Gaurish Maggu</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Lucky Raj</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Lucky Raj</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ankit Kumar</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Ankit Kumar</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mitali</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Mitali</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sandeep</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Sandeep</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shubham Rana</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Shubham Rana</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Yogendra Joshi</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Yogendra Joshi</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Healthviser
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ankita Das</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Ankita Das</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Anu Bholay</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Anu Bholay</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arti</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Arti</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Himanshi Diwan</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Himanshi Diwan</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kajal Dalal</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Kajal Dalal</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">KashimaLamba</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">KashimaLamba</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Parul Yadav</td>
-                                  <td class="s2">2.5</td>
+                                  <td className="s2">Parul Yadav</td>
+                                  <td className="s2">2.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Hexaware
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mehak Gora</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Mehak Gora</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Akriti Goyal</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Akriti Goyal</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mahima Walia</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Mahima Walia</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Ayush Nagar</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Ayush Nagar</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanuj Bhatnagar</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Tanuj Bhatnagar</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">JYOTI MUNJAL</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">JYOTI MUNJAL</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Komal Saini</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Komal Saini</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sumit</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Sumit</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nishant Bhaskar kanth</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Nishant Bhaskar kanth</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Vickram</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Vickram</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prince</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Prince</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Jatin Agarwal</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Jatin Agarwal</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aastha Gaba</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">Aastha Gaba</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">SHUBHAM CHANDEL</td>
-                                  <td class="s2">3</td>
+                                  <td className="s2">SHUBHAM CHANDEL</td>
+                                  <td className="s2">3</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Cognizant
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Swami</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Kunal Swami</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Prateek Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rajat </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Rajat </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Swati </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Swati </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Prateek Mittal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Prateek Mittal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Kunal Maheshwari</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Kunal Maheshwari</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aryan Jindal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Aryan Jindal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rishabh Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Rishabh Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Vickram </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Vickram </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Divyansh </td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Divyansh </td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shivani Gupta</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Shivani Gupta</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Aastha Gaba</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Aastha Gaba</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Satyam Chaurasia</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Satyam Chaurasia</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Bhavik Mittal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Bhavik Mittal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanishq Kokcha</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Tanishq Kokcha</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sahil Jindal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Sahil Jindal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Pankaj Chahal</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Pankaj Chahal</td>
+                                  <td className="s2">4</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Capegemini
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Harjeet Singh</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Harjeet Singh</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Arun Partap</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Arun Partap</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Shubham Singh</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">Shubham Singh</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">HIMANSHU ANEJA</td>
-                                  <td class="s2">3.8</td>
+                                  <td className="s2">HIMANSHU ANEJA</td>
+                                  <td className="s2">3.8</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Hughes Systique
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sunish</td>
-                                  <td class="s2">6</td>
+                                  <td className="s2">Sunish</td>
+                                  <td className="s2">6</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Rohit Singla</td>
-                                  <td class="s2">6</td>
+                                  <td className="s2">Rohit Singla</td>
+                                  <td className="s2">6</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">Yamaha Motors</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">Yamaha Motors</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Nishant Bhaskar Kanth</td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">Nishant Bhaskar Kanth</td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">&nbsp;Pooja Yadav</td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">&nbsp;Pooja Yadav</td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     Amazon
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Sunish Dahiya</td>
-                                  <td class="s2">28</td>
+                                  <td className="s2">Sunish Dahiya</td>
+                                  <td className="s2">28</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Naman Mittal</td>
-                                  <td class="s2">28</td>
+                                  <td className="s2">Naman Mittal</td>
+                                  <td className="s2">28</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3 bg-primary text-white">
+                                  <td className="s3 bg-primary text-white">
                                     BYJU'S think and learn
                                   </td>
-                                  <td class="s4 bg-primary text-white"></td>
+                                  <td className="s4 bg-primary text-white"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Tanishq kokcha </td>
-                                  <td class="s2">5</td>
+                                  <td className="s2">Tanishq kokcha </td>
+                                  <td className="s2">5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s2"></td>
-                                  <td class="s2"></td>
+                                  <td className="s2"></td>
+                                  <td className="s2"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">Daffodils</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">Daffodils</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Mohit Sharma</td>
-                                  <td class="s2">3.5</td>
+                                  <td className="s2">Mohit Sharma</td>
+                                  <td className="s2">3.5</td>
                                 </tr>
                                 <tr>
-                                  <td class="s5"></td>
-                                  <td class="s5"></td>
+                                  <td className="s5"></td>
+                                  <td className="s5"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s3">i Nurture</td>
-                                  <td class="s4"></td>
+                                  <td className="s3">i Nurture</td>
+                                  <td className="s4"></td>
                                 </tr>
                                 <tr>
-                                  <td class="s2">Niharika</td>
-                                  <td class="s2">4</td>
+                                  <td className="s2">Niharika</td>
+                                  <td className="s2">4</td>
                                 </tr>
                               </tbody>
                             </table>
@@ -6463,216 +6464,216 @@ const page = () => {
                               </thead>
                              <tbody>
             <tr>
-                <td class="s0">Student Name</td>
-                <td class="s0">Package in LPA</td>
+                <td className="s0">Student Name</td>
+                <td className="s0">Package in LPA</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">75way Technologies PVT. LTD.</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">75way Technologies PVT. LTD.</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s3">Dushyant Garg</td>
-                <td class="s1">3.63</td>
+                <td className="s3">Dushyant Garg</td>
+                <td className="s1">3.63</td>
             </tr>
             <tr>
-                <td class="s4">Jay Verma</td>
-                <td class="s1">5</td>
+                <td className="s4">Jay Verma</td>
+                <td className="s1">5</td>
             </tr>
             <tr>
-                <td class="s4">Yashpal</td>
-                <td class="s1">3.6</td>
+                <td className="s4">Yashpal</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s4">Aditya</td>
-                <td class="s1">4.5</td>
+                <td className="s4">Aditya</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">WaySpire </td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">WaySpire </td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s1">Naman</td>
-                <td class="s1">7</td>
+                <td className="s1">Naman</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Himanshu Tiwari</td>
-                <td class="s1">7</td>
+                <td className="s1">Himanshu Tiwari</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Mamta</td>
-                <td class="s1">7</td>
+                <td className="s1">Mamta</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Chandan Jaiswal</td>
-                <td class="s1">7</td>
+                <td className="s1">Chandan Jaiswal</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Juhi</td>
-                <td class="s1">7</td>
+                <td className="s1">Juhi</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Dev Mishra</td>
-                <td class="s1">7</td>
+                <td className="s1">Dev Mishra</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Varsha</td>
-                <td class="s1">7</td>
+                <td className="s1">Varsha</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Bharat Sharma</td>
-                <td class="s1">7</td>
+                <td className="s1">Bharat Sharma</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Tushti</td>
-                <td class="s1">7</td>
+                <td className="s1">Tushti</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Nishu Kumari</td>
-                <td class="s1">7</td>
+                <td className="s1">Nishu Kumari</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Arun Kumar</td>
-                <td class="s1">7</td>
+                <td className="s1">Arun Kumar</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">RAHUL GOYAL</td>
-                <td class="s1">7</td>
+                <td className="s1">RAHUL GOYAL</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Sakshi Bhagwat</td>
-                <td class="s1">7</td>
+                <td className="s1">Sakshi Bhagwat</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">devyani</td>
-                <td class="s1">7</td>
+                <td className="s1">devyani</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">AKSHAY VATS</td>
-                <td class="s1">7</td>
+                <td className="s1">AKSHAY VATS</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Shivani</td>
-                <td class="s1">7</td>
+                <td className="s1">Shivani</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Tirath Singh</td>
-                <td class="s1">7</td>
+                <td className="s1">Tirath Singh</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Gaurav</td>
-                <td class="s1">7</td>
+                <td className="s1">Gaurav</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Prashant sharma</td>
-                <td class="s1">7</td>
+                <td className="s1">Prashant sharma</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Ansh kamra</td>
-                <td class="s1">7</td>
+                <td className="s1">Ansh kamra</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Shivam Avesthi</td>
-                <td class="s1">7</td>
+                <td className="s1">Shivam Avesthi</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Chhavi</td>
-                <td class="s1">7</td>
+                <td className="s1">Chhavi</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Naresh Kumar</td>
-                <td class="s1">7</td>
+                <td className="s1">Naresh Kumar</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1">Arnav Sharma</td>
-                <td class="s1">7</td>
+                <td className="s1">Arnav Sharma</td>
+                <td className="s1">7</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">JBM</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">JBM</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s5">Neeraj Saini</td>
-                <td class="s1">4.5</td>
+                <td className="s5">Neeraj Saini</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s5">Yashdeep Singh</td>
-                <td class="s1">4.5</td>
+                <td className="s5">Yashdeep Singh</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s5">Monika Chahal</td>
-                <td class="s1">4.5</td>
+                <td className="s5">Monika Chahal</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s5">Harsh Khatri</td>
-                <td class="s1">4.5</td>
+                <td className="s5">Harsh Khatri</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s5">Utsav Kumar</td>
-                <td class="s1">4.5</td>
+                <td className="s5">Utsav Kumar</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s5">Alok Kumar</td>
-                <td class="s1">4.5</td>
+                <td className="s5">Alok Kumar</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s5">Jatin</td>
-                <td class="s1">4.5</td>
+                <td className="s5">Jatin</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s5">Ankit Thakur</td>
-                <td class="s1">4.5</td>
+                <td className="s5">Ankit Thakur</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s5">Harshit Prakash</td>
-                <td class="s1">4.5</td>
+                <td className="s5">Harshit Prakash</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s5">Vivek Kumar&nbsp;</td>
-                <td class="s1">4.5</td>
+                <td className="s5">Vivek Kumar&nbsp;</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">Beri Udyog (Fieldking)</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">Beri Udyog (Fieldking)</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s1">Kunal</td>
-                <td class="s1">3.5</td>
+                <td className="s1">Kunal</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s1">Harsh</td>
-                <td class="s1">3.5</td>
+                <td className="s1">Harsh</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">Airhome Stay</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">Airhome Stay</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s6">Arnav Sharma</td>
-                <td class="s1">3.6</td>
+                <td className="s6">Arnav Sharma</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s6">Mohit</td>
-                <td class="s1">3.6</td>
+                <td className="s6">Mohit</td>
+                <td className="s1">3.6</td>
             </tr>
          
         </tbody>
@@ -6690,720 +6691,720 @@ const page = () => {
                               </thead>
                               <tbody>
                                    <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">Infosys Ltd.</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">Infosys Ltd.</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s1">Vansh Punia</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Vansh Punia</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Anurag </td>
-                <td class="s1">3.6</td>
+                <td className="s1">Anurag </td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Kanishka Mittal</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Kanishka Mittal</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Yash Pal Goyal</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Yash Pal Goyal</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Himanshu Sinha</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Himanshu Sinha</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">smriti srivastava</td>
-                <td class="s1">3.6</td>
+                <td className="s1">smriti srivastava</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Tanishq Garg</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Tanishq Garg</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Mayank Nain</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Mayank Nain</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Prashant Kumar</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Prashant Kumar</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Chakshu Chakshu</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Chakshu Chakshu</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Aryan Singla</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Aryan Singla</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Ankur Singh</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Ankur Singh</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Harsh Kumar</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Harsh Kumar</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Manish Kumar</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Manish Kumar</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Aditi Walia</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Aditi Walia</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Devansh Sharma</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Devansh Sharma</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Sahil </td>
-                <td class="s1">3.6</td>
+                <td className="s1">Sahil </td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Aditya Pratap Singh</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Aditya Pratap Singh</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Naman Saini</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Naman Saini</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Himanshu Tiwari</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Himanshu Tiwari</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Prashant Sharma</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Prashant Sharma</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Teena Jaglan</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Teena Jaglan</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Priyanshu Priyanshu</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Priyanshu Priyanshu</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Harsh Koul</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Harsh Koul</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Disha Agarwal</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Disha Agarwal</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Akshay Vats</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Akshay Vats</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Pritam Rajput</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Pritam Rajput</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Samarjeet Singh</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Samarjeet Singh</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Dushyant Garg</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Dushyant Garg</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Gaurav Gaurav</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Gaurav Gaurav</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Mitesh Lodhi</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Mitesh Lodhi</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Rahul Goyal</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Rahul Goyal</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Aditya Sharma</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Aditya Sharma</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Aaryan Sharma</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Aaryan Sharma</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Lovely Gupta</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Lovely Gupta</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Aman Kumar</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Aman Kumar</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Nidhi Nidhi</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Nidhi Nidhi</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Aniket Bihana</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Aniket Bihana</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Rishabh Singh</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Rishabh Singh</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Himanshu Himanshu</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Himanshu Himanshu</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Manish Kumar</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Manish Kumar</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Rakesh Rawat</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Rakesh Rawat</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Ansh Kamra</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Ansh Kamra</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Aastha Sachdeva</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Aastha Sachdeva</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Aditya Rana</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Aditya Rana</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Deepanshu .</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Deepanshu .</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Steshi </td>
-                <td class="s1">3.6</td>
+                <td className="s1">Steshi </td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Mayank Taneja</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Mayank Taneja</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Ishan Garg</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Ishan Garg</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Priya Yadav</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Priya Yadav</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1">Parneet Kaur</td>
-                <td class="s1">3.6</td>
+                <td className="s1">Parneet Kaur</td>
+                <td className="s1">3.6</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">Academor Pvt. Ltd.</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">Academor Pvt. Ltd.</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s1">Vikas</td>
-                <td class="s1">6</td>
+                <td className="s1">Vikas</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Mohit</td>
-                <td class="s1">6</td>
+                <td className="s1">Mohit</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Mayank</td>
-                <td class="s1">6</td>
+                <td className="s1">Mayank</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Varun Ahuja</td>
-                <td class="s1">6</td>
+                <td className="s1">Varun Ahuja</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Chandan</td>
-                <td class="s1">6</td>
+                <td className="s1">Chandan</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Shivam Jha</td>
-                <td class="s1">6</td>
+                <td className="s1">Shivam Jha</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Sumit Raj</td>
-                <td class="s1">6</td>
+                <td className="s1">Sumit Raj</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Harsh Gautam</td>
-                <td class="s1">6</td>
+                <td className="s1">Harsh Gautam</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Siddharth Sachdeva</td>
-                <td class="s1">6</td>
+                <td className="s1">Siddharth Sachdeva</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Darpit</td>
-                <td class="s1">6</td>
+                <td className="s1">Darpit</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Pritam</td>
-                <td class="s1">6</td>
+                <td className="s1">Pritam</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Shivansh Sharma</td>
-                <td class="s1">6</td>
+                <td className="s1">Shivansh Sharma</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Rahul goyal</td>
-                <td class="s1">6</td>
+                <td className="s1">Rahul goyal</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Yogesh Kumar</td>
-                <td class="s1">6</td>
+                <td className="s1">Yogesh Kumar</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Annu Sharma</td>
-                <td class="s1">6</td>
+                <td className="s1">Annu Sharma</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Pushpender Kumar</td>
-                <td class="s1">6</td>
+                <td className="s1">Pushpender Kumar</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Ishant Chaudhary</td>
-                <td class="s1">6</td>
+                <td className="s1">Ishant Chaudhary</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Arzoo Dalal</td>
-                <td class="s1">6</td>
+                <td className="s1">Arzoo Dalal</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Saini Aditaya</td>
-                <td class="s1">6</td>
+                <td className="s1">Saini Aditaya</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Gaurav Shahi</td>
-                <td class="s1">6</td>
+                <td className="s1">Gaurav Shahi</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Piyush Yadav</td>
-                <td class="s1">6</td>
+                <td className="s1">Piyush Yadav</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Aniket Bihana</td>
-                <td class="s1">6</td>
+                <td className="s1">Aniket Bihana</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Rajeev Sharma</td>
-                <td class="s1">6</td>
+                <td className="s1">Rajeev Sharma</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Naman Saini</td>
-                <td class="s1">6</td>
+                <td className="s1">Naman Saini</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Hitesh Chauhan</td>
-                <td class="s1">6</td>
+                <td className="s1">Hitesh Chauhan</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Mohd Saifullah</td>
-                <td class="s1">6</td>
+                <td className="s1">Mohd Saifullah</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Mehak Yadav</td>
-                <td class="s1">6</td>
+                <td className="s1">Mehak Yadav</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Garima Aswathi</td>
-                <td class="s1">6</td>
+                <td className="s1">Garima Aswathi</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Himanshi Sharma</td>
-                <td class="s1">6</td>
+                <td className="s1">Himanshi Sharma</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Jagdish Gupta</td>
-                <td class="s1">6</td>
+                <td className="s1">Jagdish Gupta</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1">Dhanender Kumar</td>
-                <td class="s1">6</td>
+                <td className="s1">Dhanender Kumar</td>
+                <td className="s1">6</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">Hoping Minds</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">Hoping Minds</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s7"><a target="_blank" href="mailto:arzoodlal500@gmail.com">Arzoo Dalal</a></td>
-                <td class="s1">4</td>
+                <td className="s7"><a target="_blank" href="mailto:arzoodlal500@gmail.com">Arzoo Dalal</a></td>
+                <td className="s1">4</td>
             </tr>
             <tr>
-                <td class="s7"><a target="_blank" href="mailto:zx.rishabh0@gmail.com">Rishabh Singh</a></td>
-                <td class="s1"></td>
+                <td className="s7"><a target="_blank" href="mailto:zx.rishabh0@gmail.com">Rishabh Singh</a></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">Iron Network Pvt. Ltd.</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">Iron Network Pvt. Ltd.</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s1">Purva Madaan</td>
-                <td class="s1">3</td>
+                <td className="s1">Purva Madaan</td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">Planet Spark Pvt. Ltd.</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">Planet Spark Pvt. Ltd.</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s8">Arzoo Dalal</td>
-                <td class="s1">6.5</td>
+                <td className="s8">Arzoo Dalal</td>
+                <td className="s1">6.5</td>
             </tr>
             <tr>
-                <td class="s8">Raghav Gupta</td>
-                <td class="s1">6.5</td>
+                <td className="s8">Raghav Gupta</td>
+                <td className="s1">6.5</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">High-Tech Next</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">High-Tech Next</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s1"> Devwart </td>
-                <td class="s1">3</td>
+                <td className="s1"> Devwart </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Yogesh </td>
-                <td class="s1">3</td>
+                <td className="s1">Yogesh </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Rohit dagar </td>
-                <td class="s1">3</td>
+                <td className="s1">Rohit dagar </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Siddharth Sachdeva </td>
-                <td class="s1">3</td>
+                <td className="s1">Siddharth Sachdeva </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Vikas </td>
-                <td class="s1">3</td>
+                <td className="s1">Vikas </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Ayush Kadyan </td>
-                <td class="s1">3</td>
+                <td className="s1">Ayush Kadyan </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Shubham Parvat</td>
-                <td class="s1">3</td>
+                <td className="s1">Shubham Parvat</td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Chandan </td>
-                <td class="s1">3</td>
+                <td className="s1">Chandan </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Arnav Sharma </td>
-                <td class="s1">3</td>
+                <td className="s1">Arnav Sharma </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Ankit Thakur </td>
-                <td class="s1">3</td>
+                <td className="s1">Ankit Thakur </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Naresh Kumar </td>
-                <td class="s1">3</td>
+                <td className="s1">Naresh Kumar </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Jitender </td>
-                <td class="s1">3</td>
+                <td className="s1">Jitender </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Arzoo dalal </td>
-                <td class="s1">3</td>
+                <td className="s1">Arzoo dalal </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">MAMTA </td>
-                <td class="s1">3</td>
+                <td className="s1">MAMTA </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">himanshu </td>
-                <td class="s1">3</td>
+                <td className="s1">himanshu </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1"> mansavi </td>
-                <td class="s1">3</td>
+                <td className="s1"> mansavi </td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">BEL</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">BEL</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s1">Aniket Bihana</td>
-                <td class="s1">11.4</td>
+                <td className="s1">Aniket Bihana</td>
+                <td className="s1">11.4</td>
             </tr>
             <tr>
-                <td class="s1">Varun Ahuja</td>
-                <td class="s1">11.4</td>
+                <td className="s1">Varun Ahuja</td>
+                <td className="s1">11.4</td>
             </tr>
             <tr>
-                <td class="s1">Manuj</td>
-                <td class="s1">11.4</td>
+                <td className="s1">Manuj</td>
+                <td className="s1">11.4</td>
             </tr>
             <tr>
-                <td class="s1">Dhruv Sahu</td>
-                <td class="s1">11.4</td>
+                <td className="s1">Dhruv Sahu</td>
+                <td className="s1">11.4</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">ABACA</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">ABACA</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s9">Aryan</td>
-                <td class="s1">3.5</td>
+                <td className="s9">Aryan</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s9">Himanshi</td>
-                <td class="s1">3.5</td>
+                <td className="s9">Himanshi</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s9">Arun</td>
-                <td class="s1">3.5</td>
+                <td className="s9">Arun</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s9">Harshita</td>
-                <td class="s1">3.5</td>
+                <td className="s9">Harshita</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s9">Sahil</td>
-                <td class="s1">3.5</td>
+                <td className="s9">Sahil</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s9">Sheena</td>
-                <td class="s1">3.5</td>
+                <td className="s9">Sheena</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s9">Dhun</td>
-                <td class="s1">3.5</td>
+                <td className="s9">Dhun</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s9">Suraj</td>
-                <td class="s1">3.5</td>
+                <td className="s9">Suraj</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s9">Simirti</td>
-                <td class="s1">3.5</td>
+                <td className="s9">Simirti</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s9">Parvesh</td>
-                <td class="s1">3.5</td>
+                <td className="s9">Parvesh</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s9">Vipul</td>
-                <td class="s1">3.5</td>
+                <td className="s9">Vipul</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s9"> Hunar</td>
-                <td class="s1">3.5</td>
+                <td className="s9"> Hunar</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s10"></td>
-                <td class="s1"></td>
+                <td className="s10"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">Sonalika Pvt. Ltd.</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">Sonalika Pvt. Ltd.</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s1">Dhun Bhatla</td>
-                <td class="s1">6.5</td>
+                <td className="s1">Dhun Bhatla</td>
+                <td className="s1">6.5</td>
             </tr>
             <tr>
-                <td class="s1">Harsh Khatri</td>
-                <td class="s1">6.5</td>
+                <td className="s1">Harsh Khatri</td>
+                <td className="s1">6.5</td>
             </tr>
             <tr>
-                <td class="s9"></td>
-                <td class="s1"></td>
+                <td className="s9"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">LTIMindtree</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">LTIMindtree</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s11">Gaurav .</td>
-                <td class="s1"></td>
+                <td className="s11">Gaurav .</td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s11">Himanshu Sinha</td>
-                <td class="s1"></td>
+                <td className="s11">Himanshu Sinha</td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s11">Akshay Vats</td>
-                <td class="s1"></td>
+                <td className="s11">Akshay Vats</td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s11">Manish Kumar</td>
-                <td class="s1"></td>
+                <td className="s11">Manish Kumar</td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s11">Vansh Punia</td>
-                <td class="s1"></td>
+                <td className="s11">Vansh Punia</td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s11">Ishan Bathla</td>
-                <td class="s1"></td>
+                <td className="s11">Ishan Bathla</td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s11">Naman Na</td>
-                <td class="s1"></td>
+                <td className="s11">Naman Na</td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">Cognizant</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">Cognizant</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s1">Nishu Kumari</td>
-                <td class="s1">4.5</td>
+                <td className="s1">Nishu Kumari</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s1">Deepanshu </td>
-                <td class="s1">4.5</td>
+                <td className="s1">Deepanshu </td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s1">Mayank Nain</td>
-                <td class="s1">4.5</td>
+                <td className="s1">Mayank Nain</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s1">Ishan Bathla</td>
-                <td class="s1">4.5</td>
+                <td className="s1">Ishan Bathla</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s1">Harshita</td>
-                <td class="s1">4.5</td>
+                <td className="s1">Harshita</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s1">AKSHAY VATS</td>
-                <td class="s1">4.5</td>
+                <td className="s1">AKSHAY VATS</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s1">Ishan Garg</td>
-                <td class="s1">4.5</td>
+                <td className="s1">Ishan Garg</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s1">Arun Kumar</td>
-                <td class="s1">4.5</td>
+                <td className="s1">Arun Kumar</td>
+                <td className="s1">4.5</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s2">MTAS</td>
-                <td class="s2"></td>
+                <td className="s2">MTAS</td>
+                <td className="s2"></td>
             </tr>
             <tr>
-                <td class="s1">Jagriti</td>
-                <td class="s1">3</td>
+                <td className="s1">Jagriti</td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Aditya&nbsp;</td>
-                <td class="s1">3</td>
+                <td className="s1">Aditya&nbsp;</td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Yayaati</td>
-                <td class="s1">3</td>
+                <td className="s1">Yayaati</td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1">Arun Kumar&nbsp;</td>
-                <td class="s1">3</td>
+                <td className="s1">Arun Kumar&nbsp;</td>
+                <td className="s1">3</td>
             </tr>
             <tr>
-                <td class="s1"></td>
-                <td class="s1"></td>
+                <td className="s1"></td>
+                <td className="s1"></td>
             </tr>
             <tr>
-                <td class="s12"></td>
-                <td class="s12"></td>
+                <td className="s12"></td>
+                <td className="s12"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">AIVION LTD</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">AIVION LTD</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s1">Himanshu Sinha</td>
-                <td class="s1">3.5</td>
+                <td className="s1">Himanshu Sinha</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s1">Ishan Garg</td>
-                <td class="s1">3.5</td>
+                <td className="s1">Ishan Garg</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s1">Rishabh Singh</td>
-                <td class="s1">3.5</td>
+                <td className="s1">Rishabh Singh</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s1">Neeru</td>
-                <td class="s1">3.5</td>
+                <td className="s1">Neeru</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s1">Nakshatra Arora</td>
-                <td class="s1">3.5</td>
+                <td className="s1">Nakshatra Arora</td>
+                <td className="s1">3.5</td>
             </tr>
             <tr>
-                <td class="s12"></td>
-                <td class="s12"></td>
+                <td className="s12"></td>
+                <td className="s12"></td>
             </tr>
             <tr>
-                <td class="s2 bg-primary text-white">Panacea Biotec Pvt. Ltd.</td>
-                <td class="s2 bg-primary text-white"></td>
+                <td className="s2 bg-primary text-white">Panacea Biotec Pvt. Ltd.</td>
+                <td className="s2 bg-primary text-white"></td>
             </tr>
             <tr>
-                <td class="s13">Prachi Sharma&nbsp;</td>
-                <td class="s1">4</td>
+                <td className="s13">Prachi Sharma&nbsp;</td>
+                <td className="s1">4</td>
             </tr>
             <tr>
-                <td class="s13">Arzoo</td>
-                <td class="s1">4</td>
+                <td className="s13">Arzoo</td>
+                <td className="s1">4</td>
             </tr>
             <tr>
-                <td class="s13">Rakshit</td>
-                <td class="s1">4</td>
+                <td className="s13">Rakshit</td>
+                <td className="s1">4</td>
             </tr>
             <tr>
-                <td class="s13">Juhi</td>
-                <td class="s1">4</td>
+                <td className="s13">Juhi</td>
+                <td className="s1">4</td>
             </tr>
                               </tbody>
                             </table>
