@@ -32,25 +32,25 @@ const Header = () => {
                 <div className="top-right list">
                   <ul>
                     <li>
-                      <Link href="/mrcn-2023">MRCN 2023</Link>
+                      <Link href="#">MRCN 2023</Link>
                     </li>
                     <li>
-                      <Link href="/mrcn-2024">MRCN 2024</Link>
+                      <Link href="#">MRCN 2024</Link>
                     </li>
                     <li>
-                      <Link href="/mrcn-2025">MRCN 2025</Link>
+                      <Link href="#">MRCN 2025</Link>
                     </li>
                     <li>
-                      <Link href="/feedback">Feedback</Link>
+                      <Link href="#">Feedback</Link>
                     </li>
                     <li>
-                      <Link href="/contact-us">Contact Us</Link>
+                      <Link href="#">Contact Us</Link>
                     </li>
                     <li>
-                      <Link href="/iic-startup">IIC/Startup </Link>
+                      <Link href="#">IIC/Startup </Link>
                     </li>
                     <li>
-                      <Link href="/tp-cell">T&P Cell</Link>
+                      <Link href="/training-placement-cell">T&P Cell</Link>
                     </li>
                   </ul>
                 </div>

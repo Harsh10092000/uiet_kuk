@@ -1089,6 +1089,34 @@ section.placement-block ul.nav.nav-pills {
     overflow-y: scroll;
 }
 
+section.placement-block .nav-pills .nav-link { 
+    padding: 10px 36px;
+    border-radius: 100px;
+}
+section.placement-block .nav-pills li a {
+    background: #ffffff;
+    box-shadow: 0px 0px 7px #ccc;
+    margin-right: 10px;
+    color: #000;
+}
+.year-wise-graph h2{
+    position: relative;
+    text-align: center;
+}
+.recruiters-section h2{
+    position: relative;
+}
+.year-wise-graph h2:before, .recruiters-section h2:before {
+    content: "";
+    background-color: #a20b0b;
+    width: 160px;
+    height: 2px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    right: 0;
+}
 /* responsive-start */
 
 

@@ -24,7 +24,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className="placement-block">
+      <section className="placement-block" id="placements">
         <div className="container-fluid">
           <ul className="nav nav-pills">
             <li className="nav-item">
@@ -75,11 +75,12 @@ const page = () => {
 
           <div className="tab-content mt-5">
             <div className="tab-pane  active" id="y2018">
-              <div className="main-tittle">
+            
+              <div className="graph-content shadow-lg p-3 bg-white rounded ">
+                  <div className="main-tittle">
                 <h2>Placements for the year 2018</h2>
               </div>
-              <div className="graph-content shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-                <h3>Firm v/s Package (LPA)</h3>
+                <span className="badge bg-primary">Firm v/s Package (LPA)</span>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="graph-year-wise">
@@ -2511,10 +2512,11 @@ const page = () => {
             </div>
 
             <div className="tab-pane fade" id="y2021">
-              <div className="main-tittle">
+             
+              <div className="graph-content shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                 <div className="main-tittle">
                 <h2>Placements for the year 2021</h2>
               </div>
-              <div className="graph-content shadow-lg p-3 mb-5 bg-body-tertiary rounded">
                 <h3>Firm v/s Package (LPA)</h3>
                 <div className="row">
                   <div className="col-md-6">
@@ -7420,6 +7422,36 @@ const page = () => {
           </div>
         </div>
       </section>
+
+
+      <section className="year-wise-graph text-center pb-5" id="yearwise-graph">
+        <div className="container">
+          <h2>Our Yearwise Graph</h2>
+          <div className="graph-year-wise">
+             <img src="/graph/YearwiseAveragePackageGraph.png" alt="" className="img-fluid"/>
+          </div>
+        </div>
+      </section>
+
+
+    
+
+
+      <section class="recruiters-section">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Our Partners</h2>
+
+    <div class="row text-center">
+      <div className="col-md-12">
+        <div className="uiet-patners">
+          <img src="/patners/UIET_Partners.png" alt="luiet-logo" className="img-fluid" />
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
     </div>
   );
 };
