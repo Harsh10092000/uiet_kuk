@@ -14,10 +14,10 @@ const page = () => {
               develop as a "Centre of Excellence" and offer quality technical
               education and to undertake research in Engineering & Technology.
             </p>
-            <a href="#" className="btn-red btn btn-lg me-3">
+            <a href="#placements" className="btn-red btn btn-lg me-3">
               Placements
             </a>
-            <a href="#" className="btn-red btn btn-lg">
+            <a href="#uiet-patners" className="btn-red btn btn-lg">
               Our Partners
             </a>
           </div>
@@ -7437,7 +7437,7 @@ const page = () => {
     
 
 
-      <section class="recruiters-section">
+      <section class="recruiters-section" id="uiet-patners">
   <div class="container">
     <h2 class="text-center mb-5 fw-bold">Our Partners</h2>
 

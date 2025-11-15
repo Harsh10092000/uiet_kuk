@@ -1117,6 +1117,12 @@ section.placement-block .nav-pills li a {
     left: 0;
     right: 0;
 }
+.contact-details ul {
+    padding-left: 0;
+}
+.contact-details ul li {
+    margin-bottom: 8px;
+}
 /* responsive-start */
 
 
