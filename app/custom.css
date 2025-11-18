@@ -831,6 +831,10 @@ section.banner:before {
     margin-bottom: 0;
 }
 
+.nav-tabs li {
+    padding-right: 10px;
+}
+
 .programme-card-body p {
     font-size: 12px;
      margin-bottom: 0;

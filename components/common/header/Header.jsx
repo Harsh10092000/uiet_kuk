@@ -147,7 +147,7 @@ const Header = () => {
         
           
             <li><Link href="/examination"> Exam </Link></li>
-            <li><Link href="#"> Admission</Link></li>
+            <li><Link href="/admission"> Admission</Link></li>
      
             <li className="dropdown">
               <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Academic</Link>            
