@@ -75,7 +75,7 @@ const Header = () => {
                   <li><Link href="#placements">Placements</Link></li>
                   <li><Link href="#yearwise-graph">Yearwise Graph</Link></li>
                   <li><Link href="#uiet-patners">Our Partners</Link></li>
-                  <li><Link href="/gallery">Gallery</Link></li>
+                  <li><Link href="/gagallery-placement">Gallery</Link></li>
                   <li><Link href="/our-team"> Our Team</Link></li>
                   <li><Link href="StudentCoordinators.pdf">Student Coordinators</Link></li>
                 </ul>

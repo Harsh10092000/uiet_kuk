@@ -29,7 +29,10 @@ const page = () => {
                                             Haryana 136119</li>
                                             <li><strong>Email:</strong> <a href="mailto:director.uiet@kuk.ac.in">director.uiet@kuk.ac.in</a></li>
                                             <li><strong>Phone no:</strong> <a href="tel:01744-239155">01744-239155</a></li>
+
+                                            
                         </ul>
+                        <div class="socail-link"><a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"><i class="fa-brands fa-x-twitter"></i></a><a href="#"><i class="fa-solid fa-location-dot"></i></a></div>
                     </div>
                 </div>
                 <div className="col-md-6">

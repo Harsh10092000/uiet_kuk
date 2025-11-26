@@ -44,10 +44,10 @@ const Header = () => {
                       <Link href="#">Feedback</Link>
                     </li>
                     <li>
-                      <Link href="#">Contact Us</Link>
+                      <Link href="/contact-us">Contact Us</Link>
                     </li>
                     <li>
-                      <Link href="#">IIC/Startup </Link>
+                      <Link href="/iic">IIC/Startup </Link>
                     </li>
                     <li>
                       <Link href="/training-placement-cell">T&P Cell</Link>

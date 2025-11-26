@@ -6,6 +6,7 @@ import { Navigation, Pagination, Autoplay, Scrollbar } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import TeacherCard from "@/components/common/teacherCard/TeacherCard";
 
 const FacultySlider = ({ facultyData = [], viewAllLink = "#" }) => {
   return (
@@ -31,20 +32,7 @@ const FacultySlider = ({ facultyData = [], viewAllLink = "#" }) => {
       >
         {facultyData.map((faculty, index) => (
           <SwiperSlide key={index}>
-            <div className="card border-0 h-100">
-              <img src={faculty.image} alt={faculty.name} className="img-fluid" />
-              <div className="card-body border card-info">
-                <h5 className="card-title text-dark">{faculty.name}</h5>
-                <div className="info-text">
-                  <p className="card-text text-secondary">{faculty.designation}</p>
-                  {faculty.link && (
-                    <Link href={faculty.link}>
-                      <i className="fa-solid fa-arrow-right-to-bracket"></i>
-                    </Link>
-                  )}
-                </div>
-              </div>
-            </div>
+           <TeacherCard faculty={faculty} />
           </SwiperSlide>
         ))}
       </Swiper>

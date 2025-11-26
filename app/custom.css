@@ -97,9 +97,13 @@ nav ul li a:hover{
 ul.dropdown-menu{
     padding-left: 10px;
 }
-ul.dropdown-menu li{
+ul.dropdown-menu li {
     width: 100%;
-    line-height:40px;
+    line-height: 37px;
+    border-bottom: 1px solid #ccc;
+}
+ul.dropdown-menu li:last-child {
+    border-bottom: none;
 }
 .dropdown-menu.show {
     display: block;
@@ -107,12 +111,13 @@ ul.dropdown-menu li{
 }
 ul.dropdown-menu li a {
     color: #09143f;
-    font-size: 16px;
+    font-size: 16px !important;
+    font-weight: 400;
 }
 
 .dropdown-menu.show {
     display: block;
-    min-width:310px;
+    min-width:420px;
 }
 
 /* notification */
@@ -606,6 +611,7 @@ ul.breadcrumb {
 .nav-inner ul li{
     display: inline-block;
     margin-right: 20px;
+        padding-left: 9px;
 }
 .nav-inner ul li a{
     color: #000;
@@ -1127,6 +1133,66 @@ section.placement-block .nav-pills li a {
 .contact-details ul li {
     margin-bottom: 8px;
 }
+
+.contact-details .socail-link{
+ 
+    text-align: left;
+ 
+}
+ 
+.contact-details .socail-link a {
+ 
+    color: #8e0000;
+ 
+}
+
+
+.process-wrapper {
+    gap: 20px;
+}
+
+.process-step {
+    width: 170px;
+}
+
+.process-icon {
+    font-size: 45px;
+    color: #000;
+}
+
+.step-number {
+    background: #f7f7f7; 
+    border-radius: 50%;
+    padding: 8px 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 8px;
+    left: 11px;   
+    margin: 0 auto;
+}
+
+
+
+.process-step {
+    border: 1px solid #ccc;
+    padding: 20px 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.iic-notification{
+        min-height: 550px;
+}
+
+.payment-guideline {
+    margin-top: 20px;
+}
+.payment-guideline ul li {
+    font-size: 16px;
+    line-height: 30px;
+    list-style: square;
+    color: #726f6f;
+}
 /* responsive-start */
 
 
@@ -1344,3 +1410,4 @@ h2.section-title{
 }
 
 }
+
