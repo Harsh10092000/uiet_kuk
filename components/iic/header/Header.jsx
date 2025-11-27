@@ -41,16 +41,16 @@ const Header = () => {
                       <Link href="#">MRCN 2025</Link>
                     </li>
                     <li>
-                      <Link href="#">Feedback</Link>
+                      <Link href="feedback">Feedback</Link>
                     </li>
                     <li>
-                      <Link href="#">Contact Us</Link>
+                      <Link href="contact-us">Contact Us</Link>
                     </li>
                     <li>
-                      <Link href="#">IIC/Startup </Link>
+                      <Link href="iic">IIC/Startup </Link>
                     </li>
                     <li>
-                      <Link href="#">T&P Cell</Link>
+                      <Link href="training-placement-cell">T&P Cell</Link>
                     </li>
                   </ul>
                 </div>

@@ -288,7 +288,7 @@ const page = () => {
 
 
 
-       <section className="our-team pt-5 pb-5">
+       <section className="our-team pt-5 pb-5" id="our-team">
         <div className="container">
           <div className="main-title text-center mb-5"><h2><span className="red d-block">Our team</span>Teacher coordinators</h2></div>
            <div className="row">

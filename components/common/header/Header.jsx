@@ -134,7 +134,7 @@ const Header = () => {
               <li className="dropdown">
               <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Important Link</Link>            
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><Link href="#">LMS/IUMS</Link></li>
+                {/* <li><Link href="#">LMS/IUMS</Link></li> */}
                 <li><Link href="/teqip">TEQIP-III</Link></li>
                   <li><Link href="/feedback">Feedback / Grievance / Suggestion</Link></li>
                   <li><Link href="#">NIRF</Link></li> 
@@ -143,10 +143,22 @@ const Header = () => {
               </ul>            
             </li>
             
+            <li className="dropdown">
+              <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Examination</Link>            
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><Link href="https://iums.kuk.ac.in" target="_blank">LMS/IUMS</Link></li>
+                <li><Link href="/examination"> Exam Notices</Link></li>
+                <li><Link href="#"> Syllabus</Link></li>
+                <li><Link href="#"> Date Sheet </Link></li>
+                <li><Link href="#"> Results </Link></li>
+                <li><Link href="#"> Syllabus</Link></li>
+              
+              </ul>            
+            </li>
          
         
           
-            <li><Link href="/examination"> Exam </Link></li>
+            <li><Link href="/online-fee"> Online Fee</Link></li>
             <li><Link href="/admission"> Admission</Link></li>
      
             <li className="dropdown">
@@ -156,21 +168,21 @@ const Header = () => {
                 <li><Link href="#">Program Offered & Intake</Link></li>
                   <li><Link href="#">R&D Activities</Link></li>                        
                 
-              </ul>            
+              </ul>              
             </li>
 
              <li className="dropdown">
               <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Download</a>            
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><Link href="#">General & Ph.D. Syllabus</Link></li>
-                <li><Link href="#">Syllabus B.Tech & M.Tech</Link></li>
-                <li><Link href="#">Time-Table B.Tech & M.Tech.</Link></li> 
+                <li><Link href="#">Time Table</Link></li>
+                <li><Link href="#">Notifications</Link></li>
                 <li><Link href="#">Reports</Link></li> 
                 <li><Link href="#">Aicte Reports</Link></li> 
                 <li><Link href="#">Policies</Link></li> 
               </ul>            
             </li>
            
+            <li><Link href="/gallery"> Gallery</Link></li>
           </ul>
           </div>
         </nav>
