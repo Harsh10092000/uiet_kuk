@@ -158,7 +158,7 @@ const Header = () => {
          
         
           
-            <li><Link href="/online-fee"> Online Fee</Link></li>
+           
             <li><Link href="/admission"> Admission</Link></li>
      
             <li className="dropdown">
@@ -167,7 +167,8 @@ const Header = () => {
                 <li><Link href="#">Emerging Areas in B.Tech</Link></li>
                 <li><Link href="#">Program Offered & Intake</Link></li>
                   <li><Link href="#">R&D Activities</Link></li>                        
-                
+                  <li><Link href="/online-fee"> Online Fee</Link></li>
+                  <li><Link href="/gallery"> Gallery</Link></li>
               </ul>              
             </li>
 
@@ -182,7 +183,7 @@ const Header = () => {
               </ul>            
             </li>
            
-            <li><Link href="/gallery"> Gallery</Link></li>
+            
           </ul>
           </div>
         </nav>
