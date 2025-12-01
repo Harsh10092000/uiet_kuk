@@ -29,16 +29,16 @@ const SubHeader = () => {
                 <div className="top-right list">
                   <ul>
                     <li>
-                      <Link href="#">MRCN 2023</Link>
+                      <Link href="/mrcn-2023">MRCN 2023</Link>
                     </li>
                     <li>
-                      <Link href="#">MRCN 2024</Link>
+                      <Link href="/mrcn-2024">MRCN 2024</Link>
                     </li>
                     <li>
-                      <Link href="#">MRCN 2025</Link>
+                      <Link href="/mrcn-2025">MRCN 2025</Link>
                     </li>
                     <li>
-                      <Link href="#">Feedback</Link>
+                      <Link href="/feedback">Feedback</Link>
                     </li>
                     <li>
                       <Link href="/contact-us">Contact Us</Link>

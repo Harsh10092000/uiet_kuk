@@ -36,7 +36,7 @@ const Header = () => {
                    </li>
                   <li><Link href="https://ecelluietkuk.vercel.app/">Ecell-UIET</Link></li>                  
                   <li><Link href="#incubation-process">Incubation Process</Link></li>
-                  <li><Link href="#"> Our Team</Link></li>                
+                  <li><Link href="#our-team"> Our Team</Link></li>                
                 </ul>
                </div>
               </div>
