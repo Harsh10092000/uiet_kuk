@@ -6,50 +6,32 @@ const Header = () => {
   return (
     <div>
       <header>
-      <SubHeader />
-
-        <div className="main-header mt-3">
+       
+<SubHeader />
+        <div className="main-header placement-header mt-3">
           <div className="container">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-4">
                 <div className="logo inner-logo">
-                   <Link href="/" className="desktop-logo"><img src="/logo.png" alt="logo" className=" img-fluid" /></Link>
-                  <h4>Computer Science & Engg. Department<span className="red">Kurukshetra University(UIET), Kurukshetra</span></h4>
+                   <Link href="/" ><img src="/logo.png" alt="logo" className=" img-fluid" /></Link>                 
                 </div>
               </div>
-              <div className="col-md-6">
-               <div className="nav-inner">
-                <ul>
-                  <li className="dropdown">
-                    <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">People</Link>            
-                      <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><Link href="/faculty-of-computer-science-engineering">Faculty</Link></li>
-                        {/* <li><Link href="#">Staff</Link></li> */}
-                        <li><Link href="#">Research Scholars</Link></li>                      
-                      </ul>            
-                   </li>
-                    <li className="dropdown">
-                    <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Programs</Link>            
-                      <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><Link href="#">Doctoral</Link></li>
-                        <li><Link href="#">Post Graduate</Link></li>
-                        <li><Link href="#">Under Graduate</Link></li>                      
-                      </ul>            
-                   </li>
-                    <li className="dropdown">
-                    <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Important Links</a>            
-                      <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><Link href="/industry-partner.jpg">Industry Partner </Link></li>
-                        <li><Link href="doc/cse/CSE PO-PSO.docx">PO's and PSO's </Link></li>
-                        <li><Link href="doc/cse/cse-research-expertise.docx">Research Expertise</Link></li> 
-                                          
-                      </ul>            
-                   </li>
-                  
-                  <li><Link href="#"></Link></li>
-                  <li><Link href="#">Contact</Link></li>
+              <div className="col-md-4">
+               <div className="nav-inner d-flex align-items-center mt-5">
+                <ul>                
+                  <li><Link href="/">Home</Link></li>               
+
+                  <li><Link href="#"> Special Sessions</Link></li>
+                  <li><Link href="#h">Travel and Visa</Link></li>
+                 
                 </ul>
                </div>
+              </div>
+              <div className="col-md-4">
+                 <div className=" springer-logo">
+                   <Link href="/"><img src="/springer_logo.png" alt="logo" className=" img-fluid" /></Link>
+                 
+                </div>
               </div>
             
             </div>
@@ -140,6 +122,7 @@ const Header = () => {
            
           </ul>
           </div>
+          // old header
         </nav> */}
       </header>
     </div>

@@ -21,7 +21,7 @@ const page = () => {
         <div class="container">
             
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-12"> 
               <form className="w-50 p-4 p-md-5 border rounded-3 bg-light mx-auto">
               
                 <div className="row">

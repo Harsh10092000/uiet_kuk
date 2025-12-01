@@ -1,3 +1,4 @@
+import SubHeader from "@/components/common/subHeader/SubHeader";
 import Link from "next/link";
 import React from "react";
 
@@ -5,59 +6,7 @@ const Header = () => {
   return (
     <div>
       <header>
-        <div className="topbar">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-md-4">
-                <div className="top-left list">
-                  <ul>
-                    <li>
-                      <span>
-                        <i className="fa-solid fa-phone"></i>
-                      </span>
-                      <a target="_blank" href="tel:01744239155">01744-239155</a>
-                    </li>
-                    <li>
-                      <span>
-                        <i className="fa-solid fa-envelope"></i>
-                      </span>
-                      <a href="mailto:director.uiet@kuk.ac.in">
-                        director.uiet@kuk.ac.in
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-md-8">
-                <div className="top-right list">
-                  <ul>
-                    <li>
-                      <Link href="#">MRCN 2023</Link>
-                    </li>
-                    <li>
-                      <Link href="#">MRCN 2024</Link>
-                    </li>
-                    <li>
-                      <Link href="#">MRCN 2025</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Feedback</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Contact Us</Link>
-                    </li>
-                    <li>
-                      <Link href="#">IIC/Startup </Link>
-                    </li>
-                    <li>
-                      <Link href="#">T&P Cell</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <SubHeader />
 
         <div className="main-header placement-header mt-3">
           <div className="container-fluid">

@@ -730,6 +730,7 @@ section.banner:before {
     background: url(/slide-3.jpg);
 }
 
+
 .banner-content {
     position: relative;
     z-index: 2;
@@ -1193,6 +1194,43 @@ section.placement-block .nav-pills li a {
     list-style: square;
     color: #726f6f;
 }
+
+.banner-content h3 {
+    color: #fff !important;
+}
+.content-panel ul{
+    padding-left: 20px;
+}
+.content-panel ul li {
+    list-style: disc;
+    line-height: 28px;
+    font-size: 16px !important;
+    color: #1b1a1a !important;
+    font-family: var(--font-family-Poppins);
+    margin-bottom: 11px;
+}
+
+.date {
+    background-color: #a20b0bad;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 100px;
+    font-weight: 700;
+}
+.call-papers .content-panel {
+    min-height: 330px;
+}
+
+.network-bg{
+ background: url(/5G-network.jpg);  
+ height: 80vh !important; 
+}
+.springer-logo {
+    text-align: right;
+}
+
 /* responsive-start */
 
 
