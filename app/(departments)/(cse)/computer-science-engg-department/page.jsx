@@ -68,20 +68,10 @@ const page = () => {
                     About <span className="red">Us</span>
                   </h3>
                   <p>
-                    The Department of Computer Science & Engineering was
-                    established in the year 2004. The Department started with an
-                    intake of 60 in B. Tech. degree programme & 20 in M. Tech.
-                    (Software Engineering). In view of the increasing importance
-                    of the Computer Engineering discipline, the intake of the
-                    department was increased to 120 in 2007. The department is
-                    proud to have a record of almost 100% placement of all
-                    eligible students for last 05 years. The new B.Tech Course
-                    Computer Science & Engineering (Artificial Intelligence &
-                    Machine Learning) has also started from the year 2023-24
-                    with the intake of 60 students.
+                  The Department of Computer Science & Engineering was established in 2004 with an initial intake of 60 students in B.Tech. and 20 in M.Tech. (Software Engineering). In 2007, the B.Tech. intake was increased to 120, reflecting the growing demand for computer engineering. The department has maintained a near 100% placement record for eligible students over the past five years. To align with emerging technologies, a new B.Tech. program in Computer Science & Engineering (Artificial Intelligence & Machine Learning) was launched in 2023–24 with an intake of 60 students. The department also offers an M.Tech. in Computer Engineering with 18 seats and a Ph.D. program started in 2013, with several doctoral degrees awarded and many in progress.
                   </p>
 
-                  <p>
+                  {/* <p>
                     The department also offers M. Tech. Program in Computer
                     Engineering with an intake of 18 students. Department
                     started Ph.D. program in 2013. More than 10 Ph.D.'s are in
@@ -120,13 +110,29 @@ const page = () => {
                     time to time enables the students to keep abreast of recent
                     technological developments. Flexibility in curriculum is
                     provided through Electives Seminars and Projects.
-                  </p>
+                  </p> */}
 
                   <h3 className="mb-3 mt-5">
-                    DEPARTMENT <span className="red">VISION AND MISSION</span>
+                  Faculty   <span className="red">Incharge speaks</span>
                   </h3>
 
-                  <h5>
+
+                  <p>
+                    The department has a team of highly qualified and dedicated
+                    faculty who foster analytical thinking, creativity, and
+                    ethical professionalism among students. Faculty expertise
+                    includes Artificial Intelligence, Data Science, Big Data
+                    Analytics, Software Engineering, Computer Networks, Wireless
+                    Sensor Networks, and Mobile Ad Hoc Networks. Students are
+                    trained in state-of-the-art laboratories equipped with GPUs,
+                    Blade Servers, Thin Clients, and Workstations from leading
+                    brands. With a flexible and research-oriented curriculum,
+                    incorporating electives, seminars, and projects, the
+                    department is committed to promoting innovation, excellence,
+                    and leadership in computer science education and research.
+                  </p>
+
+                  {/* <h5>
                     <span className="red">VISION</span>
                   </h5>
                   <p>
@@ -152,7 +158,7 @@ const page = () => {
                     learning continuance and problem solving proficiency that
                     may promote nations welfare in terms of economic
                     acceleration leading to the growth of society.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
