@@ -36,14 +36,14 @@ const BulletinWrapper = async () => {
     taglineColClass="col-md-2"
     tickerColClass="col-md-10"
     />
-    <BulletinTicker
-        
-        tagline="Admissions 2025-26"
-        items={bulletin2Data}
-        sectionClass="Bulletin admission-notifaction"
-        taglineColClass="col-md-3"
-        tickerColClass="col-md-9"
-      />
+      <BulletinTicker
+          
+          tagline="Admissions 2025-26"
+          items={bulletin2Data}
+          sectionClass="Bulletin admission-notifaction"
+          taglineColClass="col-md-3"
+          tickerColClass="col-md-9"
+        />
     </>
   )
 }

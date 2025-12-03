@@ -1,11 +1,8 @@
-"use client";
-import CourseCard from "@/components/addmissionForm/CoursesCard/CoursesCard";
-import CourseTab from "@/components/addmissionForm/CourseTab/CourseTab";
 import React from "react";
-import { useState } from "react";
+import AdmissionBulletin from "@/components/admissionBulletin/AdmissionBulletin";
+import FeaturedProgrammes from "@/components/admission/FeaturedProgrammes";
+
 const page = () => {
-  const [parentTab, setParentTab] = useState("1");
-  const [childTab, setChildTab] = useState("1");
 
   const btech_coursese = [
     {
@@ -163,9 +160,119 @@ const page = () => {
     },
   ];
 
-  const handleChildTab = (val) => {
-    setChildTab(val);
-  };
+  const uietClubs = [
+    {
+      id: "1",
+      title: "Fine Arts Club",
+      desc: "The club will inculcate and promote activities related to art and photography in the institute. It also undertakes decoration and photography responsibilities for events organized in UIET.",
+      img: "/fine-art.jpg",
+      img_alt: "Fine Arts Club",
+    },
+    {
+      id: "2",
+      title: "Dance Music and Drama Club",
+      desc: "This club plays an important role in organizing cultural events in UIET. It helps students showcase their talent in music, dance, and drama while contributing to institute-level cultural programs.",
+      img: "/dance-drama-club.jpg",
+      img_alt: "Dance Music and Drama Club",
+    },
+    {
+      id: "3",
+      title: "Literary Club",
+      desc: "The club will focus on the promotion of literature and literary activities in the institute. It also undertakes the responsibility of organizing literary events and competitions in the institute.",
+      img: "/literary-club.jpg",
+      img_alt: "Literary Club",
+    },
+    {
+      id: "4",
+      title: "Adventure Club",
+      desc: "The club will be in charge of sorting out Educational Tours, Industrial Visits, Trips, Excursions, and Adventure Activities.",
+      img: "/adventure-club.jpg",
+      img_alt: "Adventure Club",
+    },
+    {
+      id: "5",
+      title: "Audio & Video Club",
+      desc: "It will focus on the Sound and Light System Handling of UIET auditorium and upgradation when required. It also manages sound and lighting for university events organized by UIET.",
+      img: "/audio-video-club.jpg",
+      img_alt: "Audio & Video Club",
+    },
+    {
+      id: "6",
+      title: "Sports Club",
+      desc: "To organize indoor and outdoor sports activities.",
+      img: "/sport-club.jpg",
+      img_alt: "Sports Club",
+    },
+    {
+      id: "7",
+      title: "Yoga Club",
+      desc: "To organise meditation and Yoga activities for promoting physical and mental well-being among students and staff.",
+      img: "/yoga-club.jpg",
+      img_alt: "Yoga Club",
+    },
+    {
+      id: "8",
+      title: "Activity Club",
+      desc: "The objective is to coordinate various student-related activities such as farewells, freshers' events, and other community-building programmes.",
+      img: "/activite-club.jpg",
+      img_alt: "Activity Club",
+    },
+  ];
+
+  const placementInsights = [
+    {
+      name: "NISHU RAM",
+      details: "BEL, Package: 10.4 LPA, B.Tech Mechanical",
+    },
+    {
+      name: "ARTI",
+      details: "Federal Bank, Package: 13.0 LPA, B.Tech",
+    },
+    {
+      name: "SUNNY PANCHAL",
+      details: "BEL, Package: 10.4 LPA, B.Tech Mechanical",
+    },
+    {
+      name: "YASHIKA ATREJA",
+      details: "Hughes Systique, Package: 10.6 LPA, B.Tech CSE",
+    },
+    {
+      name: "SUNISH DAHIYA",
+      details: "Amazon, Package: 28 LPA, B.Tech CSE",
+    },
+    {
+      name: "TANUJ SHARMA",
+      details: "Maruti, GET Package: 10.34 LPA, B.Tech Mechanical",
+    },
+    {
+      name: "NAMAN MITTAL",
+      details: "Amazon, Package: 28 LPA, B.Tech CSE",
+    },
+    {
+      name: "JITESH YADAV",
+      details: "Maruti Suzuki, GET Package: 10.34 LPA, B.Tech Mechanical",
+    },
+    {
+      name: "SONALI SINGH",
+      details: "Info Edge, Package: —, B.Tech",
+    },
+    {
+      name: "BHUPESH",
+      details: "Federal Bank, Package: —",
+    },
+    {
+      name: "BHAVYAM KAPOOR",
+      details: "Maruti Suzuki, GET Package: 10.34 LPA, B.Tech Mechanical",
+    },
+    {
+      name: "PRANSHU PAREEK",
+      details: "Vitalic Health Pvt. Ltd., GET Package: 13.09 LPA, B.Tech",
+    },
+    {
+      name: "ABHINEET VERMA",
+      details: "JINDAL SOUTH WEST (JSW), Package: 6.5 LPA, B.Tech Mechanical",
+    },
+  ];
 
   return (
     <div>
@@ -188,7 +295,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className="Bulletin">
+      {/* <section className="Bulletin">
         <div className="container">
           <div className="bg-light-gray">
             <div className="row">
@@ -231,9 +338,9 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="Bulletin admission-notifaction">
+      {/* <section className="Bulletin admission-notifaction">
         <div className="container">
           <div className="bg-light-gray">
             <div className="row">
@@ -276,7 +383,9 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+<AdmissionBulletin />
 
       <div class="accreditation-section">
         <div class="container">
@@ -386,140 +495,11 @@ const page = () => {
         </div>
       </section> */}
 
-      <section class="featured-section">
-        <div class="container">
-          <h2 class="section-title ">Featured Programmes</h2>
-          <span className="underline d-block mt-2 mb-3 w-10"></span>
-          <ul class="nav nav-tabs mb-5" id="degreeTabs" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button
-                class="nav-link active"
-                id="bachelor-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#bachelor"
-                type="button"
-                role="tab"
-                onClick={() => setParentTab(1)}
-              >
-                Bachelor Degree
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button
-                class="nav-link"
-                id="master-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#master"
-                type="button"
-                role="tab"
-                onClick={() => setParentTab(2)}
-              >
-                Master Degree
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button
-                class="nav-link"
-                id="phd-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#phd"
-                type="button"
-                role="tab"
-                onClick={() => setParentTab(3)}
-              >
-                Ph.D. Degree
-              </button>
-            </li>
-          </ul>
-
-          {parentTab == "1" ? (
-            <div class="tab-content" id="degreeTabsContent">
-              <div
-                class="tab-pane fade show active"
-                id="bachelor"
-                role="tabpanel"
-              >
-                <div class="row g-4">
-                  <div className="col-md-6">
-                    <ul class="nav nav-tabs mb-3">
-                      {btech_coursese.map((i) => (
-                        <CourseTab
-                          i={i}
-                          handleChildTab={handleChildTab}
-                          childTab={childTab}
-                        />
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="col-md-6">
-                    <div class="tab-content">
-                      {btech_coursese
-                        .filter((a) => a.id == childTab)
-                        .map((i) => (
-                          <CourseCard i={i} />
-                        ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ) : parentTab == "2" ? (
-            <div class="tab-content" id="degreeTabsContent">
-              <div class="" id="bachelor" role="tabpanel">
-                <div class="row g-4">
-                  <div className="col-md-6">
-                    <ul class="nav nav-tabs mb-3">
-                      {mtech_coursese.map((i) => (
-                        <CourseTab
-                          i={i}
-                          handleChildTab={handleChildTab}
-                          childTab={childTab}
-                        />
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="col-md-6">
-                    <div class="tab-content">
-                      {mtech_coursese
-                        .filter((a) => a.id == childTab)
-                        .map((i) => (
-                          <CourseCard i={i} />
-                        ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ) : (
-            <div class="tab-content" id="degreeTabsContent">
-              <div class="" id="bachelor" role="tabpanel">
-                <div class="row g-4">
-                  <div className="col-md-6">
-                    <ul class="nav nav-tabs mb-3">
-                      {phd_coursese.map((i) => (
-                        <CourseTab
-                          i={i}
-                          handleChildTab={handleChildTab}
-                          childTab={childTab}
-                        />
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="col-md-6">
-                    <div class="tab-content">
-                      {phd_coursese
-                        .filter((a) => a.id == childTab)
-                        .map((i) => (
-                          <CourseCard i={i} />
-                        ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-      </section>
+      <FeaturedProgrammes
+        btech={btech_coursese}
+        mtech={mtech_coursese}
+        phd={phd_coursese}
+      />
 
       <section className="clubs-section py-5">
         <div className="container">
@@ -528,226 +508,28 @@ const page = () => {
           </h2>
 
           <div className="row g-4">
-            {/* Fine Arts Club */}
-            <div className="col-md-6">
-              <div className="club-card">
-                <div className="row">
-                  <div className="col-md-4">
-                    <img
-                      src="/fine-art.jpg"
-                      alt="Fine Arts Club"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-md-8">
-                    <div className="club-body">
-                      <h5>Fine Arts Club</h5>
-                      <div className="underline"></div>
-                      <p>
-                        The club will inculcate and promote activities related
-                        to art and photography in the institute. It also
-                        undertakes decoration and photography responsibilities
-                        for events organized in UIET.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Dance Music and Drama Club */}
-            <div className="col-md-6">
-              <div className="club-card ">
-                <div className="row">
-                  <div className="col-md-4">
-                    <img
-                      src="/dance-drama-club.jpg"
-                      alt="Dance Music and Drama Club"
-                      className="img-fluid"
-                    />
-                  </div>
-                  <div className="col-md-8">
-                    <div className="club-body">
-                      <h5>Dance Music And Drama Club</h5>
-                      <div className="underline"></div>
-                      <p>
-                        This club plays an important role in organizing cultural
-                        events in UIET. It helps students showcase their talent
-                        in music, dance, and drama while contributing to
-                        institute-level cultural programs.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Literary Club */}
-            <div className="row g-4">
-              <div className="col-md-6">
+            {uietClubs.map((club) => (
+              <div className="col-md-6" key={club.id}>
                 <div className="club-card">
                   <div className="row">
                     <div className="col-md-4">
                       <img
-                        src="/literary-club.jpg"
-                        alt="Literary Club"
+                        src={club.img}
+                        alt={club.img_alt || club.title}
                         className="img-fluid"
                       />
                     </div>
                     <div className="col-md-8">
                       <div className="club-body">
-                        <h5>Literary Club</h5>
+                        <h5>{club.title}</h5>
                         <div className="underline"></div>
-                        <p>
-                          The Literary Club organizes literary, oratory, and
-                          quiz events. It promotes communication skills through
-                          workshops and interactive activities for students of
-                          the institute.
-                        </p>
+                        <p>{club.desc}</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div className="club-card">
-                  <div className="row">
-                    <div className="col-md-4">
-                      <img
-                        src="/adventure-club.jpg"
-                        alt="Adventure Club"
-                        className="img-fluid"
-                      />
-                    </div>
-                    <div className="col-md-8">
-                      <div className="club-body">
-                        <h5>Adventure Club</h5>
-                        <div className="underline"></div>
-                        <p>
-                          The club will be in charge of sorting out Educational
-                          Tours, Industrial Visits, Trips, Excursions, and
-                          Adventure Activities.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="row g-4">
-              {/* Adventure Club */}
-
-              {/* Audio & Video Club */}
-              <div className="col-md-6">
-                <div className="club-card">
-                  <div className="row">
-                     <div className="col-md-4">
-                       <img
-                    src="/audio-video-club.jpg"
-                    alt="Audio & Video Club"
-                    className="img-fluid"
-                  />
-                    </div>
-                    <div className="col-md-8">
-                      <div className="club-body">
-                        <h5>Audio & Video Club</h5>
-                        <div className="underline"></div>
-                        <p>
-                          It will focus on the Sound and Light System Handling
-                          of UIET auditorium and upgradation when required. It
-                          also manages sound and lighting for university events
-                          organized by UIET.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Sports Club */}
-              <div className="col-md-6">
-                <div className="club-card ">
-                  <div className="row">
-                    <div className="col-md-4">
-                      <img
-                    src="/sport-club.jpg"
-                    alt="Sports Club"
-                    className="img-fluid"
-                  />
-                    </div>
-                    <div className="col-md-8">
-                       <div className="club-body">
-                    <h5>Sports Club</h5>
-                    <div className="underline"></div>
-                    <p>To organize indoor and outdoor sports activities.</p>
-                  </div>
-                    </div>
-                  </div>
-                  
-                 
-                </div>
-              </div>
-            </div>
-
-            <div className="row g-4">
-              {/* Yoga Club */}
-              <div className="col-md-6">
-                <div className="club-card">
-                  <div className="row">
-                  <div className="col-md-4">
-                     <img
-                    src="/yoga-club.jpg"
-                    alt="Yoga Club"
-                    className="img-fluid"
-                  />
-                  </div>
-                  <div className="col-md-8">
-                     <div className="club-body">
-                    <h5>Yoga Club</h5>
-                    <div className="underline"></div>
-                    <p>
-                      To organise meditation and Yoga activities for promoting
-                      physical and mental well-being among students and staff.
-                    </p>
-                  </div>
-                  </div>
-                  </div>
-                 
-                 
-                </div>
-              </div>
-
-              {/* Activity Club */}
-              <div className="col-md-6">
-                <div className="club-card">
-                  <div className="row">
-                    <div className="col-md-4">
-                       <img
-                    src="/activite-club.jpg"
-                    alt="Activity Club"
-                    className="img-fluid"
-                  />
-                    </div>
-                     <div className="col-md-8">
-                      <div className="club-body">
-                    <h5>Activity Club</h5>
-                    <div className="underline"></div>
-                    <p>
-                      The objective is to coordinate various student-related
-                      activities such as farewells, freshers' events, and other
-                      community-building programmes.
-                    </p>
-                  </div>
-                     </div>
-                  </div>
-                 
-                  
-                </div>
-              </div>
-
-           
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -911,139 +693,14 @@ const page = () => {
           </p>
 
           <div className="row g-4 justify-content-center">
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">NISHU RAM</h5>
-                <p className="student-details">
-                  BEL, Package: 10.4 LPA, B.Tech Mechanical
-                </p>
+            {placementInsights.map((insight, index) => (
+              <div className="col-sm-6 col-md-4 col-lg-3" key={`${insight.name}-${index}`}>
+                <div className="placement-card">
+                  <h5 className="student-name">{insight.name}</h5>
+                  <p className="student-details">{insight.details}</p>
+                </div>
               </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">ARTI</h5>
-                <p className="student-details">
-                  Federal Bank, Package: 13.0 LPA, B.Tech
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">SUNNY PANCHAL</h5>
-                <p className="student-details">
-                  BEL, Package: 10.4 LPA, B.Tech Mechanical
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">YASHIKA ATREJA</h5>
-                <p className="student-details">
-                  Hughes Systique, Package: 10.6 LPA, B.Tech CSE
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">SUNISH DAHIYA</h5>
-                <p className="student-details">
-                  Amazon, Package: 28 LPA, B.Tech CSE
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">TANUJ SHARMA</h5>
-                <p className="student-details">
-                  Maruti, GET Package: 10.34 LPA, B.Tech Mechanical
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">NAMAN MITTAL</h5>
-                <p className="student-details">
-                  Amazon, Package: 28 LPA, B.Tech CSE
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">JITESH YADAV</h5>
-                <p className="student-details">
-                  Maruti Suzuki, GET Package: 10.34 LPA, B.Tech Mechanical
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">SONALI SINGH</h5>
-                <p className="student-details">Info Edge, Package: —, B.Tech</p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">BHUPESH</h5>
-                <p className="student-details">Federal Bank, Package: —</p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">BHAVYAM KAPOOR</h5>
-                <p className="student-details">
-                  Maruti Suzuki, GET Package: 10.34 LPA, B.Tech Mechanical
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3 ">
-              <div className="placement-card">
-                <h5 className="student-name">PRANSHU PAREEK</h5>
-                <p className="student-details">
-                  Vitalic Health Pvt. Ltd., GET Package: 13.09 LPA, B.Tech
-                </p>
-              </div>
-            </div>
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">ABHINEET VERMA</h5>
-                <p className="student-details">
-                  JINDAL SOUTH WEST (JSW), Package: 6.5 LPA, B.Tech Mechanical
-                </p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">SONALI SINGH</h5>
-                <p className="student-details">Info Edge, Package: —, B.Tech</p>
-              </div>
-            </div>
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">BHUPEESH</h5>
-                <p className="student-details">Federal Bank, Package: —</p>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-md-4 col-lg-3">
-              <div className="placement-card">
-                <h5 className="student-name">BHAVYAM KAPOOR</h5>
-                <p className="student-details">
-                  Maruti Suzuki, GET Package: 10.34 LPA, B.Tech Mechanical
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
