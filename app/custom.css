@@ -1356,6 +1356,9 @@ section.placement-block .nav-pills li a {
     font-family: var(--font-family-Poppins);
     margin-bottom: 11px;
 }
+.content-panel ul li:last-child {
+    list-style: none !important;
+}
 
 .date {
     background-color: #a20b0bad;

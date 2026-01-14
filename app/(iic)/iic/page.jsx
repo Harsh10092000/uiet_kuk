@@ -173,7 +173,7 @@ const page = () => {
             </div>
           </div>
 
-          <div className="about-bg">
+          <div className="about-bg mt-3">
             <div className="row">
               <div className=" col-lg-12">
                 <div className="content-panel message-block  mb-40">
@@ -183,17 +183,31 @@ const page = () => {
                   <p>
                    Institution's Innovation Council (IIC) is established in the institute with an objective to foster the culture of innovation, encourage, inspire and nurture young students by supporting them to work with new ideas and transform them into prototypes. .
                   </p>
-                 <h3 className="mb-4">About Community Incubation Centre <span class="red">(CIC)</span></h3>
-                  <p>Community Incubation centre (CIC) is established in the institute by the support of Kurukshetra University and Department of Information Technology Electronics and Communication (DITEC), Haryana to foster and support innovations and potential enterpreneurs to build scalable and sustainable enterprise.                   
-                  </p>
 
-                  <h3 className="mb-4">Functions of  <span className="red">IIC & CIC</span></h3>
-                 <ul>
-                  <li>To conduct various innovation and entrepreneurship-related activities, identify and reward innovations and share success stories of successful entrepreneurs to create an eco-system of innovations and entrepreneurship in the institute.</li>
-<li>Organize periodic workshops/ seminars/ interactions with entrepreneurs, investors, professionals and create a mentor pool for student innovators.</li>
-<li>Organize Hackathons, idea competition, mini-challenges etc. with the involvement of industries.</li>
-<li>To provide space, research facilites, mentoring support and conducive environment to the incubatees to nurture & transform their innovative ideas into marketable products/services.</li>
-                 </ul>
+                  <div className="row">
+                    <div className="col-md-6">
+                       <h3 className="mb-4">About Community Incubation Centre <span class="red">(CIC)</span></h3>
+                        <p>Community Incubation centre (CIC) is established in the institute by the support of Kurukshetra University and Department of Information Technology Electronics and Communication (DITEC), Haryana to foster and support innovations and potential enterpreneurs to build scalable and sustainable enterprise.                   
+                        </p>
+
+                         <h3 className="mb-4">Functions of  <span className="red">IIC & CIC</span></h3>
+                          <ul>
+                            <li>To conduct various innovation and entrepreneurship-related activities, identify and reward innovations and share success stories of successful entrepreneurs to create an eco-system of innovations and entrepreneurship in the institute.</li>
+                            <li>Organize periodic workshops/ seminars/ interactions with entrepreneurs, investors, professionals and create a mentor pool for student innovators.</li>
+                            <li>Organize Hackathons, idea competition, mini-challenges etc. with the involvement of industries.</li>
+                            <li>To provide space, research facilites, mentoring support and conducive environment to the incubatees to nurture & transform their innovative ideas into marketable products/services.</li>
+                          </ul>
+
+                    </div>
+                     <div className="col-md-6">
+                        <div className="pict-structure">
+                          <img src="/iic/IIC.jpg" alt="structure" className="img-fluid rounded"/>
+                        </div>
+                     </div>
+                  </div>
+                
+
+                 
 
                   <h3 className="mb-3 mt-5">
                     DEPARTMENT <span className="red">VISION AND MISSION</span>
@@ -281,6 +295,50 @@ const page = () => {
                 <p className="fw-bold">INCUBATION</p>
             </div>
 
+        </div>
+         </div>
+        
+       </section>
+
+
+
+          <section className="py-5 bg-light" id="incubation-process">
+          <div className="container text-center">
+            <div class="main-title text-center mb-5"><h2><span class="red d-block">Institution’s Innovation Hub</span> Innovation Gallery</h2></div>
+
+        <div className="row">          
+          <div className="col-md-4">
+            <div className="hub-gallery-box">
+              <img src="/iic/iic-gallery-1.jpg" alt="structure" className="img-fluid rounded"/>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="hub-gallery-box">
+              <img src="/iic/iic-gallery-2.jpg" alt="structure" className="img-fluid rounded"/>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="hub-gallery-box">
+              <img src="/iic/iic-gallery-3.jpg" alt="structure" className="img-fluid rounded"/>
+            </div>
+          </div>
+          </div>
+           <div className="row mt-4"> 
+          <div className="col-md-4">
+            <div className="hub-gallery-box">
+              <img src="/iic/iic-gallery-4.jpg" alt="structure" className="img-fluid rounded"/>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="hub-gallery-box">
+              <img src="/iic/iic-gallery-5.jpg" alt="structure" className="img-fluid rounded"/>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="hub-gallery-box">
+              <img src="/iic/iic-gallery-6.jpg" alt="structure" className="img-fluid rounded"/>
+            </div>
+          </div>
         </div>
          </div>
         
