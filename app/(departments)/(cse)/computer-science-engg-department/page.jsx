@@ -64,11 +64,11 @@ const page = () => {
             <div className="row">
               <div className=" col-lg-12">
                 <div className="content-panel message-block  mb-40">
-                  <h3 className="mb-4">
+                  <h3 id="about-us" className="mb-4">
                     About <span className="red">Us</span>
                   </h3>
                   <p>
-                  The Department of Computer Science & Engineering was established in 2004 with an initial intake of 60 students in B.Tech. and 20 in M.Tech. (Software Engineering). In 2007, the B.Tech. intake was increased to 120, reflecting the growing demand for computer engineering. The department has maintained a near 100% placement record for eligible students over the past five years. To align with emerging technologies, a new B.Tech. program in Computer Science & Engineering (Artificial Intelligence & Machine Learning) was launched in 2023–24 with an intake of 60 students. The department also offers an M.Tech. in Computer Engineering with 18 seats and a Ph.D. program started in 2013, with several doctoral degrees awarded and many in progress.
+                    The Department of Computer Science & Engineering was established in 2004 with an initial intake of 60 students in B.Tech. and 20 in M.Tech. (Software Engineering). In 2007, the B.Tech. intake was increased to 120, reflecting the growing demand for computer engineering. The department has maintained a near 100% placement record for eligible students over the past five years. To align with emerging technologies, a new B.Tech. program in Computer Science & Engineering (Artificial Intelligence & Machine Learning) was launched in 2023–24 with an intake of 60 students. The department also offers an M.Tech. in Computer Engineering with 18 seats and a Ph.D. program started in 2013, with several doctoral degrees awarded and many in progress.
                   </p>
 
                   {/* <p>
@@ -112,8 +112,8 @@ const page = () => {
                     provided through Electives Seminars and Projects.
                   </p> */}
 
-                  <h3 className="mb-3 mt-5">
-                  Faculty   <span className="red">Incharge speaks</span>
+                  <h3 id="incharge-message" className="mb-3 mt-5">
+                    Faculty   <span className="red">Incharge speaks</span>
                   </h3>
 
 
@@ -165,18 +165,18 @@ const page = () => {
           </div>
 
 
-          <div className="message-block mt-150">
+          <div id="director-message" className="message-block mt-150">
             <h3> Department of <span className="red">
               Computer Science & Engg. </span></h3>
-               <div className="profile-info mt-4">
-                <div className="profile"><img src="/sunil-dhingra.jpg" alt="profile" className="img-fluid" width="300px"/></div>
-                <div className="profile-details">
-                  <h4>Prof.Sunil Dhingra</h4>
-                  <p>It gives me immense pleasure to introduce University Institute of Engineering and Technology (UIET) which was established in 2004 in the campus of Kurukshetra University. It was established with a motive 'MIND TO MARKET' so as to achieve excellence in the key areas of engineering and to produce talented and committed human resources .</p>
-                  <a href="/director" className="red">Read More...</a>
-                  </div>
-                  </div>
-                  </div>
+            <div className="profile-info mt-4">
+              <div className="profile"><img src="/sunil-dhingra.jpg" alt="profile" className="img-fluid" width="300px" /></div>
+              <div className="profile-details">
+                <h4>Prof.Sunil Dhingra</h4>
+                <p>It gives me immense pleasure to introduce University Institute of Engineering and Technology (UIET) which was established in 2004 in the campus of Kurukshetra University. It was established with a motive 'MIND TO MARKET' so as to achieve excellence in the key areas of engineering and to produce talented and committed human resources .</p>
+                <a href="/director" className="red">Read More...</a>
+              </div>
+            </div>
+          </div>
 
           <FacultySlider facultyData={facultyData} viewAllLink={viewAllLink} />
         </div>
