@@ -4,10 +4,24 @@ const getData = async () => {
   try {
     const db = await pool;
 
-    const q1 = "SELECT * FROM notifications where show_on_announcements_slider = 1";
+    // const q1 = "SELECT * FROM notifications where show_on_announcements_slider = 1";
+    const q1 = `
+    SELECT n.title, n.file_name, n.link_url, n.file_path
+    FROM notifications n
+    LEFT JOIN notification_ordering no ON n.id = no.notification_id 
+      AND no.context_type = 'page' AND no.context_value = 'Announcements'
+    WHERE JSON_CONTAINS(n.page_targets, '"Announcements"') AND n.is_active = 1
+    ORDER BY no.position DESC, n.notification_date DESC
+    `;
     const [announcementsData] = await db.query(q1);
 
-    const q2 = "SELECT * FROM notifications where show_on_notification_slider = 1";
+    // const q2 = "SELECT * FROM notifications where show_on_notification_slider = 1";
+    const q2 = `SELECT n.title, n.file_name, n.link_url, n.file_path
+                FROM notifications n
+                LEFT JOIN notification_ordering no ON n.id = no.notification_id 
+                  AND no.context_type = 'slider' AND no.context_value = 'notification'
+                WHERE n.show_on_notification_slider = 1 AND n.is_active = 1
+                ORDER BY no.position DESC, n.notification_date DESC`;
     const [notificationsData] = await db.query(q2);
 
     return { announcementsData: announcementsData, notificationsData: notificationsData };
@@ -99,8 +113,8 @@ const TourSection = async () => {
                 Announcements
               </h4>
               <marquee direction="up" scrollAmount="2" height="160px">
-             <NotificationMarqueeUp items={announcementsData} />
-             </marquee>
+                <NotificationMarqueeUp items={announcementsData} />
+              </marquee>
             </div>
 
             <div className="notification-block mt-3">
@@ -111,8 +125,8 @@ const TourSection = async () => {
                 Notifications
               </h4>
               <marquee direction="up" scrollAmount="2" height="160px">
-             <NotificationMarqueeUp items={notificationsData} />
-             </marquee>
+                <NotificationMarqueeUp items={notificationsData} />
+              </marquee>
             </div>
           </div>
         </div>

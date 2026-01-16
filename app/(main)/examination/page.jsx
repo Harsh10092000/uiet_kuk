@@ -4,7 +4,13 @@ import pool from "@/app/libs/mysql";
 const getData = async () => {
   try {
     const db = await pool;
-    const q = "SELECT * FROM notifications WHERE JSON_CONTAINS(page_targets, '[\"Exams Notifications\"]');";
+    // const q = "SELECT * FROM notifications WHERE JSON_CONTAINS(page_targets, '[\"Exams Notifications\"]');";
+    const q = `SELECT n.*
+FROM notifications n
+LEFT JOIN notification_ordering no ON n.id = no.notification_id 
+  AND no.context_type = 'page' AND no.context_value = 'Exams Notifications'
+WHERE n.page_exams_notifications = 1 AND n.is_active = 1
+ORDER BY no.position DESC, n.notification_date DESC`
     const [results] = await db.query(q);
     return { results: results };
   } catch (err) {

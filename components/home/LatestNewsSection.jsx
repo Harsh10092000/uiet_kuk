@@ -3,7 +3,13 @@ import pool from '@/app/libs/mysql'
 const getData = async () => {
   try {
     const db = await pool;
-    const q = "SELECT * FROM notifications where show_on_admission_slider = 1";
+    // const q = "SELECT * FROM notifications where show_on_admission_slider = 1";
+    const q = `SELECT n.title, n.file_name, n.link_url, n.file_path
+                FROM notifications n
+                LEFT JOIN notification_ordering no ON n.id = no.notification_id 
+                  AND no.context_type = 'slider' AND no.context_value = 'admission'
+                WHERE n.show_on_admission_slider = 1 AND n.is_active = 1
+                ORDER BY no.position DESC, n.notification_date DESC`;
     const [latestNotices] = await db.query(q);
     return { latestNotices: latestNotices };
   } catch (err) {
