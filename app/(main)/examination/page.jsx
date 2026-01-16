@@ -67,7 +67,7 @@ const page = async () => {
   // ];
 
   return (
-    <NotificationsList results={results} />
+    <NotificationsList results={results} page_name={"Exams Notifications"} />
   );
 };
 

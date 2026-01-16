@@ -97,10 +97,10 @@ const Header = () => {
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li><Link href="https://iums.kuk.ac.in" target="_blank">LMS/IUMS</Link></li>
                   <li><Link href="/examination"> Exam Notices</Link></li>
-                  <li><Link href="#"> Syllabus</Link></li>
-                  <li><Link href="#"> Date Sheet </Link></li>
-                  <li><Link href="#"> Results </Link></li>
-                  <li><Link href="#"> Syllabus</Link></li>
+                  <li><Link href="/syllabus"> Syllabus</Link></li>
+                  <li><Link href="/datesheet"> Date Sheet </Link></li>
+                  <li><Link href="/results"> Results </Link></li>
+                  {/* <li><Link href="#"> Syllabus</Link></li> */}
 
                 </ul>
               </li>
@@ -124,11 +124,11 @@ const Header = () => {
               <li className="dropdown">
                 <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Download</a>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><Link href="#">Time Table</Link></li>
-                  <li><Link href="#">Notifications</Link></li>
-                  <li><Link href="#">Reports</Link></li>
-                  <li><Link href="#">Aicte Reports</Link></li>
-                  <li><Link href="#">Policies</Link></li>
+                  <li><Link href="/time-table">Time Table</Link></li>
+                  <li><Link href="/notifications">Notifications</Link></li>
+                  <li><Link href="/reports">Reports</Link></li>
+                  <li><Link href="/aicte-reports">AICTE Reports</Link></li>
+                  <li><Link href="/policies">Policies</Link></li>
                 </ul>
               </li>
 
