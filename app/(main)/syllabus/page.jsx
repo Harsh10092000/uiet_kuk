@@ -1,4 +1,4 @@
-
+export const dynamic = 'force-dynamic';
 import NotificationsList from "@/components/notificationsList/NotificationsList";
 import pool from "@/app/libs/mysql";
 const getData = async () => {
