@@ -229,7 +229,7 @@ ul.dropdown-menu li a {
 }
 
 .gradient-btn {
-    background: linear-gradient(139deg, #132266 0%, #051239 100%);
+    background: linear-gradient(139deg, #a11111 0%, #A80000 100%);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -260,7 +260,7 @@ ul.dropdown-menu li a {
 .btn-list ul li a {
     display: block;
     text-align: center;
-    font-size: 20px;
+    font-size:16px;
     text-transform: uppercase;
 }
 
@@ -287,7 +287,7 @@ ul.dropdown-menu li a {
 }
 
 .notification-block h4 {
-    background-color: #091642;
+    background-color: #a80000;
     color: #fff !important;
     font-weight: 500 !important;
     padding: 8px 11px;

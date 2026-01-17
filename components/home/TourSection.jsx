@@ -62,23 +62,28 @@ const TourSection = async () => {
             <div className="btn-list">
               <ul>
                 <li>
-                  <a href="#" className="gradient-btn">
+                  <a href="/Library10.pdf" target='_blank' className="gradient-btn">
                     Library details
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="gradient-btn">
+                  <a href="/UIET_Fee.pdf" target='_blank' className="gradient-btn">
                     Fee Stucture for B.Tech Courses
                   </a>
                 </li>
                 <li>
                   <a href="#" className="gradient-btn">
-                    National Cadet Corps
+                    Public Self Disclosure
                   </a>
                 </li>
                 <li>
                   <a href="#" className="gradient-btn">
-                    Application form
+                    NAD- ABC Program Awareness Video
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="gradient-btn">
+                    University Anti-Ragging Helpline
                   </a>
                 </li>
                 <li>
@@ -88,17 +93,14 @@ const TourSection = async () => {
                 </li>
                 <li>
                   <a href="#" className="gradient-btn">
-                    Scholarship Notice
+                   Mental Health Awareness Helpline<br/>
+                   7082113150
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="gradient-btn">
-                    University Notices
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="gradient-btn">
-                    Miscellaneous Notices
+                  <a href="#" className='bg-light btn border'>
+                    University Grants Commission Anti Ragging Helpline Toll Free Number: 1800-180-5522 &
+        E-mail: helpline@antiragging.in
                   </a>
                 </li>
               </ul>
