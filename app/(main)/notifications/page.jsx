@@ -16,15 +16,34 @@ ORDER BY no.position DESC, n.notification_date DESC;`
         const [results] = await db.query(q);
         return { results: results };
     } catch (err) {
-        console.log("err : ", err);
+        console.console.log("err : ", err);
         return err;
     }
 }
-const page = async () => {
+export const metadata = {
+    title: "Notifications | UIET KUK",
+    description: "Latest news, announcements, and circulars from UIET Kurukshetra.",
+    openGraph: {
+        title: "Notifications | UIET KUK",
+        description: "Latest news, announcements, and circulars from UIET Kurukshetra.",
+        images: [
+            {
+                url: "/uiet-logo.png",
+                width: 800,
+                height: 600,
+                alt: "UIET Kurukshetra Logo",
+            },
+        ],
+        locale: "en_IN",
+        type: "website",
+    },
+};
+
+const Page = async () => {
     const { results } = await getData();
     return (
         <NotificationsList results={results} page_name={"Notifications"} />
     );
 };
 
-export default page;
+export default Page;

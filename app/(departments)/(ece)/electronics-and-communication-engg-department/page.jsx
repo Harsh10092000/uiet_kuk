@@ -1,5 +1,27 @@
 import React from "react";
 import FacultySlider from "@/components/departments/facultySlider/FacultySlider";
+import DepartmentHeader from "@/components/departments/DepartmentHeader";
+import DepartmentSection from "@/components/departments/DepartmentSection";
+
+export const metadata = {
+    title: "Electronics & Communication Engineering (ECE) | UIET KUK",
+    description: "Top ECE Department at UIET Kurukshetra. Explore courses in VLSI, Embedded Systems, and Communication. Excellent placements and labs.",
+    keywords: ["ECE Engineering India", "B.Tech ECE", "Electronics and Communication", "VLSI Design", "Embedded Systems", "UIET KUK ECE"],
+    openGraph: {
+        title: "Electronics & Communication Engineering (ECE) | UIET KUK",
+        description: "Top ECE Department at UIET Kurukshetra. Explore courses in VLSI, Embedded Systems, and Communication. Excellent placements and labs.",
+        images: [
+            {
+                url: "/uiet-logo.png",
+                width: 800,
+                height: 600,
+                alt: "UIET Kurukshetra Logo",
+            },
+        ],
+        locale: "en_IN",
+        type: "website",
+    },
+};
 
 const page = () => {
     // Faculty data
@@ -7,66 +29,48 @@ const page = () => {
         {
             name: "Dr. Kulvinder Singh",
             image: "/kulvinder-singh.jpg",
-            designation: "Associate Professor, (Computer Science & Engg. Department)",
+            designation: "Associate Professor, (Electronics & Comm. Engg. Department)",
             link: "#",
         },
         {
             name: "Dr.Sona Malhotra",
             image: "/dr-sona.jpg",
-            designation: "Associate Professor,(Computer Science & Engg. Department)",
+            designation: "Associate Professor,(Electronics & Comm. Engg. Department)",
             link: "#",
         },
         {
             name: "Dr.Sanjeev Dhawan",
             image: "/sanjeev.jpg",
-            designation: "Associate Professor,(Computer Science & Engg. Department)",
+            designation: "Associate Professor,(Electronics & Comm. Engg. Department)",
             link: "#",
         },
         {
             name: "Dr.Karambir Bidhan",
             image: "/karambir.jpg",
-            designation: "Associate Professor,(Computer Science & Engg. Department)",
+            designation: "Associate Professor,(Electronics & Comm. Engg. Department)",
             link: "#",
         },
         {
             name: "Dr.Sona Malhotra",
             image: "/dr-sona.jpg",
-            designation: "Associate Professor,(Computer Science & Engg. Department)",
+            designation: "Associate Professor,(Electronics & Comm. Engg. Department)",
             link: "#",
         },
     ];
 
     // View All link
-    const viewAllLink = "/faculty-of-computer-science-engineering";
+    const viewAllLink = "/faculty-of-electronics-communication-engineering";
 
     return (
         <div>
-            <section className="pages-title mb-4">
-                <div className="container">
-                    <h2>Electronics & Communication Engg. Department</h2>
-
-                    <ul className="breadcrumb text-center mx-auto">
-                        <li className="breadcrumb-item">
-                            <a href="#">Home</a>
-                        </li>
-                        <li className="breadcrumb-item">Department</li>
-
-                        <li className="breadcrumb-item active" aria-current="page">
-                            Electronics & Communication Engg. Department
-                        </li>
-                    </ul>
-                </div>
-            </section>
+            <DepartmentHeader title="Electronics & Communication Engg. Department" />
 
             <section className="main-content mt-5 mb-5 ">
                 <div className="container">
                     <div className="about-bg">
                         <div className="row">
                             <div className=" col-lg-12">
-                                <div className="content-panel message-block  mb-40">
-                                    <h3 className="mb-4">
-                                        About <span className="red">Us</span>
-                                    </h3>
+                                <DepartmentSection title="About" highlight="Us" id="about-us">
                                     <p>
                                         The Department of Electronics and Communication Engineering (ECE) at the University Institute of Engineering and Technology (UIET), Kurukshetra University, is a vibrant academic unit committed to delivering high-quality engineering education, fostering research excellence, and nurturing industry-ready professionals. Guided by the principles of NEP 2020, the department adopts flexible, multidisciplinary, and student-centric academic practices, encouraging experiential learning, project-based coursework, and skill-oriented electives.
                                     </p>
@@ -85,48 +89,10 @@ const page = () => {
                                     <p>
                                         The integrated ecosystem of academics, research, laboratories, NEP-aligned curriculum reforms, and industry engagement positions the ECE Department at UIET, KUK as a forward-looking and impactful centre for engineering education.
                                     </p>
-
-
-
-                                    {/* <h3 className="mb-3 mt-5">
-                                        Faculty   <span className="red">Incharge speaks</span>
-                                    </h3>
-
-
-                                    <p>
-                                        The department has a team of highly qualified and dedicated
-                                        faculty who foster analytical thinking, creativity, and
-                                        ethical professionalism among students. Faculty expertise
-                                        includes Artificial Intelligence, Data Science, Big Data
-                                        Analytics, Software Engineering, Computer Networks, Wireless
-                                        Sensor Networks, and Mobile Ad Hoc Networks. Students are
-                                        trained in state-of-the-art laboratories equipped with GPUs,
-                                        Blade Servers, Thin Clients, and Workstations from leading
-                                        brands. With a flexible and research-oriented curriculum,
-                                        incorporating electives, seminars, and projects, the
-                                        department is committed to promoting innovation, excellence,
-                                        and leadership in computer science education and research.
-                                    </p> */}
-
-
-                                </div>
+                                </DepartmentSection>
                             </div>
                         </div>
                     </div>
-
-
-                    {/* <div className="message-block mt-150">
-                        <h3> Department of <span className="red">
-                            Electronics & Communication Engg. </span></h3>
-                        <div className="profile-info mt-4">
-                            <div className="profile"><img src="/sunil-dhingra.jpg" alt="profile" className="img-fluid" width="300px" /></div>
-                            <div className="profile-details">
-                                <h4>Prof.Sunil Dhingra</h4>
-                                <p>It gives me immense pleasure to introduce University Institute of Engineering and Technology (UIET) which was established in 2004 in the campus of Kurukshetra University. It was established with a motive 'MIND TO MARKET' so as to achieve excellence in the key areas of engineering and to produce talented and committed human resources .</p>
-                                <a href="/director" className="red">Read More...</a>
-                            </div>
-                        </div>
-                    </div> */}
 
                     <FacultySlider facultyData={facultyData} viewAllLink={viewAllLink} />
                 </div>

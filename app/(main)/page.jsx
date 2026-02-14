@@ -8,11 +8,31 @@ import TourSection from "@/components/home/TourSection";
 
 
 
+export const metadata = {
+  title: "UIET Kurukshetra University | Best Engineering College in Haryana",
+  description: "Official website of University Institute of Engineering and Technology (UIET), Kurukshetra University. Offering top-tier engineering education, research, and placements.",
+  keywords: ["UIET KUK", "Kurukshetra University Engineering", "Best Engineering College Haryana", "UIET Admission", "UIET Placements"],
+  openGraph: {
+    title: "UIET Kurukshetra University | Best Engineering College in Haryana",
+    description: "Official website of University Institute of Engineering and Technology (UIET), Kurukshetra University. Offering top-tier engineering education, research, and placements.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
 export default function Home() {
   return (
     <>
       <HeroCarousel />
-    <BulletinWrapper />
+      <BulletinWrapper />
       <AboutSection />
       <TourSection />
       <CoursesSection />

@@ -1,7 +1,26 @@
-"use client";
+
 import React from "react";
 
-const page = () => {
+export const metadata = {
+  title: "Placement Team | UIET KUK",
+  description: "Meet the Training and Placement team at UIET Kurukshetra.",
+  openGraph: {
+    title: "Placement Team | UIET KUK",
+    description: "Meet the Training and Placement team at UIET Kurukshetra.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
+const Page = async () => {
   return (
     <div>
       <section className="pages-title mb-4">
@@ -148,7 +167,7 @@ const page = () => {
                   <div class="col-sm-10 col-md-12 col-lg-9">
                     <div className="content-panel mb-40">
                       <h4>
-                       Mr. Ajay Jangra
+                        Mr. Ajay Jangra
                         <span className="red d-block">
                           Training & Placement Officer{" "}
                         </span>
@@ -180,4 +199,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

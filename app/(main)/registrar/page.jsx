@@ -1,6 +1,25 @@
 import React from "react";
 
-const page = () => {
+export const metadata = {
+  title: "Registrar | UIET KUK",
+  description: "Office of the Registrar, UIET Kurukshetra.",
+  openGraph: {
+    title: "Registrar | UIET KUK",
+    description: "Office of the Registrar, UIET Kurukshetra.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
+const Page = () => {
   return (
     <div>
       <section className="pages-title mb-4">
@@ -14,7 +33,7 @@ const page = () => {
             <li class="breadcrumb-item">Administration</li>
 
             <li class="breadcrumb-item active" aria-current="page">
-             Registrar
+              Registrar
             </li>
           </ul>
         </div>
@@ -67,61 +86,61 @@ const page = () => {
                 <li>Ph.D. in English from Kurukshetra University Kurukshetra </li>
                 <li>LLB from Kurukshetra University, Kurukshetra </li>
                 <li>PGCTE (Post Graduate
-                Certificate Course in Teaching of English) from Central
-                Institute of English and Foreign Languages, Hyderabad (Now
-                EFLU).</li>
+                  Certificate Course in Teaching of English) from Central
+                  Institute of English and Foreign Languages, Hyderabad (Now
+                  EFLU).</li>
               </ul>
               <h4 className="mt-3">Experience:</h4>
-             <ul>
-              <li>Assistant Professor in Guru Nanak Khalsa College Karnal (from August 2001 to 2002)</li>
-              <li>Assistant Professor, Haryana College of Technology and Management, Kaithal ( from 2002 to 2003)</li>
-              <li>Assistant Professor, Al Majd International, Al Khobar, Kingdom of Saudi Arabia (from 2003 to 2007)</li>
-              <li>Assistant Professor, Akal University Baru Saheb (from 2007 to July 2008)</li>
-              <li>Assistant Professor, G.N. Khalsa College, Yamunanagar (from July 2008 to April, 2012)</li>
-              <li>Assistant Professor, IIHS, Kurukshetra University (from 2012 to 2020)</li>
-              <li>Associate Professor, IIHS, Kurukshetra University (from 2021 to till date)</li>
+              <ul>
+                <li>Assistant Professor in Guru Nanak Khalsa College Karnal (from August 2001 to 2002)</li>
+                <li>Assistant Professor, Haryana College of Technology and Management, Kaithal ( from 2002 to 2003)</li>
+                <li>Assistant Professor, Al Majd International, Al Khobar, Kingdom of Saudi Arabia (from 2003 to 2007)</li>
+                <li>Assistant Professor, Akal University Baru Saheb (from 2007 to July 2008)</li>
+                <li>Assistant Professor, G.N. Khalsa College, Yamunanagar (from July 2008 to April, 2012)</li>
+                <li>Assistant Professor, IIHS, Kurukshetra University (from 2012 to 2020)</li>
+                <li>Associate Professor, IIHS, Kurukshetra University (from 2021 to till date)</li>
               </ul>
-               <h4 className="mt-3">Administrative Experience/ Extra Duties performed :</h4>
-               <ol className="px-4">
-                  <li>Teacher Incharge, International Guest House, K.U. Kurukshetra from 17 June 2016 to 2024</li>
-                  <li>Officer Incharge NCC, K. U. Kurukshetra from 26 Jan. 2014 to 13 Jan. 2025</li>
-                  <li>Member, Cultural Committee, K.U. Kurukshetra</li>
-                  <li>Convener Sanitation in IIHS, K.U. Kurukshetra from 2015 to 13 Jan. 2025</li>
-                  <li>Advisor, International Students in IIHS from 2021 to 13 Jan. 2025</li>
-                  <li>Member, Discipline Committee of the University, 2016-17</li>
-                  <li>Editor, English Section of College Magazine Sthaneeshvar from 2015 to 13 Jan. 2025</li>
-                  <li>Convener, IQAC, IIHS, K.U. Kurukshetra from 03 Aug., 2015 to June 2017</li>
-                  <li>Member Prospectus Committee, IIHS, K.U.Kurukshetra from 2016 to 2017</li>
-                  <li>College PRO, IIHS, K.U. Kurukshetra from 2015 to 2016</li>
-                  <li>Member MOU Committee, IIHS, K.U. Kurukshetra from 2022 to 13 Jan., 2015</li>
-                  <li>Convener Building Committee, IIHS, K.U. Kurukshetra from 2021 to 2023</li>
-                  <li>Member Prospectus Committee, IIHS, K.U. Kurukshetra from 2016 to 2024</li>
-               </ol>
+              <h4 className="mt-3">Administrative Experience/ Extra Duties performed :</h4>
+              <ol className="px-4">
+                <li>Teacher Incharge, International Guest House, K.U. Kurukshetra from 17 June 2016 to 2024</li>
+                <li>Officer Incharge NCC, K. U. Kurukshetra from 26 Jan. 2014 to 13 Jan. 2025</li>
+                <li>Member, Cultural Committee, K.U. Kurukshetra</li>
+                <li>Convener Sanitation in IIHS, K.U. Kurukshetra from 2015 to 13 Jan. 2025</li>
+                <li>Advisor, International Students in IIHS from 2021 to 13 Jan. 2025</li>
+                <li>Member, Discipline Committee of the University, 2016-17</li>
+                <li>Editor, English Section of College Magazine Sthaneeshvar from 2015 to 13 Jan. 2025</li>
+                <li>Convener, IQAC, IIHS, K.U. Kurukshetra from 03 Aug., 2015 to June 2017</li>
+                <li>Member Prospectus Committee, IIHS, K.U.Kurukshetra from 2016 to 2017</li>
+                <li>College PRO, IIHS, K.U. Kurukshetra from 2015 to 2016</li>
+                <li>Member MOU Committee, IIHS, K.U. Kurukshetra from 2022 to 13 Jan., 2015</li>
+                <li>Convener Building Committee, IIHS, K.U. Kurukshetra from 2021 to 2023</li>
+                <li>Member Prospectus Committee, IIHS, K.U. Kurukshetra from 2016 to 2024</li>
+              </ol>
 
-               <h4>Awards/Prizes:</h4>
-               <ol className="px-4">
+              <h4>Awards/Prizes:</h4>
+              <ol className="px-4">
                 <li>Won Best in Academics Award in Officers Training Academy Kamptee, Nagpur in PRCN course</li>
                 <li>Honoured by Hon’ble Minister Kanwarpal ji on 17 September  2022 in Bhiwani for contribution in translating History books of Haryana Board</li>
                 <li>Declared Best ANO of 10 Haryana Battalion in 2022</li>
                 <li>Awarded as Best ANO of 10 Haryana Battalion on 27 2022 by Hon’ble Minister Kanwar Pal ji at Ambala Cantt in a State-Level Function</li>
-                <li>Honoured by E. Bandaru Dattatreya ji on Yuva </li>                    
+                <li>Honoured by E. Bandaru Dattatreya ji on Yuva </li>
                 <li>Honoured by Gen. J.S. Sandhu AVSM, for duties rendered to NCC on 03August 2021.</li>
                 <li>Felicitated by Gen. Tarun, DG NCC Kumar Aich AVSM at Ambala Group HQ on 18 Sept. 2021.</li>
-               </ol>
+              </ol>
 
               <h4>Research Interests:</h4>
               <ol>
-                  <li>Native Literatures including Australian Aboriginal Literature, Canadian Literature, American Literature</li>
-                  <li>Indian Writings in English</li>
-                  <li>Indian Literature in Translation</li>
-                  <li>African Literature   </li>
+                <li>Native Literatures including Australian Aboriginal Literature, Canadian Literature, American Literature</li>
+                <li>Indian Writings in English</li>
+                <li>Indian Literature in Translation</li>
+                <li>African Literature   </li>
               </ol>
 
               <h4>Research Projects:</h4>
               <ol>
-                 <li>Debunking Dalit Stereotypes: A Study of R. Anantha Murthy’s Novels awarded by UGC in 2011</li>
-                 <li>History and Politics : A Study of Selected Post-Independence Novels awarded by Kurukshetra University in 2015</li>
-                 <li>Articulating Alternative Realities: A study of Tribal Literature of North East awarded by Kurukshetra University in 2022</li>
+                <li>Debunking Dalit Stereotypes: A Study of R. Anantha Murthy’s Novels awarded by UGC in 2011</li>
+                <li>History and Politics : A Study of Selected Post-Independence Novels awarded by Kurukshetra University in 2015</li>
+                <li>Articulating Alternative Realities: A study of Tribal Literature of North East awarded by Kurukshetra University in 2022</li>
               </ol>
 
               <h4>Translated Works:</h4>
@@ -150,4 +169,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -1,6 +1,25 @@
 import React from "react";
 
-const page = () => {
+export const metadata = {
+  title: "TEQIP | UIET KUK",
+  description: "Technical Education Quality Improvement Programme (TEQIP) at UIET KUK.",
+  openGraph: {
+    title: "TEQIP | UIET KUK",
+    description: "Technical Education Quality Improvement Programme (TEQIP) at UIET KUK.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
+const Page = () => {
   return (
     <div>
       <section className="pages-title mb-4">
@@ -21,69 +40,69 @@ const page = () => {
 
       <section className="main-content mt-5 mb-5 ">
         <div class="container">
-            <h5>TEQIP E-Mail ID: teqipuietkuk@gmail.com</h5>
+          <h5>TEQIP E-Mail ID: teqipuietkuk@gmail.com</h5>
           <div class="table-responsive rounded">
             <table class="table text-left">
               <thead>
                 <tr>
                   <th>Data</th>
                   <th>Attachments</th>
-                 
+
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td >PROCUREMENT MANUAL</td>
                   <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>
-                  
+
                 </tr>
 
                 <tr className="table-light">
                   <td >FINANCIAL MANAGEMENT MANUAL.</td>
-                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>                 
+                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>
                 </tr>
 
-                
+
                 <tr className="table-light">
                   <td >FINANCIAL MANAGEMENT MANUAL.</td>
-                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>                 
+                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>
                 </tr>
 
 
-                
+
                 <tr className="table-light">
                   <td >FINANCIAL MANAGEMENT MANUAL.</td>
-                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>                 
+                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>
                 </tr>
 
 
-                
+
                 <tr className="table-light">
                   <td >FINANCIAL MANAGEMENT MANUAL.</td>
-                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>                 
+                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>
                 </tr>
 
 
-                
+
                 <tr className="table-light">
                   <td >FINANCIAL MANAGEMENT MANUAL.</td>
-                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>                 
+                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>
                 </tr>
 
-                
+
                 <tr className="table-light">
                   <td >FINANCIAL MANAGEMENT MANUAL.</td>
-                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>                 
+                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>
                 </tr>
 
 
-                
+
                 <tr className="table-light">
                   <td >FINANCIAL MANAGEMENT MANUAL.</td>
-                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>                 
+                  <td><a href="#"><span className="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></span>Click Here to download Attachment</a></td>
                 </tr>
 
-              
+
               </tbody>
             </table>
           </div>
@@ -93,4 +112,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

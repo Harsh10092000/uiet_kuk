@@ -18,11 +18,30 @@ ORDER BY no.position DESC, n.notification_date DESC;`
         return err;
     }
 }
-const page = async () => {
+export const metadata = {
+    title: "Results | UIET KUK",
+    description: "Check your examination results for UIET Kurukshetra.",
+    openGraph: {
+        title: "Results | UIET KUK",
+        description: "Check your examination results for UIET Kurukshetra.",
+        images: [
+            {
+                url: "/uiet-logo.png",
+                width: 800,
+                height: 600,
+                alt: "UIET Kurukshetra Logo",
+            },
+        ],
+        locale: "en_IN",
+        type: "website",
+    },
+};
+
+const Page = async () => {
     const { results } = await getData();
     return (
         <NotificationsList results={results} page_name={"Results"} />
     );
 };
 
-export default page;
+export default Page;

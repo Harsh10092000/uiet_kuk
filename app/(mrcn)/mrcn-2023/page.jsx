@@ -1,5 +1,24 @@
 import React from "react";
 import Link from "next/link";
+export const metadata = {
+  title: "MRCN 2023 Conference | UIET KUK",
+  description: "Archive: MRCN 2023 Conference details.",
+  openGraph: {
+    title: "MRCN 2023 Conference | UIET KUK",
+    description: "Archive: MRCN 2023 Conference details.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
 const page = () => {
   return (
     <div>
@@ -966,54 +985,54 @@ const page = () => {
 
 
 
-<section class="event-location py-5 bg-light">
-  <div class="container">
-    <div class="row g-4 align-items-stretch">
-      
-  
-      <div class="col-md-5">
-        <div class="h-100 d-flex flex-column justify-content-center px-4 py-5 bg-white shadow-sm rounded-3 border">
-          <h2 class="fw-bold text-center mb-4 display-6">Event Location</h2>
-          <p class="mb-2 text-center">
-            <strong>U.I.E.T. – University Institute of Engineering &amp; Technology</strong>
-          </p>
-          <p class="mb-2 text-center">
-            Kurukshetra University,
-          </p>
-          <p class="mb-4 text-center">
-            Kurukshetra, Haryana
-          </p>
-          <p class="mb-0 text-center">
-            Website: 
-            <a href="https://www.uietkuk.ac.in" target="_blank" rel="noopener">
-              www.uietkuk.ac.in
-            </a>
-          </p>
+      <section class="event-location py-5 bg-light">
+        <div class="container">
+          <div class="row g-4 align-items-stretch">
 
-           <p class="text-center mb-1"><strong>Dr. Nikhil Marriwala</strong></p>
-        <p class="text-center mb-1">Assistant Professor, ECE Dept.</p>
-        <p class="text-center mb-1">UIET, KUK</p>
 
-        <p class="text-center mt-3 mb-1">
-            <strong>Contact:</strong> +91 9416668482
-        </p>
+            <div class="col-md-5">
+              <div class="h-100 d-flex flex-column justify-content-center px-4 py-5 bg-white shadow-sm rounded-3 border">
+                <h2 class="fw-bold text-center mb-4 display-6">Event Location</h2>
+                <p class="mb-2 text-center">
+                  <strong>U.I.E.T. – University Institute of Engineering &amp; Technology</strong>
+                </p>
+                <p class="mb-2 text-center">
+                  Kurukshetra University,
+                </p>
+                <p class="mb-4 text-center">
+                  Kurukshetra, Haryana
+                </p>
+                <p class="mb-0 text-center">
+                  Website:
+                  <a href="https://www.uietkuk.ac.in" target="_blank" rel="noopener">
+                    www.uietkuk.ac.in
+                  </a>
+                </p>
 
-        <p class="text-center mb-0">
-            <strong>Email:</strong> <a href="mailto:mrcnuiet2023@kuk.ac.in">mrcnuiet2023@kuk.ac.in</a>
-        </p>
+                <p class="text-center mb-1"><strong>Dr. Nikhil Marriwala</strong></p>
+                <p class="text-center mb-1">Assistant Professor, ECE Dept.</p>
+                <p class="text-center mb-1">UIET, KUK</p>
+
+                <p class="text-center mt-3 mb-1">
+                  <strong>Contact:</strong> +91 9416668482
+                </p>
+
+                <p class="text-center mb-0">
+                  <strong>Email:</strong> <a href="mailto:mrcnuiet2023@kuk.ac.in">mrcnuiet2023@kuk.ac.in</a>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="col-md-7">
+              <div class="h-100 bg-white shadow-sm rounded-3 border overflow-hidden">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.6305173008222!2d76.81086257555054!3d29.961304674965568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e38b1c9410e23%3A0xff2e40965dcd7b69!2sUniversity%20Institute%20of%20Engineering%20and%20Technology%2C%20Kurukshetra%20University!5e0!3m2!1sen!2sin!4v1764314649107!5m2!1sen!2sin" width="600" height="450" style={{ "border": 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div>
-
-  
-      <div class="col-md-7">
-        <div class="h-100 bg-white shadow-sm rounded-3 border overflow-hidden">        
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.6305173008222!2d76.81086257555054!3d29.961304674965568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e38b1c9410e23%3A0xff2e40965dcd7b69!2sUniversity%20Institute%20of%20Engineering%20and%20Technology%2C%20Kurukshetra%20University!5e0!3m2!1sen!2sin!4v1764314649107!5m2!1sen!2sin" width="600" height="450" style={{"border":0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
+      </section>
 
 
 

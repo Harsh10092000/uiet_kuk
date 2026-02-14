@@ -1,6 +1,25 @@
 import React from "react";
 
-const page = () => {
+export const metadata = {
+  title: "Online Fee Payment | UIET KUK",
+  description: "Secure online fee payment portal for UIET Kurukshetra students.",
+  openGraph: {
+    title: "Online Fee Payment | UIET KUK",
+    description: "Secure online fee payment portal for UIET Kurukshetra students.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
+const Page = () => {
   return (
     <div>
       <section className="pages-title mb-4">
@@ -19,11 +38,11 @@ const page = () => {
 
       <section className="main-content mt-5 mb-5 ">
         <div class="container">
-            
+
           <div className="row">
-            <div className="col-md-12"> 
+            <div className="col-md-12">
               <form className="w-50 p-4 p-md-5 border rounded-3 bg-light mx-auto">
-              
+
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-floating mb-3">
@@ -156,23 +175,23 @@ const page = () => {
                   className="w-100 mx-auto btn btn-lg btn-red"
                   value="Make Payment"
                 ></input>
-              </form>              
-            </div>          
+              </form>
+            </div>
           </div>
 
-           <div className="payment-guideline w-50 mx-auto">
-                    <ul>
-                        <li>Mandatory fields are marked with an asterisk (*)</li>
-                        <li>Ph.D. Student Enter Registration Number as a Roll Number</li>
-                        <li>If any query contact Office.uiet@kuk.ac.in</li>
-                    </ul>
-                </div>
+          <div className="payment-guideline w-50 mx-auto">
+            <ul>
+              <li>Mandatory fields are marked with an asterisk (*)</li>
+              <li>Ph.D. Student Enter Registration Number as a Roll Number</li>
+              <li>If any query contact Office.uiet@kuk.ac.in</li>
+            </ul>
+          </div>
 
-          
+
         </div>
       </section>
     </div>
   );
 };
 
-export default page;
+export default Page;

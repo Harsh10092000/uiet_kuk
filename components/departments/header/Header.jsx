@@ -37,13 +37,13 @@ const departmentConfig = {
     departmentLink: "/mechanical-engg-department",
     importantLinks: [
       { label: "Industry Partner", href: "/doc/me/industry-partner-me-uiet-kuk.jpg" },
-      { label: "PO's and PSO's", href: "/doc/me/po-pso-me-uiet-kuk.docx" },
-      { label: "Research Expertise", href: "/doc/me/research-expertise-me-uiet-kuk.pdf" },
-      { label: "Mentor List", href: "/doc/me/mentor--ist-of-echanical-engineering-department-uiet.pdf" },
+      { label: "Research Expertise", href: "/doc/me/research-expertise-mechanical-engineering-department-uiet-kuk.pdf" },
+      { label: "Mentor List", href: "/doc/me/mentor-list-of-mechanical-engineering-department-uiet.doc" },
       { label: "Lab Details", href: "/doc/me/lab-details-me-uiet-kuk.pdf" },
-      { label: "About Us", href: "#about-us" },
-      { label: "Faculty Incharge Message", href: "#incharge-message" },
-      { label: "Director Message", href: "#director-message" },
+      { label: "Patents & Designs", href: "/doc/me/Department Patents Granted and Designs Registered.docx" },
+      // { label: "About Us", href: "#about-us" },
+      // { label: "Faculty Incharge Message", href: "#incharge-message" },
+      // { label: "Director Message", href: "#director-message" },
     ]
   },
   bt: {

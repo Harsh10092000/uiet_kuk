@@ -17,11 +17,30 @@ const getData = async () => {
         return err;
     }
 }
-const page = async () => {
+export const metadata = {
+    title: "Syllabus | UIET KUK",
+    description: "Detailed syllabus for B.Tech, M.Tech, and other courses at UIET KUK.",
+    openGraph: {
+        title: "Syllabus | UIET KUK",
+        description: "Detailed syllabus for B.Tech, M.Tech, and other courses at UIET KUK.",
+        images: [
+            {
+                url: "/uiet-logo.png",
+                width: 800,
+                height: 600,
+                alt: "UIET Kurukshetra Logo",
+            },
+        ],
+        locale: "en_IN",
+        type: "website",
+    },
+};
+
+const Page = async () => {
     const { results } = await getData();
     return (
         <NotificationsList results={results} page_name={"Syllabus"} />
     );
 };
 
-export default page;
+export default Page;

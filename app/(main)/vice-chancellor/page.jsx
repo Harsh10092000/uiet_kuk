@@ -1,25 +1,44 @@
 import React from "react";
 
-const page = () => {
+export const metadata = {
+  title: "Vice Chancellor's Message | UIET KUK",
+  description: "Message from the Vice Chancellor of Kurukshetra University.",
+  openGraph: {
+    title: "Vice Chancellor's Message | UIET KUK",
+    description: "Message from the Vice Chancellor of Kurukshetra University.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
+const Page = () => {
   return (
     <div>
       <section className="pages-title mb-4">
         <div className="container">
           <h2>Vice Chancellor</h2>
-        
-            <ul class="breadcrumb text-center mx-auto">
-              <li class="breadcrumb-item">
-                <a href="#">Home</a>
-              </li>
-              <li class="breadcrumb-item">
-                Administration
-              </li>
 
-               <li class="breadcrumb-item active" aria-current="page">
-               Vice Chancellor
-              </li>
-            </ul>
-          
+          <ul class="breadcrumb text-center mx-auto">
+            <li class="breadcrumb-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              Administration
+            </li>
+
+            <li class="breadcrumb-item active" aria-current="page">
+              Vice Chancellor
+            </li>
+          </ul>
+
         </div>
       </section>
 
@@ -57,7 +76,7 @@ const page = () => {
                     <li>
                       <strong>Qualification :</strong>
                       <a href="#">
-                       
+
                         Ph.D.(Civil Engineering), M.E. (Highways)-Distinction
                       </a>
                     </li>
@@ -71,7 +90,6 @@ const page = () => {
               <p>Transportation/Highway Engg:(i) Highway capacity (ii) Highway Materials (iii) Road Safety</p>
               <h4>Brief Profile of Prof Som Nath Sachdeva</h4>
               <p>Prof. Som Nath Sachdeva, Vice Chancellor-Kurukshetra University, Kurukshetra since November 2020, also held officiating charge of Vice-Chancellor of Ch. Ranbir Singh University, Jind & Shri Krishna Ayush University, Kurukshetra for more than one and a half year.</p>
-
               <p>Under his able leadership, Kurukshetra University has become the first and only state University of Haryana to secure the highest grade of A++ by NAAC.Kurukshetra University has filed more than 60 patents in the last 3 years and most of them stand granted & published. Kurukshetra University Kurukshetra has also started 23 new academic programmes during this period.</p>
               <p>He led Kurukshetra University secure the distinction of becoming the first university of the country to implement NEP 2020 very successfully with its all provisions in UG & PG programmes of campus & affiliated colleges.</p>
 
@@ -96,7 +114,7 @@ const page = () => {
               <p> Prof. Sachdeva is well known consultant in the field of road design & construction associated with Pradhan Mantri Gram Sadak Yojana for the last more than 20 years. Also an expert in road safety.</p>
 
               <p> Prof. Sachdeva’s all-round capabilities are reflected from the fact that not only he is good at administration, academics, research and consultancy; but also equally good in extra-curricular activities. As student, he represented the state in badminton and also in on the spot painting competition and won prizes. He had also been the best shooter of NCC in Kurukshetra University in his student days.</p>
-              
+
               <p>Prof. Som Nath, overall, is a very simple and straight forward person with a very positive attitude; this all provide him a very strong footing to lead any prestigious organization.</p>
             </div>
           </div>
@@ -106,4 +124,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

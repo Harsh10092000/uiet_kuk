@@ -1,5 +1,24 @@
 import React from "react";
 import Link from "next/link";
+export const metadata = {
+  title: "MRCN 2024 Conference | UIET KUK",
+  description: "Archive: MRCN 2024 Conference details.",
+  openGraph: {
+    title: "MRCN 2024 Conference | UIET KUK",
+    description: "Archive: MRCN 2024 Conference details.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
 const page = () => {
   return (
     <div>
@@ -11,9 +30,9 @@ const page = () => {
             <div className="date">23th-24th August – 2024</div>
             <h3>U.I.E.T. – Kuk</h3>
             <p>
-             Organised by: Department of Electronics & Communication Engineering,
-University Institute of Engineering & Technology, Kurukshetra University,
-Kurukshetra, Haryana
+              Organised by: Department of Electronics & Communication Engineering,
+              University Institute of Engineering & Technology, Kurukshetra University,
+              Kurukshetra, Haryana
             </p>
           </div>
         </div>
@@ -24,7 +43,7 @@ Kurukshetra, Haryana
           <div class="main-title text-center border bg-light p-3 mt-5 mb-3">
             <h4>
               <span class="red d-block">
-               All the accepted papers will be published by Springer in book series
+                All the accepted papers will be published by Springer in book series
                 <br />
                 “Lecture Notes in Networks and Systems”{" "}
               </span>
@@ -79,7 +98,7 @@ Kurukshetra, Haryana
                   </p>
 
                   <p>
-                  UIET, KUK has successfully organized 05 International Conferences in last 3 years in association with Springer namely MRCN-2020, MRCN-2021, MRCN-2022, ETBS-2021, SCIS-2020.
+                    UIET, KUK has successfully organized 05 International Conferences in last 3 years in association with Springer namely MRCN-2020, MRCN-2021, MRCN-2022, ETBS-2021, SCIS-2020.
                   </p>
                 </div>
               </div>
@@ -152,11 +171,11 @@ Kurukshetra, Haryana
                   </h2>
 
                   <p>
-                   The scope of the conference covers original works that are seen as a turning point in developing the quality human life/ performance in the future, therefore it has been identified as the theme of the conference. The aim of publishing the book is to serve for researchers, developers and educators working in the area of recent advances and upcoming technologies in the field of Cellular systems, 2G/2.5G/3G/4G/5G and beyond ,LTE, WiMAX, WMAN, and other emerging broadband wireless networks ,WLAN, WPAN, and other home/personal networking technologies, Pervasive and wearable computing and networking , Small cells and femtocell networks , Wireless mesh networks, Vehicular wireless networks ,Cognitive radio networks and their applications, Wireless multimedia networks , Green wireless networks, Standardization activities of emerging wireless technologies Power management and energy conservation techniques. As the book includes recent advances in research issues and applications, the contents will be beneficial to professors, research scholars, researchers, and engineers. This book will provide support and aid to the researchers involved in designing decision support systems that will permit the societal acceptance of ambient intelligence.
+                    The scope of the conference covers original works that are seen as a turning point in developing the quality human life/ performance in the future, therefore it has been identified as the theme of the conference. The aim of publishing the book is to serve for researchers, developers and educators working in the area of recent advances and upcoming technologies in the field of Cellular systems, 2G/2.5G/3G/4G/5G and beyond ,LTE, WiMAX, WMAN, and other emerging broadband wireless networks ,WLAN, WPAN, and other home/personal networking technologies, Pervasive and wearable computing and networking , Small cells and femtocell networks , Wireless mesh networks, Vehicular wireless networks ,Cognitive radio networks and their applications, Wireless multimedia networks , Green wireless networks, Standardization activities of emerging wireless technologies Power management and energy conservation techniques. As the book includes recent advances in research issues and applications, the contents will be beneficial to professors, research scholars, researchers, and engineers. This book will provide support and aid to the researchers involved in designing decision support systems that will permit the societal acceptance of ambient intelligence.
                   </p>
 
                   <p>
-                   The overall goal of this conference is to present the latest snapshot of the ongoing research as well as to shed further light on future directions in this space. Authors are invited to submit papers presenting novel technical studies as well as position and vision papers comprising hypothetical/speculative scenarios
+                    The overall goal of this conference is to present the latest snapshot of the ongoing research as well as to shed further light on future directions in this space. Authors are invited to submit papers presenting novel technical studies as well as position and vision papers comprising hypothetical/speculative scenarios
                   </p>
                 </div>
               </div>
@@ -179,31 +198,31 @@ Kurukshetra, Haryana
             <div className="col-md-6">
               <div className="content-panel bg-white border p-3 shadow-lg rounded">
                 <ul>
-                   <li> Cellular systems,2G/2.5G/3G/4G/5G and beyond</li>
-                    <li>LTE,WiMAX,WMAN, and other emerging broadband wireless networks</li>
-                   <li> Small cell and femtocell networks</li>
-                    <li>Vehicular radio networks</li>
-                    <li>Cognitive radio networks</li>
-                    <li>Green wireless networks</li>
-                    <li>Standardization activities of Emerging Wireless Technology</li>
-                    <li>Artificial Intelligence</li>
-                    <li>RF Communication</li>
-                    <li>Optimization Techniques</li>
+                  <li> Cellular systems,2G/2.5G/3G/4G/5G and beyond</li>
+                  <li>LTE,WiMAX,WMAN, and other emerging broadband wireless networks</li>
+                  <li> Small cell and femtocell networks</li>
+                  <li>Vehicular radio networks</li>
+                  <li>Cognitive radio networks</li>
+                  <li>Green wireless networks</li>
+                  <li>Standardization activities of Emerging Wireless Technology</li>
+                  <li>Artificial Intelligence</li>
+                  <li>RF Communication</li>
+                  <li>Optimization Techniques</li>
                 </ul>
               </div>
             </div>
             <div className="col-md-6">
               <div className="content-panel bg-white border p-3 shadow-lg rounded">
                 <ul>
-                    <li>Software-defined wireless networks</li>
-                    <li>Power managment and energy conservation techniques</li>
-                    <li>Wireless edge computing, fog computing, and cloud computing</li>
-                    <li>Inter-networking of wireless heterogeneous and multi-tier networks</li>
-                    <li>Machine-to-machine communications</li>
-                    <li>Pervasive and wearable computing and networking</li>
-                    <li>Wireless Adhoc-Networks</li>
-                    <li>Signal Processing</li>
-                    <li>Electric Vehicles</li>
+                  <li>Software-defined wireless networks</li>
+                  <li>Power managment and energy conservation techniques</li>
+                  <li>Wireless edge computing, fog computing, and cloud computing</li>
+                  <li>Inter-networking of wireless heterogeneous and multi-tier networks</li>
+                  <li>Machine-to-machine communications</li>
+                  <li>Pervasive and wearable computing and networking</li>
+                  <li>Wireless Adhoc-Networks</li>
+                  <li>Signal Processing</li>
+                  <li>Electric Vehicles</li>
                 </ul>
               </div>
             </div>
@@ -262,15 +281,15 @@ Kurukshetra, Haryana
           </p>
 
           <p>
-           All the accepted papers will be published in LNNS Springer, which is “Lecture Notes in Networks and Systems” <a href="https://www.springer.com/series/15179">https://www.springer.com/series/15179)</a> Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago.
+            All the accepted papers will be published in LNNS Springer, which is “Lecture Notes in Networks and Systems” <a href="https://www.springer.com/series/15179">https://www.springer.com/series/15179)</a> Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago.
           </p>
 
           <p>
-           The organizers are using standard plagiarism checking tools to scrutinize the paper and paper will be rejected if found with significant plagiarism.
+            The organizers are using standard plagiarism checking tools to scrutinize the paper and paper will be rejected if found with significant plagiarism.
           </p>
           <p>Authors of accepted papers will need to sign a copyright form and at-least one author must present the paper at the conference. All the accepted and presented papers will be published in the Springer Nature series, Mobile Radio Communications & 5G Network. The organizers are using standard plagiarism checking tools to scrutinize the paper and paper will be rejected if found with significant plagiarism.</p>
 
-         
+
         </div>
       </div>
 
@@ -778,30 +797,30 @@ Kurukshetra, Haryana
                     Australia
                   </p>
 
-                   <p className="card-text mt-3">
+                  <p className="card-text mt-3">
                     <strong>Dr. Vinod Kumar Shukla</strong>
                     <br />
-                   Head of Academics – School of Engineering Architecture Interior Design,
-               
-                    <br />                 
-                   Amity University Dubai, Dubai International Academic City, Dubai, United Arab Emirates                
+                    Head of Academics – School of Engineering Architecture Interior Design,
+
+                    <br />
+                    Amity University Dubai, Dubai International Academic City, Dubai, United Arab Emirates
                   </p>
 
-                   <p className="card-text mt-3">
+                  <p className="card-text mt-3">
                     <strong>Dr. Shruti Jain,</strong>
                     <br />
-                   Associate Prof. Dept. ECE,                  
-                    <br />                 
-                  JUIT, Solan, H.P                
+                    Associate Prof. Dept. ECE,
+                    <br />
+                    JUIT, Solan, H.P
                   </p>
 
-                    <p className="card-text mt-3">
+                  <p className="card-text mt-3">
                     <strong>Dr. Vijay Kumar Garg</strong>
                     <br />
-                    Asst. Prof. EE Dept.,                  
-                    <br />                 
-                     UIET, KUK            
-                     </p>
+                    Asst. Prof. EE Dept.,
+                    <br />
+                    UIET, KUK
+                  </p>
 
                 </div>
               </div>
@@ -815,20 +834,20 @@ Kurukshetra, Haryana
                   <h5 class="card-title fw-bold ">PROGRAM CHAIRS :</h5>
                   <div className="content-panel">
                     <ul class="mt-3">
-                        <li>Prof. (Dr.) Baldev Setia Director, Punjab Engineering College</li>
-                        <li>Prof. (Dr.) Anil Vohra Electronic Science Dept. KUK</li>
-                        <li>Prof. (Dr.) Carol Fung Virginia Commonwealth University, USA</li>
-                        <li>Prof. S. Jagannathan Missouri University of Science and Technology, USA</li>
-                        <li>Joanna Rosak-Szyrocka Department of Production Engineering and Safety Faculty of Management Czestochowa University Of Technology, Poland</li>
-                        <li>Prof. (Dr.) M.V Kartikeyan. IIT, Tirupati</li>
-                        <li>Prof. (Dr.) Shantanu Choudhary, IIT Jodhpur</li>
-                        <li>Prof. (Dr.) Dharmender Singh, IIT Roorkee</li>
-                        <li>Prof. (Dr.) Manak Gupta, Tennessee Technological University, USA</li>
-                        <li>Prof. (Dr.) Utkarsh Shrivastava, Western Michigan University, USA</li>
-                        <li>Prof. Shivakumar Mathapathi Adjunct Faculty- Santa Clara University and UC San Diego Extension Co Founder of Dew Mobility, USA</li>
-                        <li>Prof. (Dr.) O.P. Sahu ECE Dept. NIT Kurukshetra</li>
-                        <li>Prof. (Dr.) Shakti Kumar Director, PIET, Panipat</li>
-                        <li>Dr. Dinesh Kumar, Danfoss Global R&D Center, Denmark</li>
+                      <li>Prof. (Dr.) Baldev Setia Director, Punjab Engineering College</li>
+                      <li>Prof. (Dr.) Anil Vohra Electronic Science Dept. KUK</li>
+                      <li>Prof. (Dr.) Carol Fung Virginia Commonwealth University, USA</li>
+                      <li>Prof. S. Jagannathan Missouri University of Science and Technology, USA</li>
+                      <li>Joanna Rosak-Szyrocka Department of Production Engineering and Safety Faculty of Management Czestochowa University Of Technology, Poland</li>
+                      <li>Prof. (Dr.) M.V Kartikeyan. IIT, Tirupati</li>
+                      <li>Prof. (Dr.) Shantanu Choudhary, IIT Jodhpur</li>
+                      <li>Prof. (Dr.) Dharmender Singh, IIT Roorkee</li>
+                      <li>Prof. (Dr.) Manak Gupta, Tennessee Technological University, USA</li>
+                      <li>Prof. (Dr.) Utkarsh Shrivastava, Western Michigan University, USA</li>
+                      <li>Prof. Shivakumar Mathapathi Adjunct Faculty- Santa Clara University and UC San Diego Extension Co Founder of Dew Mobility, USA</li>
+                      <li>Prof. (Dr.) O.P. Sahu ECE Dept. NIT Kurukshetra</li>
+                      <li>Prof. (Dr.) Shakti Kumar Director, PIET, Panipat</li>
+                      <li>Dr. Dinesh Kumar, Danfoss Global R&D Center, Denmark</li>
                     </ul>
                   </div>
                 </div>
@@ -841,18 +860,18 @@ Kurukshetra, Haryana
                   <h5 class="card-title fw-bold ">TRACK CHAIRS :</h5>
                   <div className="content-panel">
                     <ul class="mt-3">
-                        <li>Prof. (Dr.) Rajeev Tripathi, Director, MNIT Allahabad</li>
-                        <li>Prof. (Dr.) Nag Bhushan, IIIT Allahabad</li>
-                        <li>Prof. (Dr.) Anupam Shukla, Director, IIIT Pune</li>
-                        <li>Prof. (Dr.) Yogesh Kumar, Vice Chancellor, DTU</li>
-                        <li>Prof. (Dr.) Sandeep Sanchet, SRM University Kanchipuram</li>
-                        <li>Prof. (Dr.) Brahmjit Singh, NIT Kurukshetra</li>
-                        <li>Dr. Ayodeji Olalekan Salau, Afe Babalola University Ado-Ekiti, Nigeria</li>
-                        <li>Dr. Aditya Kumar Singh Pundir, Arya College of Engineering & I.T. Jaipur, India</li>
-                        <li>Dr. Vikas Mittal, Chandigarh University, Chandigarh</li>
-                        <li>Dr. Gurpreet Singh Chhabra, GITAM School of Technology, GITAM University, Visakhapatnam</li>
-                        <li>Dr. P. William, Department of Information Technology, Sanjivani College of Engineering, SPPU, Pune</li>
-                        <li>Dr.A.Ahilan Associate Professor, Department of Electronics and Communication Engineering, PSN College of Engineering and Technology, Tirunelveli, Tamilnadu</li>
+                      <li>Prof. (Dr.) Rajeev Tripathi, Director, MNIT Allahabad</li>
+                      <li>Prof. (Dr.) Nag Bhushan, IIIT Allahabad</li>
+                      <li>Prof. (Dr.) Anupam Shukla, Director, IIIT Pune</li>
+                      <li>Prof. (Dr.) Yogesh Kumar, Vice Chancellor, DTU</li>
+                      <li>Prof. (Dr.) Sandeep Sanchet, SRM University Kanchipuram</li>
+                      <li>Prof. (Dr.) Brahmjit Singh, NIT Kurukshetra</li>
+                      <li>Dr. Ayodeji Olalekan Salau, Afe Babalola University Ado-Ekiti, Nigeria</li>
+                      <li>Dr. Aditya Kumar Singh Pundir, Arya College of Engineering & I.T. Jaipur, India</li>
+                      <li>Dr. Vikas Mittal, Chandigarh University, Chandigarh</li>
+                      <li>Dr. Gurpreet Singh Chhabra, GITAM School of Technology, GITAM University, Visakhapatnam</li>
+                      <li>Dr. P. William, Department of Information Technology, Sanjivani College of Engineering, SPPU, Pune</li>
+                      <li>Dr.A.Ahilan Associate Professor, Department of Electronics and Communication Engineering, PSN College of Engineering and Technology, Tirunelveli, Tamilnadu</li>
                     </ul>
                   </div>
                 </div>
@@ -867,13 +886,13 @@ Kurukshetra, Haryana
                   <h5 className="card-title fw-bold ">ORGANIZING COMMITTEE:</h5>
                   <div className="content-panel">
                     <ul className="mt-3">
-                    <li>Dr. Ram Avtar</li>
-                    <li>Dr. Sanjeev Ahuja</li>
-                    <li>Dr. Monish Gupta</li>
-                    <li>Dr. Reeta Devi</li>
-                    <li>Dr. Puneet Bansal</li>
-                    <li>Dr. Deepak Sood</li>
-                   
+                      <li>Dr. Ram Avtar</li>
+                      <li>Dr. Sanjeev Ahuja</li>
+                      <li>Dr. Monish Gupta</li>
+                      <li>Dr. Reeta Devi</li>
+                      <li>Dr. Puneet Bansal</li>
+                      <li>Dr. Deepak Sood</li>
+
                     </ul>
                   </div>
                 </div>
@@ -886,15 +905,15 @@ Kurukshetra, Haryana
                   <h5 className="card-title fw-bold ">ORGANIZING COMMITTEE:</h5>
                   <div className="content-panel">
                     <ul className="mt-3">
-                  
-                    <li>Dr.Priyanka Jangra</li>
-                    <li>Dr. Deepti Choudhary</li>
-                    <li>Mr.Nafeesh Ahmed</li>
-                    <li>Mr. Krishan Gopal</li>
-                    <li>Mr. Rahul Gupta</li>
-                    <li>Ms. Shefali Dhingra</li>
-                    <li>Ms. Shikha Bhardwaj</li>
-                   
+
+                      <li>Dr.Priyanka Jangra</li>
+                      <li>Dr. Deepti Choudhary</li>
+                      <li>Mr.Nafeesh Ahmed</li>
+                      <li>Mr. Krishan Gopal</li>
+                      <li>Mr. Rahul Gupta</li>
+                      <li>Ms. Shefali Dhingra</li>
+                      <li>Ms. Shikha Bhardwaj</li>
+
                     </ul>
                   </div>
                 </div>
@@ -908,20 +927,20 @@ Kurukshetra, Haryana
                   <h5 className="card-title fw-bold ">ORGANIZING COMMITTEE:</h5>
                   <div className="content-panel">
                     <ul className="mt-3">
-                   <li>Ms. Priya</li>
-                    <li>Ms. Ekta</li>
-                    <li>Mr. Krishna Pandey</li>
-                    <li>Ms. Kirti Saini</li>
-                    <li>Mrs. Shivani Chauhan</li>
-                    <li>Mr. Abhishek</li>
-                    <li>Mr. Archit Sharma</li>
+                      <li>Ms. Priya</li>
+                      <li>Ms. Ekta</li>
+                      <li>Mr. Krishna Pandey</li>
+                      <li>Ms. Kirti Saini</li>
+                      <li>Mrs. Shivani Chauhan</li>
+                      <li>Mr. Abhishek</li>
+                      <li>Mr. Archit Sharma</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
 
-          
+
           </div>
         </div>
       </div>
@@ -929,53 +948,53 @@ Kurukshetra, Haryana
 
 
 
-<section class="event-location py-5 bg-light">
-  <div class="container">
-    <div class="row g-4 align-items-stretch">    
-  
-      <div class="col-md-5">
-        <div class="h-100 d-flex flex-column justify-content-center px-4 py-5 bg-white shadow-sm rounded-3 border">
-          <h2 class="fw-bold text-center mb-4 display-6">Event Location</h2>
-          <p class="mb-2 text-center">
-            <strong>U.I.E.T. – University Institute of Engineering &amp; Technology</strong>
-          </p>
-          <p class="mb-2 text-center">
-            Kurukshetra University,
-          </p>
-          <p class="mb-4 text-center">
-            Kurukshetra, Haryana
-          </p>
-          <p class="mb-0 text-center">
-            Website: 
-            <a href="https://www.uietkuk.ac.in" target="_blank" rel="noopener">
-              www.uietkuk.ac.in
-            </a>
-          </p>
+      <section class="event-location py-5 bg-light">
+        <div class="container">
+          <div class="row g-4 align-items-stretch">
 
-           <p class="text-center mb-1"><strong>Dr. Nikhil Marriwala</strong></p>
-        <p class="text-center mb-1">Assistant Professor, ECE Dept.</p>
-        <p class="text-center mb-1">UIET, KUK</p>
+            <div class="col-md-5">
+              <div class="h-100 d-flex flex-column justify-content-center px-4 py-5 bg-white shadow-sm rounded-3 border">
+                <h2 class="fw-bold text-center mb-4 display-6">Event Location</h2>
+                <p class="mb-2 text-center">
+                  <strong>U.I.E.T. – University Institute of Engineering &amp; Technology</strong>
+                </p>
+                <p class="mb-2 text-center">
+                  Kurukshetra University,
+                </p>
+                <p class="mb-4 text-center">
+                  Kurukshetra, Haryana
+                </p>
+                <p class="mb-0 text-center">
+                  Website:
+                  <a href="https://www.uietkuk.ac.in" target="_blank" rel="noopener">
+                    www.uietkuk.ac.in
+                  </a>
+                </p>
 
-        <p class="text-center mt-3 mb-1">
-            <strong>Contact:</strong> +91 9416668482
-        </p>
+                <p class="text-center mb-1"><strong>Dr. Nikhil Marriwala</strong></p>
+                <p class="text-center mb-1">Assistant Professor, ECE Dept.</p>
+                <p class="text-center mb-1">UIET, KUK</p>
 
-        <p class="text-center mb-0">
-            <strong>Email:</strong> <a href="mailto:mrcnuiet2023@kuk.ac.in">mrcnuiet2023@kuk.ac.in</a>
-        </p>
+                <p class="text-center mt-3 mb-1">
+                  <strong>Contact:</strong> +91 9416668482
+                </p>
+
+                <p class="text-center mb-0">
+                  <strong>Email:</strong> <a href="mailto:mrcnuiet2023@kuk.ac.in">mrcnuiet2023@kuk.ac.in</a>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="col-md-7">
+              <div class="h-100 bg-white shadow-sm rounded-3 border overflow-hidden">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.6305173008222!2d76.81086257555054!3d29.961304674965568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e38b1c9410e23%3A0xff2e40965dcd7b69!2sUniversity%20Institute%20of%20Engineering%20and%20Technology%2C%20Kurukshetra%20University!5e0!3m2!1sen!2sin!4v1764314649107!5m2!1sen!2sin" width="600" height="450" style={{ "border": 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div>
-
-  
-      <div class="col-md-7">
-        <div class="h-100 bg-white shadow-sm rounded-3 border overflow-hidden">        
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.6305173008222!2d76.81086257555054!3d29.961304674965568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e38b1c9410e23%3A0xff2e40965dcd7b69!2sUniversity%20Institute%20of%20Engineering%20and%20Technology%2C%20Kurukshetra%20University!5e0!3m2!1sen!2sin!4v1764314649107!5m2!1sen!2sin" width="600" height="450" style={{"border":0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
+      </section>
 
 
 

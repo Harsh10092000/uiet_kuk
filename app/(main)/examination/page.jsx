@@ -21,7 +21,26 @@ const getData = async () => {
     return err;
   }
 }
-const page = async () => {
+export const metadata = {
+  title: "Examination Branch | UIET KUK",
+  description: "Information regarding examinations, notices, and date sheets at UIET KUK.",
+  openGraph: {
+    title: "Examination Branch | UIET KUK",
+    description: "Information regarding examinations, notices, and date sheets at UIET KUK.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
+const Page = async () => {
   const { results } = await getData();
   console.log("results : ", results);
   // const results = [
@@ -74,4 +93,4 @@ const page = async () => {
   );
 };
 
-export default page;
+export default Page;

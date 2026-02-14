@@ -2,7 +2,26 @@ import React from "react";
 import AdmissionBulletin from "@/components/admissionBulletin/AdmissionBulletin";
 import FeaturedProgrammes from "@/components/admission/FeaturedProgrammes";
 
-const page = () => {
+export const metadata = {
+  title: "Admission | UIET KUK",
+  description: "Admission process, eligibility, and fee structure for B.Tech, M.Tech, and Ph.D. programs at UIET Kurukshetra.",
+  openGraph: {
+    title: "Admission | UIET KUK",
+    description: "Admission process, eligibility, and fee structure for B.Tech, M.Tech, and Ph.D. programs at UIET Kurukshetra.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
+const Page = () => {
 
   const btech_coursese = [
     {
@@ -385,29 +404,29 @@ const page = () => {
         </div>
       </section> */}
 
-<AdmissionBulletin />
+      <AdmissionBulletin />
 
       <div class="accreditation-section">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-4 ">
               <div className="accreditation-item">
-              <img src="/logo-ug-1.jpg" alt="UGC Logo" />
-              <h6>UGC Entitled</h6>
+                <img src="/logo-ug-1.jpg" alt="UGC Logo" />
+                <h6>UGC Entitled</h6>
               </div>
             </div>
 
             <div class="col-md-4">
               <div className="accreditation-item">
-              <img src="/logo-ug-2.jpg" alt="NAAC Logo" />
-              <h6>NAAC A++ Grade</h6>
+                <img src="/logo-ug-2.jpg" alt="NAAC Logo" />
+                <h6>NAAC A++ Grade</h6>
               </div>
             </div>
 
             <div class="col-md-4">
-               <div className="accreditation-item">
-              <img src="/logo-ug-3.jpg" alt="AICTE Logo" />
-              <h6>AICTE Approved</h6>
+              <div className="accreditation-item">
+                <img src="/logo-ug-3.jpg" alt="AICTE Logo" />
+                <h6>AICTE Approved</h6>
               </div>
             </div>
           </div>
@@ -708,4 +727,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

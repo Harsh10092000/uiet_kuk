@@ -1,6 +1,25 @@
 import React from "react";
 import Link from "next/link";
-const page = () => {
+export const metadata = {
+  title: "MRCN 2025 Conference | UIET KUK",
+  description: "International Conference on Mobile Radio Communications and 5G Networks (MRCN 2025).",
+  openGraph: {
+    title: "MRCN 2025 Conference | UIET KUK",
+    description: "International Conference on Mobile Radio Communications and 5G Networks (MRCN 2025).",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
+const Page = () => {
   return (
     <div>
       <section className="banner network-bg">
@@ -1356,7 +1375,7 @@ const page = () => {
               </div>
             </div>
 
-               <div className="col-md-12">
+            <div className="col-md-12">
               <div className="about-bg mb-3">
                 <div className="row">
                   <div className=" col-md-2">
@@ -1367,25 +1386,25 @@ const page = () => {
                   <div className="col-md-10">
                     <div className="contact-panel mb-40">
                       <h2>
-                       MRCN 2020
+                        MRCN 2020
                         <span className="red d-block">
-                        Mobile Radio Communications and 5G Networks
+                          Mobile Radio Communications and 5G Networks
                         </span>
                       </h2>
 
                       <p>
-                       Book on Mobile Radio Communications and 5G Networks, under Series Title, Lecture Notes in Networks and systems
+                        Book on Mobile Radio Communications and 5G Networks, under Series Title, Lecture Notes in Networks and systems
                       </p>
                       <p>Editors: N. Marriwala et al. (Eds.)</p>
                       <p>
-                       Series Volume-140, eBook ISBN 978-981-15-7130-5, DOI 10.1007/978-981-15-7130-5, Softcover ISBN-978-981-15-7129-9, Series ISSN-2367-3370
+                        Series Volume-140, eBook ISBN 978-981-15-7130-5, DOI 10.1007/978-981-15-7130-5, Softcover ISBN-978-981-15-7129-9, Series ISSN-2367-3370
                       </p>
                       <p>
                         Edition Number-1, Publisher Springer Singapore, July-2020, Scopus Indexed.
                       </p>
-                     <a target="_blank" href="https://link.springer.com/book/10.1007/978-981-15-7130-5">
-                    https://link.springer.com/book/10.1007/978-981-15-7130-5
-                </a>
+                      <a target="_blank" href="https://link.springer.com/book/10.1007/978-981-15-7130-5">
+                        https://link.springer.com/book/10.1007/978-981-15-7130-5
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -1399,4 +1418,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

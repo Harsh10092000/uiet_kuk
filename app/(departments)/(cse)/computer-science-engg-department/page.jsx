@@ -1,5 +1,28 @@
 import React from "react";
 import FacultySlider from "@/components/departments/facultySlider/FacultySlider";
+import DepartmentHeader from "@/components/departments/DepartmentHeader";
+import DepartmentSection from "@/components/departments/DepartmentSection";
+import Link from "next/link"; // Kept if needed for other links, though DepartmentHeader handles breadcrumbs
+
+export const metadata = {
+  title: "Computer Science & Engineering (CSE) | UIET KUK",
+  description: "Leading CSE Department at UIET Kurukshetra. Specializations in AI, ML, Data Science, and Cloud Computing. Top-tier placements.",
+  keywords: ["Computer Science Engineering India", "B.Tech CSE", "AI and ML Courses", "Data Science", "UIET KUK CSE", "Best CSE Colleges in Haryana"],
+  openGraph: {
+    title: "Computer Science & Engineering (CSE) | UIET KUK",
+    description: "Leading CSE Department at UIET Kurukshetra. Specializations in AI, ML, Data Science, and Cloud Computing. Top-tier placements.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
 
 const page = () => {
   // Faculty data
@@ -41,32 +64,14 @@ const page = () => {
 
   return (
     <div>
-      <section className="pages-title mb-4">
-        <div className="container">
-          <h2>Computer Science & Engg. Department</h2>
-
-          <ul className="breadcrumb text-center mx-auto">
-            <li className="breadcrumb-item">
-              <a href="#">Home</a>
-            </li>
-            <li className="breadcrumb-item">Department</li>
-
-            <li className="breadcrumb-item active" aria-current="page">
-              Computer Science & Engg. Department
-            </li>
-          </ul>
-        </div>
-      </section>
+      <DepartmentHeader title="Computer Science & Engg. Department" />
 
       <section className="main-content mt-5 mb-5 ">
         <div className="container">
           <div className="about-bg">
             <div className="row">
               <div className=" col-lg-12">
-                <div className="content-panel message-block  mb-40">
-                  <h3 id="about-us" className="mb-4">
-                    About <span className="red">Us</span>
-                  </h3>
+                <DepartmentSection title="About" highlight="Us" id="about-us">
                   <p>
                     The Department of Computer Science & Engineering was established in 2004 with an initial intake of 60 students in B.Tech. and 20 in M.Tech. (Software Engineering). In 2007, the B.Tech. intake was increased to 120, reflecting the growing demand for computer engineering. The department has maintained a near 100% placement record for eligible students over the past five years. To align with emerging technologies, a new B.Tech. program in Computer Science & Engineering (Artificial Intelligence & Machine Learning) was launched in 2023–24 with an intake of 60 students. The department also offers an M.Tech. in Computer Engineering with 18 seats and a Ph.D. program started in 2013, with several doctoral degrees awarded and many in progress.
                   </p>
@@ -116,7 +121,6 @@ const page = () => {
                     Faculty   <span className="red">Incharge speaks</span>
                   </h3>
 
-
                   <p>
                     The department has a team of highly qualified and dedicated
                     faculty who foster analytical thinking, creativity, and
@@ -159,7 +163,7 @@ const page = () => {
                     may promote nations welfare in terms of economic
                     acceleration leading to the growth of society.
                   </p> */}
-                </div>
+                </DepartmentSection>
               </div>
             </div>
           </div>

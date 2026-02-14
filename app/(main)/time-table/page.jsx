@@ -18,11 +18,30 @@ const getData = async () => {
         return err;
     }
 }
-const page = async () => {
+export const metadata = {
+    title: "Time Table | UIET KUK",
+    description: "Class schedules and time tables for all departments at UIET Kurukshetra.",
+    openGraph: {
+        title: "Time Table | UIET KUK",
+        description: "Class schedules and time tables for all departments at UIET Kurukshetra.",
+        images: [
+            {
+                url: "/uiet-logo.png",
+                width: 800,
+                height: 600,
+                alt: "UIET Kurukshetra Logo",
+            },
+        ],
+        locale: "en_IN",
+        type: "website",
+    },
+};
+
+const Page = async () => {
     const { results } = await getData();
     return (
         <NotificationsList results={results} page_name={"Time Table"} />
     );
 };
 
-export default page;
+export default Page;

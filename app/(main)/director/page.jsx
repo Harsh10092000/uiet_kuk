@@ -1,6 +1,25 @@
 import React from "react";
 
-const page = () => {
+export const metadata = {
+  title: "Director's Message | UIET KUK",
+  description: "Message from the Director of UIET Kurukshetra University.",
+  openGraph: {
+    title: "Director's Message | UIET KUK",
+    description: "Message from the Director of UIET Kurukshetra University.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
+const Page = () => {
   return (
     <div>
       <section className="pages-title mb-4">
@@ -79,4 +98,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -20,11 +20,30 @@ const getData = async () => {
         return err;
     }
 }
-const page = async () => {
+export const metadata = {
+    title: "Reports | UIET KUK",
+    description: "Annual reports, audit reports, and other official documents of UIET KUK.",
+    openGraph: {
+        title: "Reports | UIET KUK",
+        description: "Annual reports, audit reports, and other official documents of UIET KUK.",
+        images: [
+            {
+                url: "/uiet-logo.png",
+                width: 800,
+                height: 600,
+                alt: "UIET Kurukshetra Logo",
+            },
+        ],
+        locale: "en_IN",
+        type: "website",
+    },
+};
+
+const Page = async () => {
     const { results } = await getData();
     return (
         <NotificationsList results={results} page_name={"Reports"} />
     );
 };
 
-export default page;
+export default Page;

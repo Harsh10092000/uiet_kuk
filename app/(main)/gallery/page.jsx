@@ -32,9 +32,28 @@ const getData = async () => {
   }
 };
 
+export const metadata = {
+  title: "Photo Gallery | UIET KUK",
+  description: "Glimpses of campus life, events, and activities at UIET Kurukshetra.",
+  openGraph: {
+    title: "Photo Gallery | UIET KUK",
+    description: "Glimpses of campus life, events, and activities at UIET Kurukshetra.",
+    images: [
+      {
+        url: "/uiet-logo.png",
+        width: 800,
+        height: 600,
+        alt: "UIET Kurukshetra Logo",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
 const Page = async () => {
   const sections = await getData();
-  const IMAGE_BASE_URL = "http://localhost:8000/uploads/gallery/";
+  const IMAGE_BASE_URL = `${process.env.BACKEND_URL}/uploads/gallery/`;
 
   return (
     <div>

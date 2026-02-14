@@ -20,11 +20,11 @@ const getData = async () => {
         return err;
     }
 }
-const page = async () => {
+const Page = async () => {
     const { results } = await getData();
     return (
         <NotificationsList results={results} page_name={"Date Sheet"} />
     );
 };
 
-export default page;
+export default Page;

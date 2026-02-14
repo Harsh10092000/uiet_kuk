@@ -1,5 +1,28 @@
 import React from "react";
 import FacultySlider from "@/components/departments/facultySlider/FacultySlider";
+import DepartmentHeader from "@/components/departments/DepartmentHeader";
+import DepartmentSection from "@/components/departments/DepartmentSection";
+import Link from "next/link";
+
+export const metadata = {
+    title: "Applied Sciences Department | UIET KUK",
+    description: "Foundation of Engineering. Applied methodologies in Physics, Chemistry, and Mathematics at UIET Kurukshetra University.",
+    keywords: ["Applied Sciences Engineering", "Engineering Physics", "Engineering Chemistry", "Engineering Mathematics", "UIET KUK Applied Sciences"],
+    openGraph: {
+        title: "Applied Sciences Department | UIET KUK",
+        description: "Foundation of Engineering. Applied methodologies in Physics, Chemistry, and Mathematics at UIET Kurukshetra University.",
+        images: [
+            {
+                url: "/uiet-logo.png",
+                width: 800,
+                height: 600,
+                alt: "UIET Kurukshetra Logo",
+            },
+        ],
+        locale: "en_IN",
+        type: "website",
+    },
+};
 
 const page = () => {
     // Faculty data
@@ -41,36 +64,18 @@ const page = () => {
 
     return (
         <div>
-            <section className="pages-title mb-4">
-                <div className="container">
-                    <h2>Applied Sciences Department</h2>
-
-                    <ul className="breadcrumb text-center mx-auto">
-                        <li className="breadcrumb-item">
-                            <a href="#">Home</a>
-                        </li>
-                        <li className="breadcrumb-item">Department</li>
-
-                        <li className="breadcrumb-item active" aria-current="page">
-                            Applied Sciences Department
-                        </li>
-                    </ul>
-                </div>
-            </section>
+            <DepartmentHeader title="Applied Sciences Department" />
 
             <section className="main-content mt-5 mb-5 ">
                 <div className="container">
                     <div className="about-bg">
                         <div className="row">
                             <div className=" col-lg-12">
-                                <div className="content-panel message-block  mb-40">
-                                    <h3 id="about-us" className="mb-4">
-                                        About <span className="red">Us</span>
-                                    </h3>
+                                <DepartmentSection title="About" highlight="Us" id="about-us">
                                     <p>
                                         The Department of Applied Science at U.I.E.T, KUK was established in 2004. The department has been successfully running Ph.D programmes in the fields of Physics, Chemistry and Mathematics and has continuosly strived to innovate and excel in research areas. There are a total of nine experienced faculty members with research publications in various reputed international journals.. Eight well equipped laboratories of Physics, Chemistry and English are also maintained and operated for academic and research activities.
                                     </p>
-                                </div>
+                                </DepartmentSection>
                             </div>
                         </div>
                     </div>

@@ -20,11 +20,30 @@ ORDER BY no.position DESC, n.notification_date DESC;`
         return err;
     }
 }
-const page = async () => {
+export const metadata = {
+    title: "Policies | UIET KUK",
+    description: "Institutional policies and guidelines of UIET Kurukshetra.",
+    openGraph: {
+        title: "Policies | UIET KUK",
+        description: "Institutional policies and guidelines of UIET Kurukshetra.",
+        images: [
+            {
+                url: "/uiet-logo.png",
+                width: 800,
+                height: 600,
+                alt: "UIET Kurukshetra Logo",
+            },
+        ],
+        locale: "en_IN",
+        type: "website",
+    },
+};
+
+const Page = async () => {
     const { results } = await getData();
     return (
         <NotificationsList results={results} page_name={"Policies"} />
     );
 };
 
-export default page;
+export default Page;

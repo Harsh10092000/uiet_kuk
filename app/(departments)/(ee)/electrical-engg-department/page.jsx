@@ -1,5 +1,28 @@
 import React from "react";
 import FacultySlider from "@/components/departments/facultySlider/FacultySlider";
+import DepartmentHeader from "@/components/departments/DepartmentHeader";
+import DepartmentSection from "@/components/departments/DepartmentSection";
+import Link from "next/link";
+
+export const metadata = {
+    title: "Electrical Engineering Department | UIET KUK",
+    description: "Excellence in Electrical Engineering at UIET KUK. Studies in Power Systems, Control Systems, and Renewable Energy.",
+    keywords: ["Electrical Engineering India", "B.Tech Electrical", "Power Systems", "Control Systems", "Renewable Energy Engineering", "UIET KUK Electrical"],
+    openGraph: {
+        title: "Electrical Engineering Department | UIET KUK",
+        description: "Excellence in Electrical Engineering at UIET KUK. Studies in Power Systems, Control Systems, and Renewable Energy.",
+        images: [
+            {
+                url: "/uiet-logo.png",
+                width: 800,
+                height: 600,
+                alt: "UIET Kurukshetra Logo",
+            },
+        ],
+        locale: "en_IN",
+        type: "website",
+    },
+};
 
 const page = () => {
     // Faculty data
@@ -41,32 +64,14 @@ const page = () => {
 
     return (
         <div>
-            <section className="pages-title mb-4">
-                <div className="container">
-                    <h2>Electrical Engg. Department</h2>
-
-                    <ul className="breadcrumb text-center mx-auto">
-                        <li className="breadcrumb-item">
-                            <a href="#">Home</a>
-                        </li>
-                        <li className="breadcrumb-item">Department</li>
-
-                        <li className="breadcrumb-item active" aria-current="page">
-                            Electrical Engg. Department
-                        </li>
-                    </ul>
-                </div>
-            </section>
+            <DepartmentHeader title="Electrical Engg. Department" />
 
             <section className="main-content mt-5 mb-5 ">
                 <div className="container">
                     <div className="about-bg">
                         <div className="row">
                             <div className=" col-lg-12">
-                                <div className="content-panel message-block  mb-40">
-                                    <h3 id="about-us" className="mb-4">
-                                        About <span className="red">Us</span>
-                                    </h3>
+                                <DepartmentSection title="About" highlight="Us" id="about-us">
                                     <p>
                                         The Department of Electrical Engineering was established in the year 2004 to give the basic knowledge of Electrical Technology to the students of all branches. To keep pace with the current technological trends the department has introduced a credit based postgraduate programme leading to M.Tech. in Electrical Engineering in the year 2011 with intake of 18 students.
                                     </p>
@@ -76,7 +81,7 @@ const page = () => {
                                     <p>
                                         The program offers a unique, interdisciplinary, balanced combination of tools, techniques, practices, and applications from the two most essential engineering disciplines, namely Computer Engineering and Electrical Engineering.The students have the flexibility to choose various elective subjects as per their interests and future prospects. The benefits of the course to the students are decision-making, solving complex problems, increasing productivity, widening analytical skills, etc, which helps them match their speed and competency with the fast-growing technology world. The course will help the students participate in various placement drives and further research work.
                                     </p>
-                                </div>
+                                </DepartmentSection>
                             </div>
                         </div>
                     </div>

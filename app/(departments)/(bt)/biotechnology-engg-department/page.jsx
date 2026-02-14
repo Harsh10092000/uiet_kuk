@@ -1,5 +1,27 @@
 import React from "react";
 import FacultySlider from "@/components/departments/facultySlider/FacultySlider";
+import DepartmentHeader from "@/components/departments/DepartmentHeader";
+import DepartmentSection from "@/components/departments/DepartmentSection";
+
+export const metadata = {
+    title: "Biotechnology Engineering Agency | UIET KUK",
+    description: "Join the best Biotechnology Engineering department at UIET Kurukshetra. Offering B.Tech, M.Tech, and Ph.D. with top placements and research facilities.",
+    keywords: ["Biotechnology Engineering India", "B.Tech Biotechnology", "Biotech Colleges Kurukshetra", "UIET KUK Biotechnology", "Genetic Engineering", "Bioinformatics"],
+    openGraph: {
+        title: "Biotechnology Engineering Agency | UIET KUK",
+        description: "Join the best Biotechnology Engineering department at UIET Kurukshetra. Offering B.Tech, M.Tech, and Ph.D. with top placements and research facilities.",
+        images: [
+            {
+                url: "/uiet-logo.png", // Assuming a default logo or we can use a specific department image if available
+                width: 800,
+                height: 600,
+                alt: "UIET Kurukshetra Logo",
+            },
+        ],
+        locale: "en_IN",
+        type: "website",
+    },
+};
 
 const page = () => {
     // Faculty data - Update with actual BT faculty
@@ -219,49 +241,33 @@ const page = () => {
 
     return (
         <div>
-            <section className="pages-title mb-4">
+            <DepartmentHeader title="Biotechnology Engg. Department" />
+
+            <section className="main-content mt-5 mb-5 ">
                 <div className="container">
-                    <h2>Biotechnology Engg. Department</h2>
-
-                    <ul className="breadcrumb text-center mx-auto">
-                        <li className="breadcrumb-item">
-                            <a href="#">Home</a>
-                        </li>
-                        <li className="breadcrumb-item">Department</li>
-
-                        <li className="breadcrumb-item active" aria-current="page">
-                            Biotechnology Engg. Department
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <section className="main-content mt-5 mb-5">
-                <div className="container">
-                    {/* About Section */}
                     <div className="about-bg">
                         <div className="row">
-                            <div className="col-lg-12">
-                                <div className="content-panel message-block mb-40">
-                                    <h3 className="mb-4">
-                                        About <span className="red">Us</span>
-                                    </h3>
+                            <div className=" col-lg-12">
+                                <DepartmentSection title="About" highlight="Us" id="about-us">
                                     <p>
                                         The Department of Biotechnology Engineering (BT) at UIET, Kurukshetra University is one of the best places in the area for providing high-quality biotechnology research and education. The department offers well-structured B.Tech, M.Tech and Ph.D. curricula. The department blends strong academic instruction with considerable practical exposure.
                                     </p>
                                     <p>
-                                        The department comprises a team of highly qualified faculty members, the majority of whom have doctorates with active engagement in research, publishing, and creative teaching approaches. Its state-of-the-art laboratories, equipped with contemporary tools and advanced research kits, enable students to build strong technical capabilities in different areas like molecular biology, Microbiology, Biochemistry, Immunology, Nanotechnology, Bioinformatics and Plant Tissue Culture.
+                                        The department has highly qualified young faculty with Ph.D. and M.Tech from premier institutes who are motivated researchers on various national and international platforms.
                                     </p>
                                     <p>
-                                        In line with the National Education Policy (NEP) 2020, the department has adopted student-centric academic practices such as multidisciplinary course offerings, skill-oriented elective baskets, flexible credit structures, project-based learning, internships, and outcome-driven assessment methods, ensuring holistic development and alignment with emerging industry needs.
+                                        The excellent infrastructure includes air-conditioned classrooms with audio-visual aids and well-equipped laboratories with advanced instruments and software.
                                     </p>
                                     <p>
-                                        Moreover, from the session 2020-21, the department has started offering various programmes/nomenclatures for B.Tech Honors with Specialization/Minor Degree in Emerging Areas like Drug Engineering, Computer Science and Biology, and Genome Engineering and Technology etc.
+                                        The Department of Biotechnology Engineering has a number of instruments for students to use in their classes and research. These include a fermenter, a UV-visible spectrophotometer, a PCR machine, a gel documentation system, a deep freezer, a CO2 incubator, etc. The department has two smart classrooms and a seminar hall.
                                     </p>
                                     <p>
-                                        The department actively organizes and participates in national faculty development programmes (FDPs), seminars, conferences, workshops, and expert talks, offering students the chance to engage with top scientists and industry specialists. Equipped with a strong infrastructure, dedicated faculty, and a learning environment linked to the industry, the department has witnessed consistent placement growth, with graduates securing positions in Biotechnology, Pharma and IT Industries, as well as qualifying in competitive examinations and pursuing higher education at reputed institutions in India and abroad.
+                                        Students of the department have been placed in various MNCs with high packages. Many students have passed the GATE exam with good ranks and are pursuing higher studies at IITs and NITs.
                                     </p>
-                                </div>
+                                    <p>
+                                        The department has organized various workshops, expert lectures, and industrial visits for the overall development of students.
+                                    </p>
+                                </DepartmentSection>
                             </div>
                         </div>
                     </div>
