@@ -26,8 +26,41 @@ const ContactUsContent = () => {
         }
     };
 
+    const validateForm = () => {
+        const errors = {};
+        if (!form.fullName.trim() || form.fullName.trim().length < 2) {
+            errors.fullName = "Full name is required (min 2 characters)";
+        }
+        if (!form.email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
+            errors.email = "Please provide a valid email address";
+        }
+        const phoneRegex = /^[0-9+\-\s()]{7,20}$/;
+        if (!form.phone.trim() || !phoneRegex.test(form.phone.trim())) {
+            errors.phone = "Phone number should be 7-20 characters (digits, spaces, +, -, parentheses)";
+        }
+        if (!form.subject.trim() || form.subject.trim().length < 3) {
+            errors.subject = "Subject is required (min 3 characters)";
+        }
+        if (!form.message.trim() || form.message.trim().length < 10) {
+            errors.message = "Message should be at least 10 characters";
+        }
+        return errors;
+    };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        // Client-side validation
+        const errors = validateForm();
+        if (Object.keys(errors).length > 0) {
+            setFieldErrors(errors);
+            setStatus({
+                type: "error",
+                message: "Please check the form fields and try again."
+            });
+            return;
+        }
+
         setLoading(true);
         setStatus({ type: "", message: "" });
         setFieldErrors({});

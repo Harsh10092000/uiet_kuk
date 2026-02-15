@@ -1,133 +1,109 @@
+"use client";
 import React from "react";
 import Link from "next/link";
-const page = () => {
+import { facultyData } from "@/app/data/facultyData";
+
+const Page = () => {
+  const departmentData = facultyData["computer-science-engg-department"] || [];
+
   return (
     <div>
       <section className="pages-title mb-4">
         <div className="container">
-          <h2> Department of Computer Science Engg.</h2>
+          <h2>Department of Computer Science Engg.</h2>
 
-          <ul class="breadcrumb text-center mx-auto">
-            <li class="breadcrumb-item">
+          <ul className="breadcrumb text-center mx-auto">
+            <li className="breadcrumb-item">
               <Link href="/">Home</Link>
             </li>
-            <li class="breadcrumb-item"> <Link href="/computer-science-engg-department">Department of Computer Science Engg.</Link></li>
-
-            <li class="breadcrumb-item active" aria-current="page">
+            <li className="breadcrumb-item">
+              <Link href="/computer-science-engg-department">
+                Department of Computer Science Engg.
+              </Link>
+            </li>
+            <li className="breadcrumb-item active" aria-current="page">
               Faculty of Computer Science Engg.
             </li>
           </ul>
         </div>
       </section>
 
-     <section className="main-content mt-5 mb-5 ">
-        <div class="container">
-          <div className="about-bg bg-remove mb-4">
-            <div class="row">
-              <div class="col-sm-10 col-md-12 col-lg-2">
-                <div className="aboutpict mb-40">
-                  <img src="/kulvinder-singh.jpg" class="img-fluid" alt="kulvinder" width="100%" />
+      <section className="main-content mt-5 mb-5">
+        <div className="container">
+          {departmentData.map((faculty) => (
+            <div className="about-bg bg-remove mb-4" key={faculty.id}>
+              <div className="row">
+                <div className="col-sm-10 col-md-12 col-lg-2">
+                  <div className="aboutpict mb-40">
+                    <img
+                      src={faculty.image !== "#" ? faculty.image : "/images/placeholder-faculty.jpg"}
+                      className="img-fluid"
+                      alt={faculty.name}
+                      width="100%"
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = "/images/placeholder-faculty.jpg";
+                      }}
+                    />
+                  </div>
                 </div>
-              </div>
-              <div class="col-sm-10 col-md-12 col-lg-10">
-                <div className="content-panel mb-40">
-                  <h4>
-                    Dr. Kulvinder Singh
-                    <span className="red d-block">CSE, Associate Professor </span>
-                  </h4>
-                 
-                  <ul className="peronal-detail">
-                     <li>
-                      <strong>Experience :</strong>
-                      <a href="#">12 Years</a>
-                    </li>
-                    <li>
-                      <strong>Phone (Office) :</strong>
-                      <a href="tel:1744239155">1744-239155</a>
-                    </li>
-                    <li>
-                      <strong>Specialization  :</strong>
-                      <a href="#">Software Testing</a>
-                    </li>
-                     <li>
-                      <strong>Research/Publication:</strong>
-                      <a href="#">50 International and 20 National</a>
-                    </li>
-                     
-                    <li>
-                      <strong>E-mail :</strong>
-                      <a href="mailto:ksingh2015@kuk.ac.in">ksingh2015@kuk.ac.in</a>
-                    </li>
-                    <li>
-                      <strong>Qualification :</strong>
-                      <a href="#">                       
-                       Ph.D.
-                      </a>
-                    </li>
-                    <li><a href="#" className="btn-red mt-3">Annexure (Complete Resume)</a></li>
-                  </ul>
+                <div className="col-sm-10 col-md-12 col-lg-10">
+                  <div className="content-panel mb-40">
+                    <h4>
+                      {faculty.name}
+                      <span className="red d-block">
+                        CSE, {faculty.designation}{" "}
+                      </span>
+                    </h4>
+
+                    <ul className="peronal-detail">
+                      <li>
+                        <strong>Experience :</strong>
+                        <a href="#">{faculty.experience}</a>
+                      </li>
+                      <li>
+                        <strong>Phone (Office) :</strong>
+                        <a href={`tel:${faculty.phone}`}>{faculty.phone}</a>
+                      </li>
+                      <li>
+                        <strong>Specialization :</strong>
+                        <a href="#">{faculty.specialization}</a>
+                      </li>
+                      <li>
+                        <strong>Research/Publication:</strong>
+                        <a href="#">{faculty.research_areas}</a>
+                      </li>
+
+                      <li>
+                        <strong>E-mail :</strong>
+                        <a href={`mailto:${faculty.email}`}>{faculty.email}</a>
+                      </li>
+                      <li>
+                        <strong>Qualification :</strong>
+                        <a href="#">{faculty.qualification}</a>
+                      </li>
+                      {faculty.resume && faculty.resume !== "#" && (
+                        <li>
+                          <a href={faculty.resume} className="btn-red mt-3" target="_blank" rel="noopener noreferrer">
+                            Annexure (Complete Resume)
+                          </a>
+                        </li>
+                      )}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
-
-          
-          </div>
-
-           <div className="about-bg bg-remove mb-4">
-            <div class="row">
-              <div class="col-sm-10 col-md-12 col-lg-2">
-                <div className="aboutpict mb-40">
-                  <img src="/dr-sona.jpg" class="img-fluid" alt="kulvinder"  />
-                </div>
-              </div>
-              <div class="col-sm-10 col-md-12 col-lg-10">
-                <div className="content-panel mb-40">
-                  <h4>
-                    Dr.Sona Malhotra
-                    <span className="red d-block">CSE, Associate Professor, UIET, KUK </span>
-                  </h4>
-                
-
-                  <ul className="peronal-detail">
-                     <li>
-                      <strong>Experience :</strong>
-                      <a href="#">12 Years</a>
-                    </li>
-                    <li>
-                      <strong>Phone (Office) :</strong>
-                      <a href="tel:1744239155">1744-239155</a>
-                    </li>
-                    <li>
-                      <strong>Specialization  :</strong>
-                      <a href="#">Software Testing</a>
-                    </li>
-                     <li>
-                      <strong>Research/Publication:</strong>
-                      <a href="#">20 International and 03 National</a>
-                    </li>
-                     
-                    <li>
-                      <strong>E-mail :</strong>
-                      <a href="mailto:smalhotra2015@kuk.ac.in">smalhotra2015@kuk.ac.in</a>
-                    </li>
-                    <li>
-                      <strong>Qualification :</strong>
-                      <a href="#">                       
-                       Ph.D.
-                      </a>
-                    </li>
-                    <li><a href="#" className="btn-red mt-3">Annexure (Complete Resume)</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>          
-          </div>
-
-
+          ))}
+          {departmentData.length === 0 && (
+            <div className="text-center">
+              <p>No faculty data available for this department.</p>
+            </div>
+          )}
         </div>
       </section>
     </div>
   );
 };
 
-export default page;
+export default Page;

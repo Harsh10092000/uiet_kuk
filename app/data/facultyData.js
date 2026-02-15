@@ -1,0 +1,409 @@
+export const facultyData = {
+    "biotechnology-engg-department": [
+        {
+            id: 1,
+            name: "Dr. Deepak Kumar Malik",
+            designation: "Associate Professor",
+            qualification: "PhD Microbiology",
+            specialization: "Plant microbe interaction",
+            research_areas: "PGPR and Pesticide degradation",
+            phone: "9017414672",
+            email: "dmalik2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/JB6A5616 - Dr. Deepak Malik.JPG",
+            resume: "/faculty-data/profile-data/Brief resume - Dr. Deepak Malik.pdf",
+            experience: "15+ Years"
+        },
+        {
+            id: 3,
+            name: "Naveen Bedi",
+            designation: "Assistant Professor",
+            qualification: "M.Tech",
+            specialization: "Bioprocess Engineering",
+            research_areas: "Bioprocess Engineering",
+            phone: "9034960857",
+            email: "naveen.bedi90@gmail.com",
+            image: "/faculty-data/profile-pic/IMG-20250830-WA0000 - Naveen Bedi.jpg",
+            resume: "#",
+            experience: "8 Years"
+        },
+        {
+            id: 11,
+            name: "Dr Pranay Jain",
+            designation: "Associate Professor",
+            qualification: "M.E. Ph.D.",
+            specialization: "Industrial Biotechnology",
+            research_areas: "Fungal Biotechnology Natural Antimicrobials",
+            phone: "9813370929",
+            email: "pjain2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/pranay - Dr.pranay jain.jpg",
+            resume: "/faculty-data/profile-data/PROFILE - Dr.pranay jain.pdf",
+            experience: "15+ Years"
+        },
+        {
+            id: 12,
+            name: "Dr. Anita Grewal",
+            designation: "Associate Professor",
+            qualification: "Ph. D",
+            specialization: "Plant Biotechnology",
+            research_areas: "Plant Biotechnology",
+            phone: "9466534982",
+            email: "apunia2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/20180224_150610 - Dr. Anita punia.jpg",
+            resume: "/faculty-data/profile-data/Biodata - Dr. Anita punia.pdf",
+            experience: "15+ Years"
+        },
+        {
+            id: 15,
+            name: "ARCHIT SHARMA",
+            designation: "ASSISTANT PROFESSOR",
+            qualification: "M.TECH",
+            specialization: "BIOTECHNOLOGY",
+            research_areas: "MICROBIAL BIOTECHNOLOGY and BIOINFORMATICS",
+            phone: "9466814700",
+            email: "archituiet18@kuk.ac.in",
+            image: "/faculty-data/profile-pic/archit pic - archit sharma uiet.jpg",
+            resume: "#",
+            experience: "5 Years"
+        },
+        {
+            id: 19,
+            name: "Dr. DIVYA BHATIA",
+            designation: "ASSISTANT PROFESSOR",
+            qualification: "Ph.D.",
+            specialization: "BIOTECHNOLOGY",
+            research_areas: "MICROBIOLOGY, NANOBIOTECHNOLOGY, ENVIRONMENT BIOTECHNOLOGY",
+            phone: "9416282775",
+            email: "divyabhatia.ku@kuk.ac.in",
+            image: "/faculty-data/profile-pic/divya pic - Divya Bhatia UIET.jpg",
+            resume: "#",
+            experience: "8 Years"
+        },
+        {
+            id: 21,
+            name: "Er. Harnek Singh Saini",
+            designation: "Assistant Professor",
+            qualification: "M.Tech",
+            specialization: "Biotechnology",
+            research_areas: "Industrial Biotechnology",
+            phone: "96719-25308",
+            email: "harneksingh89@kuk.ac.in",
+            image: "/faculty-data/profile-pic/5 - Harnek Singh.jpg",
+            resume: "#",
+            experience: "10 Years"
+        },
+        {
+            id: 28,
+            name: "Dr Rajesh Kumar",
+            designation: "Associate Professor",
+            qualification: "Ph.D Biotechnology, MBA (OB)and LLM",
+            specialization: "Microbial Biotechnology",
+            research_areas: "Enzyme production, molecular docking, proteomics and Genomics",
+            phone: "9991107701",
+            email: "rkumar2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/PHOTO RAJESH (2) - rajesh kumar.JPG",
+            resume: "/faculty-data/profile-data/CV RAJESH KUMAR - rajesh kumar.pdf",
+            experience: "18+ Years"
+        },
+        {
+            id: 32,
+            name: "Dr.Sunita Khatak",
+            designation: "Associate Professor",
+            qualification: "Doctorate",
+            specialization: "Plant Molecular Biology",
+            research_areas: "Biotechnology",
+            phone: "9416930148",
+            email: "skhatak2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/photofinal - Dr. Sunita Khatak.jpg",
+            resume: "#",
+            experience: "15+ Years"
+        }
+    ],
+
+    "electronics-and-communication-engg-department": [
+        {
+            id: 2,
+            name: "Rahul Gupta",
+            designation: "Assistant Professor",
+            qualification: "M.Tech",
+            specialization: "Human Values, Data Structure",
+            research_areas: "NA",
+            phone: "8168198283",
+            email: "rahulg@kuk.ac.in",
+            image: "/faculty-data/profile-pic/Rahul - Rahul Gupta.JPG",
+            resume: "#",
+            experience: "10 Years"
+        },
+        {
+            id: 6,
+            name: "Dr Nikhil Kumar Marriwala",
+            designation: "Associate Professor",
+            qualification: "B-Tech, M-Tech, PhD, Post-Doc",
+            specialization: "Wireless Communication Systems, IoT",
+            research_areas: "Cognitive Radio IoT (CR-IoT) Networks, SDR, 5G",
+            phone: "9416668482",
+            email: "nmarriwala@kuk.ac.in",
+            image: "/faculty-data/profile-pic/pic - NIKHIL MARRIWALA.jpg",
+            resume: "/faculty-data/profile-data/New Biography - NIKHIL MARRIWALA.pdf",
+            experience: "20+ Years"
+        },
+        {
+            id: 7,
+            name: "Dr. Deepak Sood",
+            designation: "Assistant Professor",
+            qualification: "Ph.D. (ECE)",
+            specialization: "Electronics & Communication Engineering",
+            research_areas: "Metamaterials, RFID, Antenna Design, FSS etc.",
+            phone: "9416894928",
+            email: "dsood2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/Deepak Sood - deepak sood.jpg",
+            resume: "/faculty-data/profile-data/Dr Deepak Sood - deepak sood.pdf",
+            experience: "15+ Years"
+        },
+        {
+            id: 10,
+            name: "Abhishek Choudhary",
+            designation: "Assistant Professor",
+            qualification: "M.Tech (ECE), Ph.D (Pursuing)",
+            specialization: "Electronics and Communication Engineering",
+            research_areas: "Antenna designing RFID tags, Metal RFID tag",
+            phone: "9467673010",
+            email: "abhishek.uiet@kuk.ac.in",
+            image: "/faculty-data/profile-pic/Abhishek - Abhishek Choudhary.jpg",
+            resume: "/faculty-data/profile-data/Brief Profile Abhishek Choudhary - Abhishek Choudhary.pdf",
+            experience: "8 Years"
+        },
+        {
+            id: 11,
+            name: "Dr. Priyanka Jangra",
+            designation: "Assistant Professor",
+            qualification: "Ph.D.",
+            specialization: "Electronics & Communication Engineering",
+            research_areas: "Internet of Things(IoT), WSN",
+            phone: "9466751345",
+            email: "pjangra2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/WhatsApp Image 2025-11-20 at 5.55.59 PM - priyanka jangra.jpeg",
+            resume: "#",
+            experience: "12 Years"
+        },
+        {
+            id: 25,
+            name: "Ekta",
+            designation: "Assistant professor",
+            qualification: "PhD pursuing",
+            specialization: "Ece",
+            research_areas: "Quantum computing for medical imaging",
+            phone: "7206641941",
+            email: "ektauiet@kuk.ac.in",
+            image: "/faculty-data/profile-pic/gate - Ekta.jpg",
+            resume: "#",
+            experience: "3 Years"
+        },
+        {
+            id: 26,
+            name: "Kirti Saini",
+            designation: "Assistant Professor",
+            qualification: "B.tech, M.tech, Pursuing Ph.D.",
+            specialization: "Micro electronics & VLSI design",
+            research_areas: "Image processing, Machine learning",
+            phone: "9416191858",
+            email: "kirtisainiuiet@kuk.ac.in",
+            image: "/faculty-data/profile-pic/Screenshot_2025-12-03-12-19-54-12_92460851df6f172a4592fca41cc2d2e6 - Kirti Saini.jpg",
+            resume: "#",
+            experience: "5 Years"
+        },
+        {
+            id: 27,
+            name: "Shivani Chauhan",
+            designation: "Assistant Professor",
+            qualification: "M.Tech ECE",
+            specialization: "Electronic and communication Engineering",
+            research_areas: "Internet of Medical Things",
+            phone: "8168313519",
+            email: "shivanichauhanuiet@kuk.ac.in",
+            image: "#", // Missing image
+            resume: "#",
+            experience: "4 Years"
+        },
+        {
+            id: 30,
+            name: "Krishan Gopal",
+            designation: "Assistant Professor",
+            qualification: "M.Tech",
+            specialization: "ECE",
+            research_areas: "Antenna and Microwave",
+            phone: "903453879",
+            email: "kgopal2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/1 - krishan gopal.JPG",
+            resume: "#",
+            experience: "14 Years"
+        }
+    ],
+
+    "mechanical-engg-department": [
+        {
+            id: 5,
+            name: "Dr. Manjeet Bohat",
+            designation: "Assistant Professor",
+            qualification: "Ph.D",
+            specialization: "Machining",
+            research_areas: "Machining",
+            phone: "9034225000",
+            email: "msbohat2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/WhatsApp Image 2025-11-20 at 2.17.17 PM - manjeet singh bohat (1).jpeg",
+            resume: "/faculty-data/profile-data/Bohat Profile - manjeet singh bohat (1).pdf",
+            experience: "16 Years"
+        },
+        {
+            id: 14,
+            name: "Ravinder Chaudhary",
+            designation: "Assistant Professor in Mechanical Engg",
+            qualification: "PHD (PURSUING)",
+            specialization: "Production Technology",
+            research_areas: "Bio Fuel Production, Robotics, IoT",
+            phone: "9017902010",
+            email: "Ravinder.uiet@kuk.ac.in",
+            image: "/faculty-data/profile-pic/20 KB PHOTO (2) - Ravinder Chaudhary.jpg",
+            resume: "/faculty-data/profile-data/MY RESUME (3) - Ravinder Chaudhary.pdf",
+            experience: "10 Years"
+        },
+        {
+            id: 18,
+            name: "Dr. Sanjay Kajal",
+            designation: "Associate Professor",
+            qualification: "Ph.D.",
+            specialization: "Industrial and Production Engineering",
+            research_areas: "Optimization techniques, brake friction composites",
+            phone: "9416177583",
+            email: "skajal2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/Sanjay Kajal photo - Dr. Sanjay kajal.JPG",
+            resume: "/faculty-data/profile-data/Sanjay Kajal Brief Resume - Dr. Sanjay kajal.pdf",
+            experience: "20 Years"
+        },
+        {
+            id: 33,
+            name: "Dr Sunil Dhingra",
+            designation: "Associate Professor",
+            qualification: "Ph.D.",
+            specialization: "Thermal Engineering",
+            research_areas: "Renewable Energy, Solar Energy, Emission Control",
+            phone: "9541653750",
+            email: "sdhingra2015@kuk.ac.in",
+            image: "#", // Missing image
+            resume: "#",
+            experience: "22 Years"
+        }
+    ],
+
+    "computer-science-engg-department": [
+        {
+            id: 16,
+            name: "AMANDEEP CHHABRA",
+            designation: "ASSISTANT PROFESSOR",
+            qualification: "B.TECH(CSE), M.TECH(CSE)",
+            specialization: "ALGORITHMS, NETWORKS, MANET'S, OOPS",
+            research_areas: "ALGORITHMS, MANET'S",
+            phone: "8295803600",
+            email: "amandeep.cse.uiet@kuk.ac.in",
+            image: "/faculty-data/profile-pic/Image (2) - Amandeep Chhabra.jpg",
+            resume: "#",
+            experience: "10 Years"
+        },
+        {
+            id: 20,
+            name: "Dr. Naresh Kumar",
+            designation: "Associate Professor",
+            qualification: "B.E, M.Tech, Ph.D Computer Sc. & Engg.",
+            specialization: "Computer Sc. & Engg.",
+            research_areas: "Big Data Analytics, AI, Software Testing",
+            phone: "8901501431",
+            email: "nkumar2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/Dr. Naresh Kumar - naresh kumar.jpg",
+            resume: "/faculty-data/profile-data/Dr. Naresh Kumar - naresh kumar.pdf",
+            experience: "18+ Years"
+        },
+        {
+            id: 23,
+            name: "ATUL SHARMA",
+            designation: "Assistant professor",
+            qualification: "PHD (pursuing)",
+            specialization: "Computer programming",
+            research_areas: "IoT, Wireless Networks, Machine learning",
+            phone: "9802047452",
+            email: "asuiet@kuk.ac.in",
+            image: "/faculty-data/profile-pic/WhatsApp Image 2025-06-26 at 13.32.09 - Atul sharma.jpeg",
+            resume: "#",
+            experience: "8 Years"
+        },
+        {
+            id: 24,
+            name: "Dr Karambir",
+            designation: "Associate Professor",
+            qualification: "B. Tech, M.Tech , Ph. D",
+            specialization: "Software Engineering and Machine Learning",
+            research_areas: "Software Engineering and Machine Learning",
+            phone: "#",
+            email: "Karambir2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/IMG-20251203-WA0003 - Sh. KARAMBIR.jpg",
+            resume: "#",
+            experience: "15+ Years"
+        }
+    ],
+
+    "electrical-engg-department": [
+        {
+            id: 5,
+            name: "LALIT NAGPAL",
+            designation: "ASSISTANT PROFESSOR",
+            qualification: "UG+ GATE EE(AIR #88)",
+            specialization: "ELECTRICAL ENGG.",
+            research_areas: "ELECTROMAGNETIC FIELDS & WAVES, CIRCUITS AND SYSTEMS",
+            phone: "#",
+            email: "lnagpal2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/20251120_124848 - lalit nagpal.jpg",
+            resume: "#",
+            experience: "12 Years"
+        },
+        {
+            id: 31,
+            name: "Dr Vijay Kumar Garg",
+            designation: "Associate Professor",
+            qualification: "PhD",
+            specialization: "Electrical Power System",
+            research_areas: "Energy Management, Renewable Energy System",
+            phone: "9466634299",
+            email: "vkgarg.ee@kuk.ac.in",
+            image: "/faculty-data/profile-pic/Vijay_New Snap - vijay kumar garg.jpg",
+            resume: "/faculty-data/profile-data/Dr Vijay Kumar Garg_Brief Profile - vijay kumar garg.pdf",
+            experience: "18 Years"
+        }
+    ],
+
+    "applied-sciences-department": [
+        {
+            id: 9,
+            name: "Dr. Rajesh Agnihotri",
+            designation: "Associate Professor",
+            qualification: "Phd (Chemistry), LLM",
+            specialization: "Inorganic",
+            research_areas: "Analytical",
+            phone: "9896211014",
+            email: "ragnihotri2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/467fbe0a-d928-4c14-be5a-94e9930cef47 - Dr. rajesh agnihotri.jpeg",
+            resume: "#",
+            experience: "20 Years"
+        },
+        {
+            id: 29,
+            name: "Varsha Jhinjheria",
+            designation: "ASSISTANT PROFESSOR",
+            qualification: "MSC MATHEMATICS , NET QUALIFIED",
+            specialization: "PURE MATHEMATICS",
+            research_areas: "GROUP THEORY ANALYTICS USING R PROGRAMMING",
+            phone: "9729392223",
+            email: "varshajhinjheria@kuk.ac.in",
+            image: "/faculty-data/profile-pic/IMG_7994 - Varsha Jhinjheria.jpeg",
+            resume: "#",
+            experience: "5 Years"
+        }
+    ]
+};

@@ -32,7 +32,7 @@ const FacultySlider = ({ facultyData = [], viewAllLink = "#" }) => {
       >
         {facultyData.map((faculty, index) => (
           <SwiperSlide key={index}>
-           <TeacherCard faculty={faculty} />
+            <TeacherCard faculty={faculty} />
           </SwiperSlide>
         ))}
       </Swiper>

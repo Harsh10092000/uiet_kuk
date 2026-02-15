@@ -23,22 +23,11 @@ export const metadata = {
     },
 };
 
+import { facultyData } from "@/app/data/facultyData";
+
 const page = () => {
-    // Faculty data - Update with actual BT faculty
-    const facultyData = [
-        {
-            name: "Dr. Pranay Jain",
-            image: "/placeholder-faculty.jpg",
-            designation: "Associate Professor, (Biotechnology Engg. Department)",
-            link: "#",
-        },
-        {
-            name: "Faculty Member",
-            image: "/placeholder-faculty.jpg",
-            designation: "Assistant Professor, (Biotechnology Engg. Department)",
-            link: "#",
-        },
-    ];
+    // Faculty data from JSON
+    const facultyDataList = facultyData["biotechnology-engg-department"] || [];
 
     // View All link
     const viewAllLink = "/faculty-of-biotechnology-engineering";
@@ -499,7 +488,7 @@ const page = () => {
                         </div>
                     </div> */}
 
-                    <FacultySlider facultyData={facultyData} viewAllLink={viewAllLink} />
+                    <FacultySlider facultyData={facultyDataList} viewAllLink={viewAllLink} />
                 </div>
             </section>
         </div>

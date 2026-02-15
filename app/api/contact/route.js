@@ -54,16 +54,17 @@ export async function POST(request) {
       data.location || null,
     ]);
 
+
     return NextResponse.json({ success: true }, { status: 201 });
   } catch (error) {
     if (error instanceof z.ZodError) {
-      const messages = error.errors?.map((e) => e.message).filter(Boolean) || [];
+      const messages = error.issues?.map((e) => e.message).filter(Boolean) || [];
       return NextResponse.json(
         {
           error:
             messages.join(" ") ||
             "Please check the form fields and try again.",
-          errors: error.errors,
+          errors: error.issues,
         },
         { status: 400 }
       );

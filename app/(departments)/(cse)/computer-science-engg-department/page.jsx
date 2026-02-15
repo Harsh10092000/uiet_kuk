@@ -24,40 +24,11 @@ export const metadata = {
   },
 };
 
+import { facultyData } from "@/app/data/facultyData";
+
 const page = () => {
-  // Faculty data
-  const facultyData = [
-    {
-      name: "Dr. Kulvinder Singh",
-      image: "/kulvinder-singh.jpg",
-      designation: "Associate Professor, (Computer Science & Engg. Department)",
-      link: "#",
-    },
-    {
-      name: "Dr.Sona Malhotra",
-      image: "/dr-sona.jpg",
-      designation: "Associate Professor,(Computer Science & Engg. Department)",
-      link: "#",
-    },
-    {
-      name: "Dr.Sanjeev Dhawan",
-      image: "/sanjeev.jpg",
-      designation: "Associate Professor,(Computer Science & Engg. Department)",
-      link: "#",
-    },
-    {
-      name: "Dr.Karambir Bidhan",
-      image: "/karambir.jpg",
-      designation: "Associate Professor,(Computer Science & Engg. Department)",
-      link: "#",
-    },
-    {
-      name: "Dr.Sona Malhotra",
-      image: "/dr-sona.jpg",
-      designation: "Associate Professor,(Computer Science & Engg. Department)",
-      link: "#",
-    },
-  ];
+  // Faculty data from JSON
+  const facultyDataList = facultyData["computer-science-engg-department"] || [];
 
   // View All link
   const viewAllLink = "/faculty-of-computer-science-engineering";
@@ -182,7 +153,7 @@ const page = () => {
             </div>
           </div>
 
-          <FacultySlider facultyData={facultyData} viewAllLink={viewAllLink} />
+          <FacultySlider facultyData={facultyDataList} viewAllLink={viewAllLink} />
         </div>
       </section>
     </div>

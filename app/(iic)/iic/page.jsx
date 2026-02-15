@@ -163,7 +163,7 @@ const Page = () => {
                     src="https://www.youtube.com/embed/BQ_OjBFdQnw"
                     width="100%"
                     height="500px"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="autoplay; encrypted-media"
                     allowfullscreen=""
                   ></iframe>
