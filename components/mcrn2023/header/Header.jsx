@@ -6,34 +6,34 @@ const Header = () => {
   return (
     <div>
       <header>
-       
-<SubHeader />
+
+        <SubHeader />
         <div className="main-header placement-header mt-3">
           <div className="container">
             <div className="row">
               <div className="col-md-4">
                 <div className="logo inner-logo">
-                   <Link href="/" ><img src="/logo.png" alt="logo" className=" img-fluid" /></Link>                 
+                  <Link href="/" ><img src="/logo.png" alt="logo" className=" img-fluid" /></Link>
                 </div>
               </div>
               <div className="col-md-4">
-               <div className="nav-inner d-flex align-items-center mt-5">
-                <ul>                
-                  <li><Link href="/">Home</Link></li>               
+                <div className="nav-inner d-flex align-items-center mt-5">
+                  <ul>
+                    <li><Link href="/">Home</Link></li>
 
-                  <li><Link href="#"> Special Sessions</Link></li>
-                  <li><Link href="#h">Travel and Visa</Link></li>
-                 
-                </ul>
-               </div>
-              </div>
-              <div className="col-md-4">
-                 <div className=" springer-logo">
-                   <Link href="/"><img src="/springer_logo.png" alt="logo" className=" img-fluid" /></Link>
-                 
+                    <li><Link href="#"> Special Sessions</Link></li>
+                    <li><Link href="#h">Travel and Visa</Link></li>
+
+                  </ul>
                 </div>
               </div>
-            
+              <div className="col-md-4">
+                <div className=" springer-logo">
+                  <Link href="/"><img src="/springer_logo.png" alt="logo" className=" img-fluid" /></Link>
+
+                </div>
+              </div>
+
             </div>
           </div>
           <span className="toggle-menu d-block d-lg-none"><i className="fa-solid fa-bars"></i></span>

@@ -61,16 +61,16 @@ const TourSection = async () => {
           <div className="col-md-4">
             <div className="btn-list">
               <ul>
-               
+
                 <li>
                   <a href="/UIET_Fee.pdf" target='_blank' className="gradient-btn">
-                    Fee Stucture 
+                    Fee Stucture
                   </a>
                 </li>
 
-                 <li>
+                <li>
                   <a href="/mandatory-disclosure.pdf" target='_blank' className="gradient-btn">
-                   Mandatory Disclosure
+                    Mandatory Disclosure
                   </a>
                 </li>
                 <li>
@@ -83,7 +83,7 @@ const TourSection = async () => {
                     Placement
                   </a>
                 </li>
-               
+
                 <li>
                   <a href="/Say-No-To-Ragging.pdf" className="gradient-btn" target='_blank'>
                     Say No to Ragging
@@ -91,14 +91,14 @@ const TourSection = async () => {
                 </li>
                 <li>
                   <a href="#" className="gradient-btn">
-                   Mental Health Awareness Helpline<br/>
-                   7082113150
+                    Mental Health Awareness Helpline<br />
+                    7082113150
                   </a>
                 </li>
                 <li>
                   <a href="#" className='bg-light btn border'>
                     University Grants Commission Anti Ragging Helpline Toll Free Number: 1800-180-5522 &
-        E-mail: helpline@antiragging.in
+                    E-mail: helpline@antiragging.in
                   </a>
                 </li>
               </ul>

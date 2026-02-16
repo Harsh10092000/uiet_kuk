@@ -6,31 +6,31 @@ const Header = () => {
   return (
     <div>
       <header>
-    <SubHeader />
+        <SubHeader />
 
         <div className="main-header placement-header mt-3">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-6">
                 <div className="logo inner-logo">
-                   <Link href="/" className="desktop-logo"><img src="/logo.png" alt="logo" className=" img-fluid" /></Link>
+                  <Link href="/" className="desktop-logo"><img src="/logo.png" alt="logo" className=" img-fluid" /></Link>
                   <h4>Training & Placement Cell<span className="red">Kurukshetra University(UIET), Kurukshetra</span></h4>
                 </div>
               </div>
               <div className="col-md-6">
-               <div className="nav-inner">
-                <ul>                
-                  <li><Link href="/">Home</Link></li>
-                  <li><Link href="#placements">Placements</Link></li>
-                  <li><Link href="#yearwise-graph">Yearwise Graph</Link></li>
-                  <li><Link href="#uiet-patners">Our Partners</Link></li>
-                  <li><Link href="/gallery-placement">Gallery</Link></li>
-                  <li><Link href="/our-team"> Our Team</Link></li>
-                  <li><Link href="StudentCoordinators.pdf">Student Coordinators</Link></li>
-                </ul>
-               </div>
+                <div className="nav-inner">
+                  <ul>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="#placements">Placements</Link></li>
+                    <li><Link href="#yearwise-graph">Yearwise Graph</Link></li>
+                    <li><Link href="#uiet-patners">Our Partners</Link></li>
+                    <li><Link href="/gallery-placement">Gallery</Link></li>
+                    <li><Link href="/our-team"> Our Team</Link></li>
+                    <li><Link href="StudentCoordinators.pdf">Student Coordinators</Link></li>
+                  </ul>
+                </div>
               </div>
-            
+
             </div>
           </div>
           <span className="toggle-menu d-block d-lg-none"><i className="fa-solid fa-bars"></i></span>

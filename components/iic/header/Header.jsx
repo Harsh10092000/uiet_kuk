@@ -6,41 +6,41 @@ const Header = () => {
   return (
     <div>
       <header>
-       <SubHeader />
+        <SubHeader />
 
         <div className="main-header placement-header mt-3">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-6">
                 <div className="logo inner-logo">
-                   <Link href="/" className="desktop-logo"><img src="/logo.png" alt="logo" className=" img-fluid" /></Link>
+                  <Link href="/" className="desktop-logo"><img src="/logo.png" alt="logo" className=" img-fluid" /></Link>
                   <h4>Institution's Innovation Council<span className="red">Kurukshetra University(UIET), Kurukshetra</span></h4>
                 </div>
               </div>
               <div className="col-md-6">
-               <div className="nav-inner">
-                <ul>                
-                  <li><Link href="/">Home</Link></li>                
-                   <li className="dropdown">
-                    <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Important Links</a>            
+                <div className="nav-inner">
+                  <ul>
+                    <li><Link href="/">Home</Link></li>
+                    <li className="dropdown">
+                      <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Important Links</a>
                       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                         <li><Link href="/iic/iic-policy.pdf">Institution Innovation and Startup Policy (IISP)  </Link></li>
                         <li><Link href="https://docs.google.com/forms/d/e/1FAIpQLSf8Kp1atShNJEBUl-5P_vsDoEcXZdYhODeFVvAEg6gGjaE3MA/viewform?pli=1">Apply Online for Community Incubation Centre </Link></li>
-                        <li><Link href="#">Submit your Innovative Idea </Link></li> 
-                          <li><Link href="#">ARIIA Report  </Link></li> 
-                            <li><Link href="#">IIC Report 2020-21 </Link></li> 
-                              <li><Link href="#">IIC Report 2021-22 </Link></li> 
-                               <li><Link href="#">IIC Report 2021-23 </Link></li> 
-                                          
-                      </ul>            
-                   </li>
-                  <li><Link href="https://ecelluietkuk.vercel.app/">Ecell-UIET</Link></li>                  
-                  <li><Link href="#incubation-process">Incubation Process</Link></li>
-                  <li><Link href="#our-team"> Our Team</Link></li>                
-                </ul>
-               </div>
+                        <li><Link href="#">Submit your Innovative Idea </Link></li>
+                        <li><Link href="#">ARIIA Report  </Link></li>
+                        <li><Link href="#">IIC Report 2020-21 </Link></li>
+                        <li><Link href="#">IIC Report 2021-22 </Link></li>
+                        <li><Link href="#">IIC Report 2021-23 </Link></li>
+
+                      </ul>
+                    </li>
+                    <li><Link href="https://ecelluietkuk.vercel.app/">Ecell-UIET</Link></li>
+                    <li><Link href="#incubation-process">Incubation Process</Link></li>
+                    <li><Link href="#our-team"> Our Team</Link></li>
+                  </ul>
+                </div>
               </div>
-            
+
             </div>
           </div>
           <span className="toggle-menu d-block d-lg-none"><i className="fa-solid fa-bars"></i></span>

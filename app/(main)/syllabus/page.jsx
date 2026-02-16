@@ -14,7 +14,7 @@ const getData = async () => {
         return { results: results };
     } catch (err) {
         console.log("err : ", err);
-        return err;
+        return { results: [] };
     }
 }
 export const metadata = {
@@ -36,10 +36,12 @@ export const metadata = {
     },
 };
 
+import SyllabusClient from "@/app/(main)/syllabus/SyllabusClient";
+
 const Page = async () => {
     const { results } = await getData();
     return (
-        <NotificationsList results={results} page_name={"Syllabus"} />
+        <SyllabusClient results={results} />
     );
 };
 

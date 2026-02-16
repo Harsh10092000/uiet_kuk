@@ -1,6 +1,6 @@
 const BulletinTicker = ({
   tagline,
-  items = [{title: "", file_name: "", link_url: "", file_path: ""}],
+  items = [{ title: "", file_name: "", link_url: "", file_path: "" }],
   sectionClass,
   taglineColClass,
   tickerColClass,
@@ -37,7 +37,7 @@ const BulletinTicker = ({
       </div>
     </section>
 
-    
+
   );
 };
 

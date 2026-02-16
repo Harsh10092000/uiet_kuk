@@ -2,9 +2,9 @@ import React from 'react'
 
 const NotificationMarqueeUp = ({ items }) => {
   return (
-    
+
     <ul>
-      {items.map((item) => (    
+      {items.map((item) => (
         <li key={item.id}>
           {item.link_url ? (
             <a href={item.link_url}>
