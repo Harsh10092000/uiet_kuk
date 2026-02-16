@@ -199,7 +199,9 @@ ul.dropdown-menu li a {
 .about-content {
     padding-left: 20px;
 }
-
+.about-content p {
+    text-align: justify;
+}
 .profile-details a {
     font-weight: 700;
 }
@@ -207,6 +209,9 @@ ul.dropdown-menu li a {
 .profile-details h4 {
     color: #060606 !important;
     font-weight: 700;
+}
+.profile-details p{
+    text-align: justify;
 }
 
 
@@ -658,8 +663,14 @@ ul.breadcrumb {
 
 .info-text a {
     color: #646464;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 30px;
 }
-
+.card-body.card-info {
+    position: relative;
+}
 .card-info:hover {
     background-color: #9F3333;
 }

@@ -43,12 +43,12 @@ const SubHeader = () => {
                     <li>
                       <Link href="/contact-us">Contact Us</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/iic">IIC/Startup </Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link href="/training-placement-cell">T&P Cell</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

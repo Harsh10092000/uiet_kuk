@@ -45,11 +45,12 @@ const Header = () => {
               <li><Link href="/">Home</Link></li>
               <li className="dropdown">
                 <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Administration</Link>
-                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">                  
                   <li><Link href="/vice-chancellor">Vice Chancellor</Link></li>
                   <li><Link href="/registrar">Registrar</Link></li>
                   <li><Link href="/director">Director</Link></li>
                   <li><Link href="/roll-of-honor-directors-uiet">Roll of Honor – Directors UIET</Link></li>
+                   {/* <li><Link href="#">Institute</Link></li> */}
                 </ul>
               </li>
 
@@ -71,16 +72,54 @@ const Header = () => {
                 <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Faculty</Link>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li><Link href="/faculty-of-computer-science-engineering">Computer Science & Engg.</Link></li>
-                  <li><Link href="#">Electronics and Communication Engg.</Link></li>
-                  <li><Link href="#">Mechanical Engg.</Link></li>
-                  <li><Link href="#">Biotechnology</Link></li>
-                  <li><Link href="#">Electrical Engg.</Link></li>
-                  <li><Link href="#">Applied Sciences</Link></li>
+                  <li><Link href="/electronics-and-communication-engg-department">Electronics and Communication Engg.</Link></li>
+                  <li><Link href="/mechanical-engg-department">Mechanical Engg.</Link></li>
+                  <li><Link href="/biotechnology-engg-department">Biotechnology</Link></li>
+                  <li><Link href="/electrical-engg-department">Electrical Engg.</Link></li>
+                  <li><Link href="/applied-sciences-department">Applied Sciences</Link></li>
 
                 </ul>
               </li>
 
+               <li><Link href="/admission"> Admission</Link></li>
+
+             
+
+              {/* <li className="dropdown">
+                <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Examination</Link>
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><Link href="https://iums.kuk.ac.in" target="_blank">LMS/IUMS</Link></li>
+                  <li><Link href="/examination"> Exam Notices</Link></li>
+                  <li><Link href="/syllabus"> Syllabus</Link></li>
+                  <li><Link href="/datesheet"> Date Sheet </Link></li>
+                  <li><Link href="/results"> Results </Link></li>                
+
+                </ul>
+              </li> */}
+
+
+
+
+             
+
               <li className="dropdown">
+                <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Academic</Link>
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  
+                  <li><Link href="/time-table">Time Table</Link></li>
+                   <li><Link href="#">Academic Calendar</Link></li>                 
+                  <li><Link href="#">R&D Activities</Link></li>
+                   <li><Link href="#">Program Offered & Intake</Link></li>
+                  {/* <li><Link href="/online-fee"> Online Fee</Link></li>
+                  <li><Link href="/gallery"> Gallery</Link></li> */}
+                </ul>
+              </li>
+
+                <li><Link href="/training-placement-cell"> Placements</Link></li>
+                <li><Link href="/iic">  IIC / Start-Up</Link></li>
+               
+
+               <li className="dropdown">
                 <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Important Link</Link>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   {/* <li><Link href="#">LMS/IUMS</Link></li> */}
@@ -92,36 +131,7 @@ const Header = () => {
                 </ul>
               </li>
 
-              <li className="dropdown">
-                <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Examination</Link>
-                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><Link href="https://iums.kuk.ac.in" target="_blank">LMS/IUMS</Link></li>
-                  <li><Link href="/examination"> Exam Notices</Link></li>
-                  <li><Link href="/syllabus"> Syllabus</Link></li>
-                  <li><Link href="/datesheet"> Date Sheet </Link></li>
-                  <li><Link href="/results"> Results </Link></li>
-                  {/* <li><Link href="#"> Syllabus</Link></li> */}
-
-                </ul>
-              </li>
-
-
-
-
-              <li><Link href="/admission"> Admission</Link></li>
-
-              <li className="dropdown">
-                <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Academic</Link>
-                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><Link href="#">Emerging Areas in B.Tech</Link></li>
-                  <li><Link href="#">Program Offered & Intake</Link></li>
-                  <li><Link href="#">R&D Activities</Link></li>
-                  <li><Link href="/online-fee"> Online Fee</Link></li>
-                  <li><Link href="/gallery"> Gallery</Link></li>
-                </ul>
-              </li>
-
-              <li className="dropdown">
+              {/* <li className="dropdown">
                 <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Download</a>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li><Link href="/time-table">Time Table</Link></li>
@@ -130,7 +140,7 @@ const Header = () => {
                   <li><Link href="/aicte-reports">AICTE Reports</Link></li>
                   <li><Link href="/policies">Policies</Link></li>
                 </ul>
-              </li>
+              </li> */}
 
 
             </ul>
