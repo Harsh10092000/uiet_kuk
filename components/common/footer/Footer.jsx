@@ -22,7 +22,7 @@ const Footer = () => {
                 <h4>Academics</h4>
                 <ul>
                   <li><a href="/time-table"><span><i class="fa-solid fa-angles-right"></i></span> Time Table</a></li>
-                  <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span>Academic Calendar</a></li>
+                  <li><a href="/academic-calendar.pdf" target='_blank'><span><i class="fa-solid fa-angles-right"></i></span>Academic Calendar</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span>Syllabus B.Tech</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> Syllabus M.Tech</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> Syllabus Ph.D</a></li>
@@ -34,13 +34,13 @@ const Footer = () => {
               <div className='footer-col'>
                 <h4>Facilities</h4>
                 <ul>
-                  <li><a href="/Library10.pdf"><span><i class="fa-solid fa-angles-right"></i></span> Library</a></li>
+                  <li><a href="/Library10.pdf" target='_blank'><span><i class="fa-solid fa-angles-right"></i></span> Library</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> Computer Centre</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span>Sports</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> Hostels</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span>Medical Facility</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span>AICTE IDEA Lab</a></li>
-                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span>SAE Collegiate Club</a></li>
+                   <li><a href="/sae-club-webpage.pdf" target='_blank'><span><i class="fa-solid fa-angles-right"></i></span>SAE Collegiate Club</a></li>
                 </ul>
               </div>
             </div>
