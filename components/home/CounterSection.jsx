@@ -2,10 +2,10 @@
 import { useEffect, useRef, useState } from "react";
 
 const counters = [
-  { value: 20000, suffix: "+", label: "Happy Students" },
-  { value: 300, suffix: "+", label: "Faculty" },
-  { value: 10000, suffix: "+", label: "Student Placement" },
-  { value: 100, suffix: "%", label: "Student Result" },
+  { value: 2000, suffix: "+", label: "Happy Students" },
+  { value: 70, suffix: "+", label: "Faculty" },
+  { value: 100, suffix: "+", label: "Student Placement" },
+  { value: 1000, suffix: "+", label: "Student Result" },
 ];
 
 const CounterSection = () => {

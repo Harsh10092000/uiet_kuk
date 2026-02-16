@@ -72,11 +72,11 @@ const Header = () => {
                 <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Faculty</Link>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li><Link href="/faculty-of-computer-science-engineering">Computer Science & Engg.</Link></li>
-                  <li><Link href="/electronics-and-communication-engg-department">Electronics and Communication Engg.</Link></li>
-                  <li><Link href="/mechanical-engg-department">Mechanical Engg.</Link></li>
-                  <li><Link href="/biotechnology-engg-department">Biotechnology</Link></li>
-                  <li><Link href="/electrical-engg-department">Electrical Engg.</Link></li>
-                  <li><Link href="/applied-sciences-department">Applied Sciences</Link></li>
+                  <li><Link href="#">Electronics and Communication Engg.</Link></li>
+                  <li><Link href="#">Mechanical Engg.</Link></li>
+                  <li><Link href="#">Biotechnology</Link></li>
+                  <li><Link href="#">Electrical Engg.</Link></li>
+                  <li><Link href="#">Applied Sciences</Link></li>
 
                 </ul>
               </li> */}
@@ -107,9 +107,9 @@ const Header = () => {
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   
                   <li><Link href="/time-table">Time Table</Link></li>
-                   <li><Link href="#">Academic Calendar</Link></li>                 
-                  <li><Link href="#">R&D Activities</Link></li>
-                   <li><Link href="#">Program Offered & Intake</Link></li>
+                   <li><Link href="/academic-calendar.pdf">Academic Calendar</Link></li>                 
+                  <li><Link href="/R&D_activities.jpg">R&D Activities</Link></li>
+                   <li><Link href="/program-offered-intake.pdf">Program Offered & Intake</Link></li>
                   {/* <li><Link href="/online-fee"> Online Fee</Link></li>
                   <li><Link href="/gallery"> Gallery</Link></li> */}
                 </ul>
