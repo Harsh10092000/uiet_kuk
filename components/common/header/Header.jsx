@@ -111,7 +111,7 @@ const Header = () => {
                     <li><Link href="/emerging-areas-in-b.tech.pdf" target="_blank">Emerging Areas</Link></li>              
                   <li><Link href="/R&D_activities.jpg" target="_blank">R&D Activities</Link></li>
                    <li><Link href="/program-offered-intake.pdf" target="_blank">Program Offered & Intake</Link></li>
-                   <li className="dropend"><Link href="#" className="dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">Syllabus </Link>
+                   <li className="dropdown-submenu"><Link href="#" className="dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">Syllabus </Link>
                    <ul className="dropdown-menu">
                        <li><Link href="#">CSE </Link></li>
                         <li><Link href="#">AIML</Link></li>
