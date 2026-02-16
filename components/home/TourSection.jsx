@@ -61,33 +61,31 @@ const TourSection = async () => {
           <div className="col-md-4">
             <div className="btn-list">
               <ul>
-                <li>
-                  <a href="/Library10.pdf" target='_blank' className="gradient-btn">
-                    Library details
-                  </a>
-                </li>
+               
                 <li>
                   <a href="/UIET_Fee.pdf" target='_blank' className="gradient-btn">
-                    Fee Stucture for B.Tech Courses
+                    Fee Stucture 
+                  </a>
+                </li>
+
+                 <li>
+                  <a href="/mandatory-disclosure.pdf" target='_blank' className="gradient-btn">
+                   Mandatory Disclosure
                   </a>
                 </li>
                 <li>
                   <a href="#" className="gradient-btn">
-                    Public Self Disclosure
+                    Scholarship
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="gradient-btn">
-                    NAD- ABC Program Awareness Video
+                  <a href="/training-placement-cell" className="gradient-btn">
+                    Placement
                   </a>
                 </li>
+               
                 <li>
-                  <a href="#" className="gradient-btn">
-                    University Anti-Ragging Helpline
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="gradient-btn">
+                  <a href="/Say-No-To-Ragging.pdf" className="gradient-btn" target='_blank'>
                     Say No to Ragging
                   </a>
                 </li>

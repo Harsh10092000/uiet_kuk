@@ -68,7 +68,7 @@ const Header = () => {
                 </ul>
               </li>
 
-              <li className="dropdown">
+              {/* <li className="dropdown">
                 <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Faculty</Link>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   <li><Link href="/faculty-of-computer-science-engineering">Computer Science & Engg.</Link></li>
@@ -79,7 +79,7 @@ const Header = () => {
                   <li><Link href="/applied-sciences-department">Applied Sciences</Link></li>
 
                 </ul>
-              </li>
+              </li> */}
 
                <li><Link href="/admission"> Admission</Link></li>
 
@@ -117,7 +117,7 @@ const Header = () => {
 
                 <li><Link href="/training-placement-cell"> Placements</Link></li>
                 <li><Link href="/iic">  IIC / Start-Up</Link></li>
-               
+                 <li><Link href="/gallery"> Gallery</Link></li>
 
                <li className="dropdown">
                 <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Important Link</Link>

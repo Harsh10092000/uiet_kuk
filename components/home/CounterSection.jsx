@@ -57,7 +57,7 @@ const CounterSection = () => {
   };
 
   return (
-    <section className="counter-block mt-5" ref={sectionRef}>
+    <section className="counter-block" ref={sectionRef}>
       <div className="container">
         <div className="row">
           {counters.map(({ label, suffix }, index) => (
