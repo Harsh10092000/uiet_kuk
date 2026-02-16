@@ -27,7 +27,7 @@ const getData = async () => {
     return { announcementsData: announcementsData, notificationsData: notificationsData };
   } catch (err) {
     console.log("err : ", err);
-    return err;
+    return { announcementsData: [], notificationsData: [] };
   }
 }
 const TourSection = async () => {

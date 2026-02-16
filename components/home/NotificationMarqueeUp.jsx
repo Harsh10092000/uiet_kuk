@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NotificationMarqueeUp = ({ items }) => {
+const NotificationMarqueeUp = ({ items = [] }) => {
   return (
 
     <ul>
