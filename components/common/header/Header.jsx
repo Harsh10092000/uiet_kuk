@@ -107,9 +107,22 @@ const Header = () => {
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                   
                   <li><Link href="/time-table">Time Table</Link></li>
-                   <li><Link href="/academic-calendar.pdf">Academic Calendar</Link></li>                 
-                  <li><Link href="/R&D_activities.jpg">R&D Activities</Link></li>
-                   <li><Link href="/program-offered-intake.pdf">Program Offered & Intake</Link></li>
+                   <li><Link href="/academic-calendar.pdf" target="_blank">Academic Calendar</Link></li>   
+                    <li><Link href="/emerging-areas-in-b.tech.pdf" target="_blank">Emerging Areas</Link></li>              
+                  <li><Link href="/R&D_activities.jpg" target="_blank">R&D Activities</Link></li>
+                   <li><Link href="/program-offered-intake.pdf" target="_blank">Program Offered & Intake</Link></li>
+                   <li className="dropend"><Link href="#" className="dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">Syllabus </Link>
+                   <ul className="dropdown-menu">
+                       <li><Link href="#">CSE </Link></li>
+                        <li><Link href="#">AIML</Link></li>
+                         <li><Link href="#">ECE</Link></li>
+                         <li><Link href="#">ME</Link></li>
+                        <li><Link href="#">BT</Link></li>
+                         <li><Link href="#">ECO</Link></li>
+                        <li><Link href="#">First Year</Link></li>
+                   </ul>
+                   
+                   </li>
                   {/* <li><Link href="/online-fee"> Online Fee</Link></li>
                   <li><Link href="/gallery"> Gallery</Link></li> */}
                 </ul>
