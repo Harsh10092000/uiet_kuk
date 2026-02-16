@@ -21,7 +21,7 @@ const Footer = () => {
               <div className='footer-col'>
                 <h4>Academics</h4>
                 <ul>
-                  <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> Time Table</a></li>
+                  <li><a href="/time-table"><span><i class="fa-solid fa-angles-right"></i></span> Time Table</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span>Academic Calendar</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span>Syllabus B.Tech</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> Syllabus M.Tech</a></li>
@@ -34,7 +34,7 @@ const Footer = () => {
               <div className='footer-col'>
                 <h4>Facilities</h4>
                 <ul>
-                  <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> Library</a></li>
+                  <li><a href="/Library10.pdf"><span><i class="fa-solid fa-angles-right"></i></span> Library</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> Computer Centre</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span>Sports</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> Hostels</a></li>
@@ -49,13 +49,18 @@ const Footer = () => {
               <div className='footer-col'>
                 <h4>Information</h4>
                 <ul>
-                  <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> AICTE Reports</a></li>
-                  <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> Policies</a></li>
+                  <li><a href="/aicte-reports"><span><i class="fa-solid fa-angles-right"></i></span> AICTE Reports</a></li>
+                  <li><a href="/policies"><span><i class="fa-solid fa-angles-right"></i></span> Policies</a></li>
                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span>Scholarship</a></li>
-                  <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> NOC</a></li>
-                  <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span> Apply Form</a></li>
-                  <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span>Mandatory Forms</a></li>
-                   <li><a href="#"><span><i class="fa-solid fa-angles-right"></i></span>UIET in News</a></li>
+                  <li><a href="/NCC-Presentation.pdf" target='_blank'><span><i class="fa-solid fa-angles-right"></i></span> NCC</a></li>
+                  <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScs_65te_-_Z-36q6M3pQK58ejc-HcVPtrfc6A-cMjLWWOBgA/viewform?pli=1" target='_blank'><span><i class="fa-solid fa-angles-right"></i></span>Application form</a></li>
+                  <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc-sKZCaoXPpn0a_1pwR3VTF7rRWLSHE6yOFewrrhrblAFMxA/viewform" target='_blank'><span><i class="fa-solid fa-angles-right"></i></span>Mandatory Forms</a></li>
+                   <li><a href="https://new.express.adobe.com/webpage/Z18MbXQjKF4eL?" target='_blank'><span><i class="fa-solid fa-angles-right"></i></span>UIET in News</a></li>
+
+
+              
+          
+
                 </ul>
               </div>              
               {/* <div className='footer-col'>
