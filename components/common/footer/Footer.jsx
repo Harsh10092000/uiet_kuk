@@ -56,9 +56,8 @@ const Footer = () => {
                   <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScs_65te_-_Z-36q6M3pQK58ejc-HcVPtrfc6A-cMjLWWOBgA/viewform?pli=1" target='_blank'><span><i class="fa-solid fa-angles-right"></i></span>Application form</a></li>
                   <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc-sKZCaoXPpn0a_1pwR3VTF7rRWLSHE6yOFewrrhrblAFMxA/viewform" target='_blank'><span><i class="fa-solid fa-angles-right"></i></span>Mandatory Forms</a></li>
                    <li><a href="https://new.express.adobe.com/webpage/Z18MbXQjKF4eL?" target='_blank'><span><i class="fa-solid fa-angles-right"></i></span>UIET in News</a></li>
-
-
-              
+                    <li><a href="/gallery" target='_blank'><span><i class="fa-solid fa-angles-right"></i></span>Gallery</a></li>
+             
           
 
                 </ul>
