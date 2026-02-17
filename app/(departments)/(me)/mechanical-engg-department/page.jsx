@@ -2,6 +2,7 @@ import React from "react";
 import FacultySlider from "@/components/departments/facultySlider/FacultySlider";
 import DepartmentHeader from "@/components/departments/DepartmentHeader";
 import DepartmentSection from "@/components/departments/DepartmentSection";
+import DepartmentIncharge from "@/components/departments/DepartmentIncharge";
 import DepartmentVisionMission from "@/components/departments/DepartmentVisionMission";
 import DepartmentOutcomes from "@/components/departments/DepartmentOutcomes";
 
@@ -102,10 +103,17 @@ const page = () => {
 
                                     <DepartmentVisionMission vision={vision} mission={mission} />
                                     <DepartmentOutcomes pos={pos} psos={psos} />
+
                                 </DepartmentSection>
                             </div>
                         </div>
                     </div>
+
+                    <DepartmentIncharge
+                        incharge={facultyDataList.find(f => f.id === 34)}
+                        message="Mechanical Engineering serves as the backbone of industrial progress. We integrate traditional principles with modern technologies like Robotics, Automation, and CAD/CAM. Dedicated to producing industry-ready professionals involved in sustainable innovation, we emphasize hands-on learning to prepare students to lead and excel in the manufacturing, automotive, and energy sectors."
+                    />
+
 
                     <FacultySlider facultyData={facultyDataList} viewAllLink={viewAllLink} />
                 </div>

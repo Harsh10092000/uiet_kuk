@@ -2,6 +2,7 @@ import React from "react";
 import FacultySlider from "@/components/departments/facultySlider/FacultySlider";
 import DepartmentHeader from "@/components/departments/DepartmentHeader";
 import DepartmentSection from "@/components/departments/DepartmentSection";
+import DepartmentIncharge from "@/components/departments/DepartmentIncharge";
 
 export const metadata = {
     title: "Biotechnology Engineering Agency | UIET KUK",
@@ -471,22 +472,13 @@ const page = () => {
                         </div>
                     </div>
 
+
                     {/* Department Head Section */}
-                    {/* <div className="message-block mt-150">
-                        <h3> Department of <span className="red">Biotechnology Engg.</span></h3>
-                        <div className="profile-info mt-4">
-                            <div className="profile">
-                                <img src="/sunil-dhingra.jpg" alt="profile" className="img-fluid" width="300px" />
-                            </div>
-                            <div className="profile-details">
-                                <h4>Faculty Incharge</h4>
-                                <p>
-                                    The department readies students for fruitful careers in biotechnology and related fields. Our focus is on providing exposure to Ph.D. scholars with state-of-the-art technologies related to genomics, proteomics, and other emerging areas.
-                                </p>
-                                <a href="/director" className="red">Read More...</a>
-                            </div>
-                        </div>
-                    </div> */}
+
+                    <DepartmentIncharge
+                        incharge={facultyDataList.find(f => f.id === 33)}
+                        message="Biotechnology is key to solving pressing health and environmental issues. We provide a rigorous environment exploring genetic engineering, microbiology, and bioinformatics. Our curriculum fosters critical thinking and research excellence, nurturing the next generation of scientists to make significant contributions to the bio-economy and human welfare."
+                    />
 
                     <FacultySlider facultyData={facultyDataList} viewAllLink={viewAllLink} />
                 </div>

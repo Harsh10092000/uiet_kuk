@@ -2,6 +2,7 @@ import React from "react";
 import FacultySlider from "@/components/departments/facultySlider/FacultySlider";
 import DepartmentHeader from "@/components/departments/DepartmentHeader";
 import DepartmentSection from "@/components/departments/DepartmentSection";
+import DepartmentIncharge from "@/components/departments/DepartmentIncharge";
 
 export const metadata = {
     title: "Electronics & Communication Engineering (ECE) | UIET KUK",
@@ -57,13 +58,21 @@ const page = () => {
                                     <p>
                                         Students and faculty regularly participate in FDPs, national workshops, technical seminars, and expert lectures, strengthening academic depth and industry exposure. The department maintains a consistent placement record, with students securing roles in IT, and telecom organizations, along with achievements in national-level examinations such as GATE and admissions to reputed higher education institutions.
                                     </p>
+
                                     <p>
                                         The integrated ecosystem of academics, research, laboratories, NEP-aligned curriculum reforms, and industry engagement positions the ECE Department at UIET, KUK as a forward-looking and impactful centre for engineering education.
                                     </p>
+
                                 </DepartmentSection>
                             </div>
                         </div>
                     </div>
+
+                    <DepartmentIncharge
+                        incharge={facultyDataList.find(f => f.id === 7)}
+                        message="In the evolving field of Electronics and Communication, we bridge the gap between theory and practice. From VLSI design to wireless communication, we nurture engineers who are technically proficient and visionary. We focus on instilling a research-oriented mindset, empowering students to innovate and drive the next wave of technological advancements in the global electronics sector."
+                    />
+
 
                     <FacultySlider facultyData={facultyDataList} viewAllLink={viewAllLink} />
                 </div>

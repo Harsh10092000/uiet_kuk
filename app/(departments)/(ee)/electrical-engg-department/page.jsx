@@ -2,6 +2,7 @@ import React from "react";
 import FacultySlider from "@/components/departments/facultySlider/FacultySlider";
 import DepartmentHeader from "@/components/departments/DepartmentHeader";
 import DepartmentSection from "@/components/departments/DepartmentSection";
+import DepartmentIncharge from "@/components/departments/DepartmentIncharge";
 import Link from "next/link";
 
 export const metadata = {
@@ -58,18 +59,11 @@ const page = () => {
                     </div>
 
 
-                    {/* <div className="message-block mt-150">
-                        <h3> Department of <span className="red">
-                            Electronics & Communication Engg. </span></h3>
-                        <div className="profile-info mt-4">
-                            <div className="profile"><img src="/sunil-dhingra.jpg" alt="profile" className="img-fluid" width="300px" /></div>
-                            <div className="profile-details">
-                                <h4>Prof.Sunil Dhingra</h4>
-                                <p>It gives me immense pleasure to introduce University Institute of Engineering and Technology (UIET) which was established in 2004 in the campus of Kurukshetra University. It was established with a motive 'MIND TO MARKET' so as to achieve excellence in the key areas of engineering and to produce talented and committed human resources .</p>
-                                <a href="/director" className="red">Read More...</a>
-                            </div>
-                        </div>
-                    </div> */}
+
+                    <DepartmentIncharge
+                        incharge={facultyDataList.find(f => f.id === 32)}
+                        message="The future is electric, and we are dedicated to leading this transformation. We advance knowledge in power systems, smart grids, and renewable energy. Empowering students to design sustainable electrical solutions, we combine theoretical rigor with practical exposure to shape engineers who will build the green energy infrastructure of tomorrow."
+                    />
 
                     <FacultySlider facultyData={facultyDataList} viewAllLink={viewAllLink} />
                 </div>

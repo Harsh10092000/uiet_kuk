@@ -145,15 +145,15 @@ const Header = () => {
               <li><Link href="/training-placement-cell"> Placements</Link></li>
               <li><Link href="/iic">  IIC / Start-Up</Link></li>
               <li><Link href="#">  Alumni</Link></li>
-             
+
 
               <li className="dropdown">
                 <Link href="#" className="dropdown-toggle" type="button" id="dropdownAppLink" data-bs-toggle="dropdown" aria-expanded="false">Important Link</Link>
                 <ul className="dropdown-menu" aria-labelledby="dropdownAppLink">
                   {/* <li><Link href="#">LMS/IUMS</Link></li> */}
                   <li><Link href="/teqip">TEQIP-III</Link></li>
-                  <li><Link href="/feedback">Feedback / Grievance / Suggestion</Link></li>
-                  <li><Link href="#">Grievances </Link></li>
+                  <li><Link href="/feedback">Grievance</Link></li>
+                  <li><Link href="#">NIRF</Link></li>
                   <li><Link href="/ideas-innovation">Ideas/Innovation</Link></li>
 
                 </ul>

@@ -36,13 +36,13 @@ const Page = () => {
                 <div className="col-sm-10 col-md-12 col-lg-2">
                   <div className="aboutpict mb-40">
                     <img
-                      src={faculty.image !== "#" ? faculty.image : "/images/placeholder-faculty.jpg"}
+                      src={faculty.image !== "#" ? faculty.image : "/uiet-logo.png"}
                       className="img-fluid"
                       alt={faculty.name}
                       width="100%"
                       onError={(e) => {
                         e.target.onerror = null;
-                        e.target.src = "/images/placeholder-faculty.jpg";
+                        e.target.src = "/uiet-logo.png";
                       }}
                     />
                   </div>
