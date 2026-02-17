@@ -166,7 +166,7 @@ const Header = () => {
                         )}
                       </ul>
                     </li>
-                    <li><Link href="#">Contact</Link></li>
+                    {/* <li><Link href="#">Contact</Link></li> */}
                   </ul>
                 </div>
               </div>
