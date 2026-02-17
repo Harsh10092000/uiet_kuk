@@ -116,6 +116,19 @@ export const facultyData = {
             image: "/faculty-data/profile-pic/photofinal - Dr. Sunita Khatak.jpg",
             resume: "#",
             experience: "15+ Years"
+        },
+        {
+            id: 33,
+            name: "DR.DEEPAK MALIK",
+            designation: "Associate Professor",
+            qualification: "Ph.D.",
+            specialization: "Microbial Biotechnology",
+            research_areas: "23 International & 10 National",
+            phone: "+91 90174 14672",
+            email: "deepmolbio@rediffmail.com",
+            image: "/faculty-data/profile-pic/deepakm.jpg",
+            resume: "#",
+            experience: "10+ Years"
         }
     ],
 
@@ -286,11 +299,24 @@ export const facultyData = {
             qualification: "Ph.D.",
             specialization: "Thermal Engineering",
             research_areas: "Renewable Energy, Solar Energy, Emission Control",
-            phone: "9541653750",
+            phone: "+91 95416 53750",
             email: "sdhingra2015@kuk.ac.in",
-            image: "#", // Missing image
-            resume: "#",
+            image: "/faculty-data/profile-pic/sunild.JPG", 
+            resume: "/faculty-data/profile-data/Profile-Dr-Sunil-Dhingra.pdf",
             experience: "22 Years"
+        },
+         {
+            id: 34,
+            name: "DR.VISHAL AHLAWAT",
+            designation: "Associate Professor",
+            qualification: "Ph.D.",
+            specialization: "Tribology of Composites, Brake friction materials,Lubrication and lubricants, Materials characterization, Bio-implant materials",
+            research_areas: "Journals: 10 , Conference / Symposia etc.: International: 03",
+            phone: "+91 98965 80055",
+            email: "vahlawat2015@kuk.ac",
+            image: "/faculty-data/profile-pic/Dr-Vishal-Ahlawat.JPG",
+            resume: "/faculty-data/profile-data/Dr-Vishal-Ahlawat.pdf",
+            experience: "11 Years"
         }
     ],
 
@@ -341,11 +367,24 @@ export const facultyData = {
             qualification: "B. Tech, M.Tech , Ph. D",
             specialization: "Software Engineering and Machine Learning",
             research_areas: "Software Engineering and Machine Learning",
-            phone: "#",
+            phone: "+91 98965 88144",
             email: "Karambir2015@kuk.ac.in",
             image: "/faculty-data/profile-pic/IMG-20251203-WA0003 - Sh. KARAMBIR.jpg",
             resume: "#",
-            experience: "15+ Years"
+            experience: "20 Years"
+        },
+        {
+            id: 25,
+            name: "DR.POONAM RANI",
+            designation: "Associate Professor",
+            qualification: "Ph.D",
+            specialization: "Software Engg.",
+            research_areas: "12 International",
+            phone: "+91 92557 00002",
+            email: "poonamdabas.kuk@gmail.com",
+            image: "/faculty-data/profile-pic/poonam.jpg",
+            resume: "#",
+            experience: "20 YERAS"
         }
     ],
 
@@ -367,7 +406,7 @@ export const facultyData = {
             id: 31,
             name: "Dr Vijay Kumar Garg",
             designation: "Associate Professor",
-            qualification: "PhD",
+            qualification: "Ph.D",
             specialization: "Electrical Power System",
             research_areas: "Energy Management, Renewable Energy System",
             phone: "9466634299",
@@ -375,6 +414,19 @@ export const facultyData = {
             image: "/faculty-data/profile-pic/Vijay_New Snap - vijay kumar garg.jpg",
             resume: "/faculty-data/profile-data/Dr Vijay Kumar Garg_Brief Profile - vijay kumar garg.pdf",
             experience: "18 Years"
+        },
+        {
+            id: 32,
+            name: "DR.RAM AVTAR",
+            designation: "Associate Professor",
+            qualification: "Ph.D",
+            specialization: "Control System",
+            research_areas: "10 International & 20 National",
+            phone: "+91 94663 41223",
+            email: " ravtar2015@kukac.in",
+            image: "/faculty-data/profile-pic/RAM-AVTAR.jpg",
+            resume: "#",
+            experience: "12 Years"
         }
     ],
 
@@ -383,7 +435,7 @@ export const facultyData = {
             id: 9,
             name: "Dr. Rajesh Agnihotri",
             designation: "Associate Professor",
-            qualification: "Phd (Chemistry), LLM",
+            qualification: "Ph.d (Chemistry), LLM",
             specialization: "Inorganic",
             research_areas: "Analytical",
             phone: "9896211014",

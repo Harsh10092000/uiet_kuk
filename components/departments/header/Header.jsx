@@ -21,7 +21,7 @@ const departmentConfig = {
   },
   ece: {
     name: "Electronics & Communication Engg. Department",
-    facultyLink: "/faculty-of-electronics-and-communication-engineering",
+    facultyLink: "/faculty-of-electronics-communication-engineering",
     departmentLink: "/electronics-and-communication-engg-department",
     importantLinks: [
       { label: "Industry Partner", href: "/doc/ece/job-career-industry-partner-ece-uiet.jpg" },
