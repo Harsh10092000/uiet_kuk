@@ -1715,3 +1715,78 @@ section.latest-news-link {
         border-left: .3em solid transparent;
     }
 }
+
+/* Department Header Mobile Menu - Added for Fix */
+@media only screen and (max-width: 767px) {
+    .nav-inner {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 85%;
+        height: 100vh;
+        background: #fff;
+        z-index: 1002;
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: all 0.3s ease-in-out;
+        text-align: left;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        overflow-y: auto;
+        display: block;
+    }
+
+    .nav-inner.mobile-open {
+        left: 0;
+    }
+
+    .nav-inner ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 0;
+        border-bottom: 1px solid #f0f0f0;
+        padding-left: 0;
+    }
+
+    .nav-inner ul li a {
+        display: block;
+        padding: 12px 0;
+        font-size: 16px;
+    }
+
+    .nav-inner .dropdown-menu {
+        position: static !important;
+        float: none;
+        width: 100%;
+        box-shadow: none;
+        border: none;
+        background: #f9f9f9;
+        margin-top: 0;
+        transform: none !important;
+        padding-left: 20px;
+    }
+
+    .nav-inner .dropdown-menu.show {
+        display: block;
+    }
+
+    /* Standard toggle button positioning (closed) */
+    span.toggle-menu {
+        z-index: 1003;
+        position: absolute;
+        bottom: 20px;
+        right: 11px;
+    }
+
+    /* Fixed positioning when menu is open */
+    span.toggle-menu.mobile-active {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        bottom: auto;
+    }
+
+    .department-header-overlap-fix {
+        padding-top: 0;
+    }
+}

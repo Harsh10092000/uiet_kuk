@@ -99,6 +99,14 @@ const Header = () => {
   const department = getDepartmentFromPath(pathname);
   const config = departmentConfig[department];
 
+
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+
+  React.useEffect(() => {
+    // Close menu when route changes
+    setIsMobileMenuOpen(false);
+  }, [pathname]);
+
   return (
     <div>
       <header>
@@ -114,13 +122,13 @@ const Header = () => {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="nav-inner">
+                <div className={`nav-inner ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
                   <ul>
                     <li className="dropdown">
                       <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">People</Link>
                       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                         <li><Link href={config.facultyLink}>Faculty</Link></li>
-                        <li><Link href="#">Research Scholars</Link></li>
+                        {/* <li><Link href="#">Research Scholars</Link></li> */}
                       </ul>
                     </li>
                     <li className="dropdown">
@@ -172,7 +180,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <span className="toggle-menu d-block d-lg-none"><i className="fa-solid fa-bars"></i></span>
+          <span className={`toggle-menu d-block d-lg-none ${isMobileMenuOpen ? 'mobile-active' : ''}`} onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} style={{ cursor: 'pointer', zIndex: 1003 }}><i className={`fa-solid ${isMobileMenuOpen ? 'fa-times' : 'fa-bars'}`}></i></span>
         </div>
       </header>
     </div>
