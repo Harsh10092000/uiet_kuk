@@ -124,7 +124,7 @@ const Header = () => {
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButtonDept" data-bs-toggle="dropdown" aria-expanded="false">Departments</a>
+                      <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButtonDept" data-bs-toggle="dropdown" aria-expanded="false">Programs</a>
                       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButtonDept">
                         {[
                           { id: 'cse', href: '/computer-science-engg-department', label: 'Computer Science & Engg.' },

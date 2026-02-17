@@ -144,6 +144,7 @@ const Header = () => {
 
               <li><Link href="/training-placement-cell"> Placements</Link></li>
               <li><Link href="/iic">  IIC / Start-Up</Link></li>
+              <li><Link href="#">  Alumni</Link></li>
              
 
               <li className="dropdown">
@@ -152,7 +153,7 @@ const Header = () => {
                   {/* <li><Link href="#">LMS/IUMS</Link></li> */}
                   <li><Link href="/teqip">TEQIP-III</Link></li>
                   <li><Link href="/feedback">Feedback / Grievance / Suggestion</Link></li>
-                  <li><Link href="#">NIRF</Link></li>
+                  <li><Link href="#">Grievances </Link></li>
                   <li><Link href="/ideas-innovation">Ideas/Innovation</Link></li>
 
                 </ul>

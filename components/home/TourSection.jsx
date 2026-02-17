@@ -64,7 +64,7 @@ const TourSection = async () => {
 
                 <li>
                   <a href="/UIET_Fee.pdf" target='_blank' className="gradient-btn">
-                    Fee Stucture
+                    Fee Structure
                   </a>
                 </li>
 
