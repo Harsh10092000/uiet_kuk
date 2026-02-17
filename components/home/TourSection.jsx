@@ -53,9 +53,9 @@ const TourSection = async () => {
                   allowFullScreen
                 ></iframe>
               </div>
-              <a href="#" className="admission-update">
+              {/* <a href="#" className="admission-update">
                 Admission Updates
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="col-md-4">
@@ -89,7 +89,7 @@ const TourSection = async () => {
                     Say No to Ragging
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#" className="gradient-btn">
                     Mental Health Awareness Helpline<br />
                     7082113150
@@ -100,7 +100,7 @@ const TourSection = async () => {
                     University Grants Commission Anti Ragging Helpline Toll Free Number: 1800-180-5522 &
                     E-mail: helpline@antiragging.in
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
