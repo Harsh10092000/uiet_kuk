@@ -5,7 +5,7 @@ const counters = [
   { value: 2000, suffix: "+", label: "Happy Students" },
   { value: 70, suffix: "+", label: "Faculty" },
   { value: 100, suffix: "+", label: "Student Placement" },
-  { value: 1000, suffix: "+", label: "Student Result" },
+  { value: 1000, suffix: "+", label: "Visitors" },
 ];
 
 const CounterSection = () => {
