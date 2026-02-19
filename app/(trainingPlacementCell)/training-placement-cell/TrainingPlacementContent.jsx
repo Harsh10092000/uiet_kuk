@@ -31,34 +31,9 @@ const TrainingPlacementContent = () => {
               <a
                 className="nav-link active"
                 data-bs-toggle="pill"
-                href="#y2018"
+                href="#y2015"
               >
-                2018
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" data-bs-toggle="pill" href="#y2019">
-                2019
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" data-bs-toggle="pill" href="#y2020">
-                2020
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" data-bs-toggle="pill" href="#y2021">
-                2021
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" data-bs-toggle="pill" href="#y2022">
-                2022
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" data-bs-toggle="pill" href="#y2023">
-                2023
+                2025
               </a>
             </li>
             <li className="nav-item">
@@ -67,8 +42,33 @@ const TrainingPlacementContent = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " data-bs-toggle="pill" href="#y2025">
-                2025
+              <a className="nav-link" data-bs-toggle="pill" href="#y2023">
+                2023
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" data-bs-toggle="pill" href="#y2022">
+                2022
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" data-bs-toggle="pill" href="#y2021">
+                2021
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" data-bs-toggle="pill" href="#y2020">
+                2020
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" data-bs-toggle="pill" href="#y2019">
+                2019
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link " data-bs-toggle="pill" href="#y2018">
+                2018
               </a>
             </li>
           </ul>

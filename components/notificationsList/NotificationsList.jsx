@@ -35,11 +35,16 @@ const NotificationsList = ({ results, page_name }) => {
     if (item?.file_name && item?.file_path) {
       const baseUrl =
         process.env.NEXT_PUBLIC_BACKEND_URL || process.env.BACKEND_URL || "";
+
+
       return `${baseUrl}${item.file_path}`;
     }
 
+
     return "#";
   };
+
+
 
   const getIconClass = (item) => {
     const hasFile = item?.file_name && item?.file_path;

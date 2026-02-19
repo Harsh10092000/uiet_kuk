@@ -14,7 +14,7 @@ const Header = () => {
               <div className="col-md-6">
                 <div className="logo inner-logo">
                   <Link href="/" className="desktop-logo"><img src="/logo.png" alt="logo" className=" img-fluid" /></Link>
-                  <h4>Institution's Innovation Council<span className="red">Kurukshetra University(UIET), Kurukshetra</span></h4>
+                  <h4>Institution's Innovation Council<span className="red">UIET, Kurukshetra University</span></h4>
                 </div>
               </div>
               <div className="col-md-6">
