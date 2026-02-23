@@ -1,8 +1,8 @@
 :root {
    --primarycolor:#a80000;
    --secondarycolor:#04214f;
-   --font-family-Barlow:"Barlow", sans-serif;
-    --font-family-Poppins:"Poppins", sans-serif;
+   --font-family-TitilliumWeb: "Titillium Web", sans-serif;
+    --font-family-Roboto:"Roboto", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,7 +22,7 @@ body {
 
 body {
  
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -43,7 +43,7 @@ ul li{
   list-style: none;
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: var(--font-family-Poppins);
+  font-family: var( --font-family-Roboto);
   font-weight: 700 ;
   color:#21316c !important;
 }
@@ -84,11 +84,14 @@ a:hover{
 h2{
   font-size:36px !important;
   font-weight:500 !important;
-   font-family: var(--font-family-Poppins) !important;
+   font-family: var(--font-family-Roboto) !important;
+}
+h3{
+   font-family: var(--font-family-Roboto) !important;
 }
 p{
-  color: #1b1a1a !important;
-  font-family: var(--font-family-Poppins) !important;
+  color: #000 !important;
+  font-family: var(--font-family-Roboto) !important;
   line-height: 28px;
 }
 /* margin-top-bottom */

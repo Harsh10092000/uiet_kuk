@@ -40,7 +40,7 @@ const TourSection = async () => {
         <div className="row">
           <div className="col-md-4">
             <div className="video-block">
-              <h2>Take a Tour</h2>
+              <h3>Take a <span>Tour</span></h3>
               <div className="video">
                 <iframe
                   width="100%"
