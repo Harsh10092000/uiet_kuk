@@ -1,4 +1,8 @@
-
+@media (min-width: 1400px) {
+    .container{
+        max-width: 1500px !important;
+    }
+}
 /* topbar */
 .topbar {
     background: #a20b0b;
