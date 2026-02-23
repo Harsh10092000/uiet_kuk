@@ -1609,7 +1609,7 @@ section.latest-news-link {
         padding: 4px 12px;
         font-size: 28px;
         position: absolute;
-        bottom: 20px;
+        bottom: 10px;
         right: 11px;
     }
 
@@ -1719,6 +1719,21 @@ section.latest-news-link {
     h2.section-title {
         font-size: 30px !important;
     }
+
+    .aboutpict {
+    display: inline-block;
+}
+.aboutpict img {
+    width: 180px;
+}
+.logo h4 {
+    font-weight: 700;
+    font-size: 18px;
+}
+.pages-title h2 {
+    color: #fff !important;
+    font-size: 22px !important;
+}
 
 }
 
