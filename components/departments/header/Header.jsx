@@ -134,13 +134,16 @@ const Header = () => {
                     <li className="dropdown">
                       <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButtonDept" data-bs-toggle="dropdown" aria-expanded="false">Programs</a>
                       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButtonDept">
+                         <li><Link href="#"> B.Tech</Link></li>
+                         <li><Link href="#"> M.Tech</Link></li>
+                         <li><Link href="#"> Ph.D</Link></li>
                         {[
                           // { id: 'cse', href: '/computer-science-engg-department', label: 'Computer Science & Engg.' },
                           // { id: 'ece', href: '/electronics-and-communication-engg-department', label: 'Electronics & Comm. Engg.' },
-                          { id: 'bt', href: '/biotechnology-engg-department', label: 'Biotechnology Engg.' },
-                          { id: 'me', href: '/mechanical-engg-department', label: 'Mechanical Engg.' },
+                          // { id: 'bt', href: '/biotechnology-engg-department', label: 'Biotechnology Engg.' },
+                          // { id: 'me', href: '/mechanical-engg-department', label: 'Mechanical Engg.' },
                           // { id: 'ee', href: '/electrical-engg-department', label: 'Electrical Engg.' },
-                          { id: 'as', href: '/applied-sciences-department', label: 'Applied Sciences' },
+                          // { id: 'as', href: '/applied-sciences-department', label: 'Applied Sciences' },
                         ].map((dept) => (
                           <li key={dept.id}>
                             <Link
