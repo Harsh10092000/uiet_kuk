@@ -481,7 +481,13 @@ footer {
     background: url(/footer-bg.jpg) no-repeat center;
     background-size: cover;
 }
-
+.footer-logo a {
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .socail-link a {
     color: #fff;
     border: 1px solid #fff;

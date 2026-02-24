@@ -3,7 +3,7 @@ import Link from 'next/link'
 const SubHeader = () => {
   return (
     <div className="topbar">
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="col-md-4">
             <div className="top-left list">

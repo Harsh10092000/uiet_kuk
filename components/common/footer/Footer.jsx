@@ -8,18 +8,20 @@ const Footer = () => {
       <footer className="pt-5">
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-6">
               <div className="footer-col">
-                <a href="#">
-                  {" "}
-                  <img
-                    src="/footer-logo.png"
-                    alt="logo"
-                    className="img-fluid"
-                  />
-                </a>
+                <div className="footer-logo">
+                  <a href="/">
+                    {" "}
+                    <img
+                      src="/footer-logo.png"
+                      alt="logo"
+                      className="img-fluid"
+                    />
+                  </a>
+                </div>
                 <div className="socail-link">
-                  <a href="#">
+                  <a href="https://www.facebook.com/ku.uiet" target="_blank">
                     <i class="fa-brands fa-facebook-f"></i>
                   </a>
                   <a href="#">
@@ -31,7 +33,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-2">
               <div className="footer-col">
                 <h4>Academics</h4>
                 <ul>
@@ -75,20 +77,18 @@ const Footer = () => {
                       Program Offered & Intake
                     </Link>
                   </li>
-                   <li>
+                  <li>
                     <Link href="/syllabus" target="_blank">
                       <span>
                         <i class="fa-solid fa-angles-right"></i>
                       </span>
-                       All Syllabus
+                      All Syllabus
                     </Link>
                   </li>
-                 
-                 
                 </ul>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-2">
               <div className="footer-col">
                 <h4>Facilities</h4>
                 <ul>

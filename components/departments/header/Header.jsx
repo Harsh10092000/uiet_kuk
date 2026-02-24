@@ -14,9 +14,9 @@ const departmentConfig = {
       { label: "Industry Partner", href: "/industry-partner.jpg" },
       { label: "PO's and PSO's", href: "/doc/cse/CSE PO-PSO.docx" },
       { label: "Research Expertise", href: "/doc/cse/cse-research-expertise.docx" },
-      { label: "About Us", href: "#about-us" },
-      { label: "Faculty Incharge Message", href: "#incharge-message" },
-      { label: "Director Message", href: "#director-message" },
+      // { label: "About Us", href: "#about-us" },
+      // { label: "Faculty Incharge Message", href: "#incharge-message" },
+      // { label: "Director Message", href: "#director-message" },
     ]
   },
   ece: {
@@ -128,18 +128,18 @@ const Header = () => {
                       <Link href="#" className="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">People</Link>
                       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                         <li><Link href={config.facultyLink}>Faculty</Link></li>
-                        {/* <li><Link href="#">Research Scholars</Link></li> */}
+                        <li><Link href="#">Staff</Link></li>
                       </ul>
                     </li>
                     <li className="dropdown">
                       <a href="#" className="dropdown-toggle" type="button" id="dropdownMenuButtonDept" data-bs-toggle="dropdown" aria-expanded="false">Programs</a>
                       <ul className="dropdown-menu" aria-labelledby="dropdownMenuButtonDept">
                         {[
-                          { id: 'cse', href: '/computer-science-engg-department', label: 'Computer Science & Engg.' },
-                          { id: 'ece', href: '/electronics-and-communication-engg-department', label: 'Electronics & Comm. Engg.' },
+                          // { id: 'cse', href: '/computer-science-engg-department', label: 'Computer Science & Engg.' },
+                          // { id: 'ece', href: '/electronics-and-communication-engg-department', label: 'Electronics & Comm. Engg.' },
                           { id: 'bt', href: '/biotechnology-engg-department', label: 'Biotechnology Engg.' },
                           { id: 'me', href: '/mechanical-engg-department', label: 'Mechanical Engg.' },
-                          { id: 'ee', href: '/electrical-engg-department', label: 'Electrical Engg.' },
+                          // { id: 'ee', href: '/electrical-engg-department', label: 'Electrical Engg.' },
                           { id: 'as', href: '/applied-sciences-department', label: 'Applied Sciences' },
                         ].map((dept) => (
                           <li key={dept.id}>
