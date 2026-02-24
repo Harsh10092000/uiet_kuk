@@ -37,6 +37,7 @@ const SubHeader = () => {
                 <li>
                   <Link href="/mrcn-2025">MRCN 2025</Link>
                 </li> */}
+<li><Link href="/online-fee"> Online Fee</Link></li>
                 <li>
                   <Link href="/feedback">Feedback</Link>
                 </li>
@@ -49,6 +50,8 @@ const SubHeader = () => {
                 {/* <li>
                       <Link href="/training-placement-cell">T&P Cell</Link>
                     </li> */}
+
+                     
               </ul>
             </div>
           </div>

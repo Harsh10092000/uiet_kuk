@@ -1467,6 +1467,7 @@ section.latest-news-link {
     a.desktop-logo {
         width: 620px !important;
         display: block;
+                margin: 0 auto;
     }
 
 

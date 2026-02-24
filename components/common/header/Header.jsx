@@ -100,11 +100,10 @@ const Header = () => {
                 <Link href="#" className="dropdown-toggle" type="button" id="dropdownAppAcademic" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Examination </Link>
                 <ul className="dropdown-menu" aria-labelledby="dropdownAppAcademic">
 
-                  <li><Link href="/time-table">Time Table</Link></li>
-                  <li><Link href="/academic-calendar.pdf" target="_blank">Academic Calendar</Link></li>
-                  <li><Link href="/emerging-areas-in-b.tech.pdf" target="_blank">Emerging Areas</Link></li>
-                  <li><Link href="/R&D_activities.jpg" target="_blank">R&D Activities</Link></li>
-                  <li><Link href="/program-offered-intake.pdf" target="_blank">Program Offered & Intake</Link></li>
+                  <li><Link href="https://iums.kuk.ac.in/login.htm" target="_blank">IUMS</Link></li>
+                  <li><Link href="#" target="_blank">Result</Link></li>
+                  <li><Link href="/emerging-areas-in-b.tech.pdf">Education Verification & Confidential Results</Link></li>
+                 
                   <li className="dropdown-submenu">
                     <a
                       href="#"
