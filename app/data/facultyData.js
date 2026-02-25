@@ -1,32 +1,6 @@
 export const facultyData = {
     "biotechnology-engg-department": [
         {
-            id: 1,
-            name: "Dr. Deepak Kumar Malik",
-            designation: "Associate Professor",
-            qualification: "PhD Microbiology",
-            specialization: "Plant microbe interaction",
-            research_areas: "PGPR and Pesticide degradation",
-            phone: "9017414672",
-            email: "dmalik2015@kuk.ac.in",
-            image: "/faculty-data/profile-pic/JB6A5616 - Dr. Deepak Malik.JPG",
-            resume: "/faculty-data/profile-data/Brief resume - Dr. Deepak Malik.pdf",
-            experience: "15+ Years"
-        },
-        {
-            id: 3,
-            name: "Naveen Bedi",
-            designation: "Assistant Professor",
-            qualification: "M.Tech",
-            specialization: "Bioprocess Engineering",
-            research_areas: "Bioprocess Engineering",
-            phone: "9034960857",
-            email: "naveen.bedi90@gmail.com",
-            image: "/faculty-data/profile-pic/IMG-20250830-WA0000 - Naveen Bedi.jpg",
-            resume: "#",
-            experience: "8 Years"
-        },
-        {
             id: 11,
             name: "Dr Pranay Jain",
             designation: "Associate Professor",
@@ -39,6 +13,7 @@ export const facultyData = {
             resume: "/faculty-data/profile-data/PROFILE - Dr.pranay jain.pdf",
             experience: "15+ Years"
         },
+        
         {
             id: 12,
             name: "Dr. Anita Grewal",
@@ -52,6 +27,62 @@ export const facultyData = {
             resume: "/faculty-data/profile-data/Biodata - Dr. Anita punia.pdf",
             experience: "15+ Years"
         },
+       
+        {
+            id: 28,
+            name: "Dr Rajesh Kumar",
+            designation: "Associate Professor",
+            qualification: "Ph.D Biotechnology, MBA (OB)and LLM",
+            specialization: "Microbial Biotechnology",
+            research_areas: "Enzyme production, molecular docking, proteomics and Genomics",
+            phone: "9991107701",
+            email: "rkumar2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/PHOTO RAJESH (2) - rajesh kumar.JPG",
+            resume: "/faculty-data/profile-data/CV RAJESH KUMAR - rajesh kumar.pdf",
+            experience: "18+ Years"
+        },
+        {
+            id: 1,
+            name: "Dr. Deepak Kumar Malik",
+            designation: "Associate Professor & Faculty Incharge",
+            qualification: "PhD Microbiology",
+            specialization: "Plant microbe interaction",
+            research_areas: "PGPR and Pesticide degradation",
+            phone: "9017414672",
+            email: "dmalik2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/JB6A5616 - Dr. Deepak Malik.JPG",
+            resume: "/faculty-data/profile-data/Brief resume - Dr. Deepak Malik.pdf",
+            experience: "15+ Years"
+        },
+       
+        {
+            id: 33,
+            name: "DR.AMITA GUPTA",
+            designation: "Associate Professor",
+            qualification: "Ph.D.",
+            specialization: "PLANT BIOTECH, HEALTH CARE BIOTECH,ENV. BIOTECH",
+            research_areas: "04 National",
+            phone: "+91 82959 60530",
+            email: "amitakuk@gmail.com",
+            image: "/faculty-data/profile-pic/Dr.-Amita-Gupta.jpg",
+            resume: "#",
+            experience: "9+ Years"
+        },
+        
+        {
+            id: 32,
+            name: "Dr.Sunita Khatak",
+            designation: "Associate Professor",
+            qualification: "Doctorate",
+            specialization: "Plant Molecular Biology",
+            research_areas: "Biotechnology",
+            phone: "9416930148",
+            email: "skhatak2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/photofinal - Dr. Sunita Khatak.jpg",
+            resume: "#",
+            experience: "15+ Years"
+        },
+    
         {
             id: 15,
             name: "ARCHIT SHARMA",
@@ -65,6 +96,7 @@ export const facultyData = {
             resume: "#",
             experience: "5 Years"
         },
+      
         {
             id: 19,
             name: "Dr. DIVYA BHATIA",
@@ -75,6 +107,20 @@ export const facultyData = {
             phone: "9416282775",
             email: "divyabhatia.ku@kuk.ac.in",
             image: "/faculty-data/profile-pic/divya pic - Divya Bhatia UIET.jpg",
+            resume: "#",
+            experience: "8 Years"
+        },
+
+        {
+            id: 3,
+            name: "Naveen Bedi",
+            designation: "Assistant Professor",
+            qualification: "M.Tech",
+            specialization: "Bioprocess Engineering",
+            research_areas: "Bioprocess Engineering",
+            phone: "9034960857",
+            email: "naveen.bedi90@gmail.com",
+            image: "/faculty-data/profile-pic/IMG-20250830-WA0000 - Naveen Bedi.jpg",
             resume: "#",
             experience: "8 Years"
         },
@@ -90,62 +136,50 @@ export const facultyData = {
             image: "/faculty-data/profile-pic/5 - Harnek Singh.jpg",
             resume: "#",
             experience: "10 Years"
-        },
-        {
-            id: 28,
-            name: "Dr Rajesh Kumar",
-            designation: "Associate Professor",
-            qualification: "Ph.D Biotechnology, MBA (OB)and LLM",
-            specialization: "Microbial Biotechnology",
-            research_areas: "Enzyme production, molecular docking, proteomics and Genomics",
-            phone: "9991107701",
-            email: "rkumar2015@kuk.ac.in",
-            image: "/faculty-data/profile-pic/PHOTO RAJESH (2) - rajesh kumar.JPG",
-            resume: "/faculty-data/profile-data/CV RAJESH KUMAR - rajesh kumar.pdf",
-            experience: "18+ Years"
-        },
-        {
-            id: 32,
-            name: "Dr.Sunita Khatak",
-            designation: "Associate Professor",
-            qualification: "Doctorate",
-            specialization: "Plant Molecular Biology",
-            research_areas: "Biotechnology",
-            phone: "9416930148",
-            email: "skhatak2015@kuk.ac.in",
-            image: "/faculty-data/profile-pic/photofinal - Dr. Sunita Khatak.jpg",
-            resume: "#",
-            experience: "15+ Years"
-        },
-        {
-            id: 33,
-            name: "DR.DEEPAK MALIK",
-            designation: "Associate Professor",
-            qualification: "Ph.D.",
-            specialization: "Microbial Biotechnology",
-            research_areas: "23 International & 10 National",
-            phone: "+91 90174 14672",
-            email: "deepmolbio@rediffmail.com",
-            image: "/faculty-data/profile-pic/deepakm.jpg",
-            resume: "#",
-            experience: "10+ Years"
         }
     ],
 
     "electronics-and-communication-engg-department": [
         {
             id: 2,
-            name: "Rahul Gupta",
+            name: "DR.REETA DEVI",
             designation: "Assistant Professor",
-            qualification: "M.Tech",
-            specialization: "Human Values, Data Structure",
-            research_areas: "NA",
-            phone: "8168198283",
-            email: "rahulg@kuk.ac.in",
-            image: "/faculty-data/profile-pic/Rahul - Rahul Gupta.JPG",
+            qualification: "PH.D",
+            specialization: "ECE",
+            research_areas: "02 International & 04 NAtional",
+            phone: "9416060111",
+            email: "reetadahiya@kuk.ac.in",
+            image: "/faculty-data/profile-pic/reeta-devi.jpg",
             resume: "#",
-            experience: "10 Years"
+            experience: "12 Years"
         },
+         {
+            id: 4,
+            name: "DR.MONISH GUPTA",
+            designation: "Assistant Professor",
+            qualification: "PH.D",
+            specialization: "Electronics & Communication",
+            research_areas: "01 International & 10 National Papers",
+            phone: "9416344144",
+            email: "monish_gupta1976@kuk.ac.in",
+            image: "/faculty-data/profile-pic/monish-gupta.jpg",
+            resume: "#",
+            experience: "20 Years"
+        },        
+         {
+            id: 5,
+            name: "DR. PUNEET BANSAL",
+            designation: "Assistant Professor",
+            qualification: "PH.D",
+            specialization: "Electronics & Communication",
+            research_areas: "15 International & 3 National Papers",
+            phone: "8930814270",
+            email: "pbansal@kuk.ac.in",
+            image: "/faculty-data/profile-pic/puneet-bansal.jpg",
+            resume: "#",
+            experience: "20 Years"
+        },
+        
         {
             id: 6,
             name: "Dr Nikhil Kumar Marriwala",
@@ -159,10 +193,10 @@ export const facultyData = {
             resume: "/faculty-data/profile-data/New Biography - NIKHIL MARRIWALA.pdf",
             experience: "20+ Years"
         },
-        {
+         {
             id: 7,
             name: "Dr. Deepak Sood",
-            designation: "Assistant Professor",
+            designation: "Assistant Professor(Faculty In-Charge)",
             qualification: "Ph.D. (ECE)",
             specialization: "Electronics & Communication Engineering",
             research_areas: "Metamaterials, RFID, Antenna Design, FSS etc.",
@@ -170,8 +204,132 @@ export const facultyData = {
             email: "dsood2015@kuk.ac.in",
             image: "/faculty-data/profile-pic/Deepak Sood - deepak sood.jpg",
             resume: "/faculty-data/profile-data/Dr Deepak Sood - deepak sood.pdf",
-            experience: "15+ Years"
+            experience: "18+ Years"
         },
+      
+        {
+            id: 11,
+            name: "Dr. Priyanka Jangra",
+            designation: "Assistant Professor",
+            qualification: "Ph.D.",
+            specialization: "Electronics & Communication Engineering",
+            research_areas: "Internet of Things(IoT), WSN",
+            phone: "9466751345",
+            email: "pjangra2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/WhatsApp Image 2025-11-20 at 5.55.59 PM - priyanka jangra.jpeg",
+            resume: "#",
+            experience: "12 Years"
+        }
+       ,
+         {
+            id: 9,
+            name: "DR. DEEPTI CHOUDHARY",
+            designation: "Assistant Professor",
+            qualification: "Ph.D",
+            specialization: "VLSI Design,Signal Processing,signal classification and emotional recognition of audio signals",
+            research_areas: "06 international journals & 04 national",
+            phone: "9034865662",
+            email: "deeptic2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/deepti-choudhary.jpg",
+            resume: "#",
+            experience: "10+ Years"
+        },
+         {
+            id: 11,
+            name: " MR.NAFEESH AHMED",
+            designation: "Assistant Professor",
+            qualification: "M.Tech. (ECE)",
+            specialization: "ECE",
+            research_areas: "01 International",
+            phone: "9813527872",
+            email: "nahmed2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/Nafeesh-Ahmed.jpg",
+            resume: "#",
+            experience: "6+ Years"
+        }
+        ,
+         {
+            id: 13,
+            name: " SH. RANDHIR BHORIA",
+            designation: "Assistant Professor",
+            qualification: "Ph.D. (Pursuing)",
+            specialization: " NANO ELECRONICS",
+            research_areas: "01 International & 02 National",
+            phone: "9729823171",
+            email: "mr_randhir_singh@yahoo.co.in",
+            image: "/faculty-data/profile-pic/randhir.jpg",
+            resume: "#",
+            experience: "10 Years"
+        },
+        
+        {
+            id: 30,
+            name: "Krishan Gopal",
+            designation: "Assistant Professor",
+            qualification: "M.Tech",
+            specialization: "ECE",
+            research_areas: "Antenna and Microwave",
+            phone: "903453879",
+            email: "kgopal2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/1 - krishan gopal.JPG",
+            resume: "#",
+            experience: "14 Years"
+        },
+        {
+            id: 3,
+            name: "Rahul Gupta",
+            designation: "Assistant Professor",
+            qualification: "M.Tech",
+            specialization: "Human Values, Data Structure",
+            research_areas: "NA",
+            phone: "8168198283",
+            email: "rahulg@kuk.ac.in",
+            image: "/faculty-data/profile-pic/Rahul - Rahul Gupta.JPG",
+            resume: "#",
+            experience: "10 Years"
+        },        
+        {
+            id: 12,
+            name: "DR. SHIKHA BHARDWAJ",
+            designation: "Assistant Professor",
+            qualification: "Ph.D",
+            specialization: " Image Processing, Artificial Intelligence, Machine Learning, Deep Learning",
+            research_areas: "10 International & 04 National",
+            phone: "9466150111",
+            email: "sbhardwaj2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/shikha.jpg",
+            resume: "#",
+            experience: "10 Years"
+        }
+        ,        
+        {
+            id: 13,
+            name: "Dr.SHEFALI DHINGRA",
+            designation: "Assistant Professor",
+            qualification: "Ph.D",
+            specialization: " Image Processing, Retrieval, Machine Learning",
+            research_areas: "13 International –",
+            phone: "9466746888",
+            email: "smunjal2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/shefali.jpg",
+            resume: "#",
+            experience: "11 Years"
+        }
+         ,        
+        {
+            id: 14,
+            name: "Priya Singh",
+            designation: "Assistant Professor",
+            qualification: "B.Tech, M.Tech",
+            specialization: " Image Processing, Retrieval, Machine Learning",
+            research_areas: "4",
+            phone: "9467702294",
+            email: "ps.priya1991@gmail.com",
+            image: "/faculty-data/profile-pic/priyasingh.jpg",
+            resume: "#",
+            experience: "8 Years"
+        }
+        ,
         {
             id: 10,
             name: "Abhishek Choudhary",
@@ -186,18 +344,33 @@ export const facultyData = {
             experience: "8 Years"
         },
         {
-            id: 11,
-            name: "Dr. Priyanka Jangra",
+            id: 26,
+            name: "Kirti Saini",
             designation: "Assistant Professor",
-            qualification: "Ph.D.",
-            specialization: "Electronics & Communication Engineering",
-            research_areas: "Internet of Things(IoT), WSN",
-            phone: "9466751345",
-            email: "pjangra2015@kuk.ac.in",
-            image: "/faculty-data/profile-pic/WhatsApp Image 2025-11-20 at 5.55.59 PM - priyanka jangra.jpeg",
+            qualification: "B.tech, M.tech, Pursuing Ph.D.",
+            specialization: "Micro electronics & VLSI design",
+            research_areas: "Image processing, Machine learning",
+            phone: "9416191858",
+            email: "kirtisainiuiet@kuk.ac.in",
+            image: "/faculty-data/profile-pic/kirti-saini.jpg",
             resume: "#",
-            experience: "12 Years"
+            experience: "5 Years"
+        }
+        ,
+        {
+            id: 27,
+            name: " MR. Krishna Pandey",
+            designation: "Assistant Professor",
+            qualification: "M.Tech",
+            specialization: "Wireless Communication Network",
+            research_areas: "04 International & 01 National",
+            phone: "9416077614",
+            email: "kp7636@gmail.com",
+            image: "/faculty-data/profile-pic/krishanpandey.jpg",
+            resume: "#",
+            experience: "8 Years"
         },
+       
         {
             id: 25,
             name: "Ekta",
@@ -210,20 +383,8 @@ export const facultyData = {
             image: "/faculty-data/profile-pic/gate - Ekta.jpg",
             resume: "#",
             experience: "3 Years"
-        },
-        {
-            id: 26,
-            name: "Kirti Saini",
-            designation: "Assistant Professor",
-            qualification: "B.tech, M.tech, Pursuing Ph.D.",
-            specialization: "Micro electronics & VLSI design",
-            research_areas: "Image processing, Machine learning",
-            phone: "9416191858",
-            email: "kirtisainiuiet@kuk.ac.in",
-            image: "/faculty-data/profile-pic/Screenshot_2025-12-03-12-19-54-12_92460851df6f172a4592fca41cc2d2e6 - Kirti Saini.jpg",
-            resume: "#",
-            experience: "5 Years"
-        },
+        }
+        ,
         {
             id: 27,
             name: "Shivani Chauhan",
@@ -233,54 +394,16 @@ export const facultyData = {
             research_areas: "Internet of Medical Things",
             phone: "8168313519",
             email: "shivanichauhanuiet@kuk.ac.in",
-            image: "#", // Missing image
+            image: "/faculty-data/profile-pic/shiwani.png", 
             resume: "#",
             experience: "4 Years"
-        },
-        {
-            id: 30,
-            name: "Krishan Gopal",
-            designation: "Assistant Professor",
-            qualification: "M.Tech",
-            specialization: "ECE",
-            research_areas: "Antenna and Microwave",
-            phone: "903453879",
-            email: "kgopal2015@kuk.ac.in",
-            image: "/faculty-data/profile-pic/1 - krishan gopal.JPG",
-            resume: "#",
-            experience: "14 Years"
         }
+       
     ],
 
     "mechanical-engg-department": [
         {
             id: 5,
-            name: "Dr. Manjeet Bohat",
-            designation: "Assistant Professor",
-            qualification: "Ph.D",
-            specialization: "Machining",
-            research_areas: "Machining",
-            phone: "9034225000",
-            email: "msbohat2015@kuk.ac.in",
-            image: "/faculty-data/profile-pic/WhatsApp Image 2025-11-20 at 2.17.17 PM - manjeet singh bohat (1).jpeg",
-            resume: "/faculty-data/profile-data/Bohat Profile - manjeet singh bohat (1).pdf",
-            experience: "16 Years"
-        },
-        {
-            id: 14,
-            name: "Ravinder Chaudhary",
-            designation: "Assistant Professor in Mechanical Engg",
-            qualification: "PHD (PURSUING)",
-            specialization: "Production Technology",
-            research_areas: "Bio Fuel Production, Robotics, IoT",
-            phone: "9017902010",
-            email: "Ravinder.uiet@kuk.ac.in",
-            image: "/faculty-data/profile-pic/20 KB PHOTO (2) - Ravinder Chaudhary.jpg",
-            resume: "/faculty-data/profile-data/MY RESUME (3) - Ravinder Chaudhary.pdf",
-            experience: "10 Years"
-        },
-        {
-            id: 18,
             name: "Dr. Sanjay Kajal",
             designation: "Associate Professor",
             qualification: "Ph.D.",
@@ -293,18 +416,33 @@ export const facultyData = {
             experience: "20 Years"
         },
         {
-            id: 33,
-            name: "Dr Sunil Dhingra",
+            id: 6,
+            name: "DR.UPENDER DHULL",
             designation: "Associate Professor",
             qualification: "Ph.D.",
-            specialization: "Thermal Engineering",
-            research_areas: "Renewable Energy, Solar Energy, Emission Control",
-            phone: "+91 95416 53750",
-            email: "sdhingra2015@kuk.ac.in",
-            image: "/faculty-data/profile-pic/sunild.JPG", 
-            resume: "/faculty-data/profile-data/Profile-Dr-Sunil-Dhingra.pdf",
-            experience: "22 Years"
+            specialization: "Biofuel, Bioenergy, Advanced Engineering Materials, Soft Computing.",
+            research_areas: "19 International & 04 National.",
+            phone: "9416528255",
+            email: "udhull2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/upender.jpg",
+            resume: "/faculty-data/profile-data/Mr.-Upender-Dhull.pdf",
+            experience: "16 Years"
+        }
+        ,
+        {
+            id: 7,
+            name: " DR.SUNIL NAIN",
+            designation: "Associate Professor",
+            qualification: "Ph.D, M.Tech",
+            specialization: "Solar Energy, HVAC, Heat transfer, Desiccant Evaporative Cooling",
+            research_areas: "Journals: 09 , Conference / Symposia etc.: International: 06",
+            phone: "9896854040",
+            email: " nain_sunil@rediffmail.com",
+            image: "/faculty-data/profile-pic/SUNIL-NAIN.jpg",
+            resume: "/faculty-data/profile-data/DrSunilNain.pdf",
+            experience: "16 Years"
         },
+        
          {
             id: 34,
             name: "DR.VISHAL AHLAWAT",
@@ -317,6 +455,117 @@ export const facultyData = {
             image: "/faculty-data/profile-pic/Dr-Vishal-Ahlawat.JPG",
             resume: "/faculty-data/profile-data/Dr-Vishal-Ahlawat.pdf",
             experience: "11 Years"
+        },
+        {
+            id: 18,
+            name: "Dr. Manjeet Bohat",
+            designation: "Assistant Professor",
+            qualification: "Ph.D",
+            specialization: "Machining",
+            research_areas: "Machining",
+            phone: "9034225000",
+            email: "msbohat2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/WhatsApp Image 2025-11-20 at 2.17.17 PM - manjeet singh bohat (1).jpeg",
+            resume: "/faculty-data/profile-data/Bohat Profile - manjeet singh bohat (1).pdf",
+            experience: "16 Years"
+        },
+       
+        {
+            id: 33,
+            name: "Dr Sunil Dhingra",
+            designation: "Associate Professor & Training & Placement Officer",
+            qualification: "Ph.D.",
+            specialization: "Thermal Engineering",
+            research_areas: "Renewable Energy, Solar Energy, Emission Control",
+            phone: "+91 95416 53750",
+            email: "sdhingra2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/sunild.JPG", 
+            resume: "/faculty-data/profile-data/Profile-Dr-Sunil-Dhingra.pdf",
+            experience: "22 Years"
+        }
+        ,
+        {
+            id: 8,
+            name: "Dr. Parinam Anuradha",
+            designation: "Assistant Professor & Faculty In-Charge (Mechanical Engg.)",
+            qualification: "Ph.D.",
+            specialization: "Solar assisted dessicant cooling system, Solar Thermal Systems, numerical and computational methods, Computational fluid dynamics, brake friction composites, elastohydrodynamic lubrication.",
+            research_areas: "Journals: 28, Conference / Symposia etc.: International: 06 Books/monographs/ Manuals: 02",
+            phone: "+91 99923 33226",
+            email: "aparinam2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/parinam-anuradha.JPG", 
+            resume: "/faculty-data/profile-data/Parinam-Anuradha-Resume.pdf",
+            experience: "22 Years"
+        }
+        ,
+        {
+            id: 9,
+            name: "Mr. Vikas",
+            designation: "Assistant professor (On Contract )",
+            qualification: " Pursuing Ph.D.",
+            specialization: "KINEMATICS & DYNAMICS OF MACHINES ENGINEERING GRAPHICS & DESIGN, MANUFACTURING PROCESSES, OPERATION RESEARCHES, Industrial engineering etc.",
+            research_areas: "International journal(2)",
+            phone: "+91 97290 12010",
+            email: "nirmaldhotia@gmail.com",
+            image: "/faculty-data/profile-pic/Vikaskumar.JPG", 
+            resume: "#",
+            experience: "11 Years"
+        }
+        ,
+        {
+            id: 9,
+            name: " Jashan Deep Singh",
+            designation: "Assistant Professor (On Contract)",
+            qualification: " M.Tech & Ph.D pursuing",
+            specialization: "Production Engineering , Non Traditional Machining Process, Industrial Engineering, CAD/CAM ",
+            research_areas: "2",
+            phone: "+91 94167 00080",
+            email: "jashandeep_singh@live.com",
+            image: "/faculty-data/profile-pic/jashan.JPG", 
+            resume: "#",
+            experience: "11 Years"
+        }
+        ,
+        {
+            id: 10,
+            name: " Mr.Pankaj Nafreyia",
+            designation: "Assistant Professor (On Contract)",
+            qualification: " M.Tech.",
+            specialization: "Stir casting, AUTO CAD2D/3D, SOLID WORKS",
+            research_areas: "2",
+            phone: "+91 94660 69977",
+            email: "pankaj.uiet@kuk.ac.in",
+            image: "/faculty-data/profile-pic/PankajNafaria.JPG", 
+            resume: "#",
+            experience: "6 Years"
+        }
+        ,
+        {
+            id: 11,
+            name: " Mayank Bhardwaj",
+            designation: "Assistant Professor (On Contract)",
+            qualification: " M.Tech.",
+            specialization: "Turbulence in Fluid Dynamics & Heat Exchangers SolidWorks, CAD, Computational Fluid Dynamics.",
+            research_areas: "2",
+            phone: "+91 99963 44425",
+            email: "Mayank.bdj@gmail.com",
+            image: "/faculty-data/profile-pic/Mayank.JPG", 
+            resume: "#",
+            experience: "7 Years"
+        }
+        ,
+        {
+            id: 14,
+            name: "Ravinder Chaudhary",
+            designation: "Assistant Professor in Mechanical Engg",
+            qualification: "PHD (PURSUING)",
+            specialization: "Production Technology",
+            research_areas: "Bio Fuel Production, Robotics, IoT",
+            phone: "9017902010",
+            email: "Ravinder.uiet@kuk.ac.in",
+            image: "/faculty-data/profile-pic/20 KB PHOTO (2) - Ravinder Chaudhary.jpg",
+            resume: "/faculty-data/profile-data/MY RESUME (3) - Ravinder Chaudhary.pdf",
+            experience: "10 Years"
         }
     ],
 
