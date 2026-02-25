@@ -759,6 +759,19 @@ export const facultyData = {
 
     "electrical-engg-department": [
         {
+            id: 32,
+            name: "DR.RAM AVTAR",
+            designation: "Associate Professor",
+            qualification: "Ph.D",
+            specialization: "Control System",
+            research_areas: "10 International & 20 National",
+            phone: "+91 94663 41223",
+            email: " ravtar2015@kukac.in",
+            image: "/faculty-data/profile-pic/RAM-AVTAR.jpg",
+            resume: "#",
+            experience: "12 Years"
+        },
+        {
             id: 5,
             name: "LALIT NAGPAL",
             designation: "ASSISTANT PROFESSOR",
@@ -783,25 +796,52 @@ export const facultyData = {
             image: "/faculty-data/profile-pic/Vijay_New Snap - vijay kumar garg.jpg",
             resume: "/faculty-data/profile-data/Dr Vijay Kumar Garg_Brief Profile - vijay kumar garg.pdf",
             experience: "18 Years"
-        },
+        },       
         {
-            id: 32,
-            name: "DR.RAM AVTAR",
-            designation: "Associate Professor",
-            qualification: "Ph.D",
-            specialization: "Control System",
-            research_areas: "10 International & 20 National",
-            phone: "+91 94663 41223",
-            email: " ravtar2015@kukac.in",
-            image: "/faculty-data/profile-pic/RAM-AVTAR.jpg",
+            id: 30,
+            name: " Parminder Saini",
+            designation: "Assistant professor (On Contract )",
+            qualification: "M.tech",
+            specialization: "Electrical Engg.",
+            research_areas: "4",
+            phone: "9050340004",
+            email: "Parmindersaini33@gmail.com",
+            image: "/faculty-data/profile-pic/parmindersaini.jpg",
             resume: "#",
-            experience: "12 Years"
+            experience: "10 Years"
         }
+        
     ],
 
     "applied-sciences-department": [
         {
             id: 9,
+            name: " Dr. Pawan Kumar Diwan",
+            designation: "Associate Professor",
+            qualification: "Ph.D",
+            specialization: "Nuclear Physics , SSNTD, Thermal Analysis",
+            research_areas: "56 International & 03 (scientific articles), 04 (Book Chapters)",
+            phone: "98960 32200",
+            email: "pdiwan2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/Pawan-Kumar.jpg",
+            resume: "/faculty-data/profile-data/Pawan-Kumar.pdf",
+            experience: "19 Years"
+        },
+        {
+            id: 10,
+            name: "  DR.URMILA",
+            designation: "Associate Professor",
+            qualification: "Ph.D",
+            specialization: "Organic Chemistry",
+            research_areas: "23",
+            phone: "94662 71317",
+            email: "urani2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/urani.jpg",
+            resume: "#",
+            experience: "19 Years"
+        },
+        {
+            id: 11,
             name: "Dr. Rajesh Agnihotri",
             designation: "Associate Professor",
             qualification: "Ph.d (Chemistry), LLM",
@@ -811,6 +851,20 @@ export const facultyData = {
             email: "ragnihotri2015@kuk.ac.in",
             image: "/faculty-data/profile-pic/467fbe0a-d928-4c14-be5a-94e9930cef47 - Dr. rajesh agnihotri.jpeg",
             resume: "#",
+            experience: "20 Years"
+        }
+        ,
+        {
+            id: 12,
+            name: "DR.SANJEEV AHUJA",
+            designation: "Associate Professor Applied Science /Training & Placement Officer",
+            qualification: "Ph.D.",
+            specialization: "Applied Mathematics",
+            research_areas: "11 International",
+            phone: "9991385634",
+            email: "sahuja2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/sanjeeva.jpg",
+            resume: "/faculty-data/profile-data/Sanjeev_Ahuja.pdf",
             experience: "20 Years"
         },
         {
