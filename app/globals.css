@@ -93,6 +93,7 @@ p{
   color: #000 !important;
   font-family: var(--font-family-Roboto) !important;
   line-height: 28px;
+  text-align: justify;
 }
 /* margin-top-bottom */
 .mt-1{
