@@ -866,11 +866,25 @@ export const facultyData = {
             image: "/faculty-data/profile-pic/sanjeeva.jpg",
             resume: "/faculty-data/profile-data/Sanjeev_Ahuja.pdf",
             experience: "20 Years"
+        }
+        ,
+        {
+            id: 13,
+            name: "Dr. SAVITA GILL",
+            designation: "Associate Professor",
+            qualification: "Ph.D.",
+            specialization: "Quantum Optics",
+            research_areas: "25",
+            phone: "9896829917",
+            email: "savita2015@kuk.ac.in",
+            image: "/faculty-data/profile-pic/savita.png",
+            resume: "#",
+            experience: "17 Years"
         },
         {
             id: 29,
             name: "Varsha Jhinjheria",
-            designation: "ASSISTANT PROFESSOR",
+            designation: "Assistant Professor (On Contract)",
             qualification: "MSC MATHEMATICS , NET QUALIFIED",
             specialization: "PURE MATHEMATICS",
             research_areas: "GROUP THEORY ANALYTICS USING R PROGRAMMING",
@@ -878,7 +892,35 @@ export const facultyData = {
             email: "varshajhinjheria@kuk.ac.in",
             image: "/faculty-data/profile-pic/IMG_7994 - Varsha Jhinjheria.jpeg",
             resume: "#",
-            experience: "5 Years"
+            experience: "7 Years"
+        },
+        ,
+        {
+            id: 30,
+            name: "Ms. Neha Duggal",
+            designation: "Assistant Professor (On Contract)",
+            qualification: "MBA",
+            specialization: " Finance and Marketing",
+            research_areas: "5",
+            phone: "8950677021",
+            email: "nehaduggal.uiet@kuk.ac.in",
+            image: "/faculty-data/profile-pic/neha.jpg",
+            resume: "#",
+            experience: "12 Years"
+        },
+        ,
+        {
+            id: 31,
+            name: "Dr. Rajesh Kumar Kalia",
+            designation: "Assistant Professor (On Contract)",
+            qualification: "",
+            specialization: "",
+            research_areas: "",
+            phone: "",
+            email: "",
+            image: "/faculty-data/profile-pic/Rajesh-Kumar.jpg",
+            resume: "#",
+            experience: ""
         }
     ]
 };
