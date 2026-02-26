@@ -101,10 +101,10 @@ const Header = () => {
                 <ul className="dropdown-menu" aria-labelledby="dropdownAppAcademic">
 
                   <li><Link href="https://iums.kuk.ac.in/login.htm" target="_blank">IUMS</Link></li>
-                  <li><Link href="#" target="_blank">Result</Link></li>
+                  <li><Link href="/examination" target="_blank">Result</Link></li>
                   <li><Link href="/emerging-areas-in-b.tech.pdf">Education Verification & Confidential Results</Link></li>
                  
-                  <li className="dropdown-submenu">
+                  {/* <li className="dropdown-submenu">
                     <a
                       href="#"
                       className="submenu-toggle"
@@ -135,7 +135,7 @@ const Header = () => {
                       <li><Link href="/syllabus?department=Others">Others</Link></li>
                     </ul>
 
-                  </li>
+                  </li> */}
                   {/* <li><Link href="/online-fee"> Online Fee</Link></li>
                   <li><Link href="/gallery"> Gallery</Link></li> */}
                 </ul>

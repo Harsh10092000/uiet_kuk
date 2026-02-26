@@ -52,7 +52,7 @@ const Page = () => {
                     <h4>
                       {faculty.name}
                       <span className="red d-block">
-                        CSE, {faculty.designation}{" "}
+                        {faculty.designation}{" "}
                       </span>
                     </h4>
 
